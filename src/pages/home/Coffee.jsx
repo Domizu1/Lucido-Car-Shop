@@ -1,5 +1,5 @@
 import React from 'react';
-import './Coffee.scss';
+import './coffee.scss';
 import coffeeImg from '../../assets/images/coffee.webp';
 
 function Coffee() {

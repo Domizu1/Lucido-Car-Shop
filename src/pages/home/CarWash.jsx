@@ -1,5 +1,5 @@
 import React from 'react';
-import './CarWash.scss';
+import './carwash.scss';
 
 import aboutImg1 from '../../assets/images/carwash1.webp';
 import aboutImg2 from '../../assets/images/carwash2.webp';

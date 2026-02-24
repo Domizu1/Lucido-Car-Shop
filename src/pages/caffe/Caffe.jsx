@@ -1,4 +1,4 @@
-import './Caffe.scss';
+import './caffe.scss';
 import coffeeHot from '../../assets/images/coffee.webp';
 import coffeeCold from '../../assets/images/coffee.webp';
 

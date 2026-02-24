@@ -1,0 +1,117 @@
+// Import fontova (ako već nisu globalno importovani)
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:wght@400;700&display=swap');
+
+// Tvoje varijable
+$primary-color: #5a3285;
+$bg-black: #0a0a0a;
+$text-white: #ffffff;
+$text-muted: #a1a1a1;
+$font-serif: 'Playfair Display', serif;
+$font-sans: 'Montserrat', sans-serif;
+
+.footer-section {
+    width: 100%;
+    background-color: $bg-black; // Tamna pozadina kao na slici
+    padding: 80px 20px 40px; // Dosta prostora gore i dole
+    font-family: $font-sans;
+    border-top: 1px solid rgba($text-white, 0.05); // Suptilna gornja ivica
+
+    .footer-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center; // Sve centrirano horizontalno
+        text-align: center;
+    }
+
+    // 1. Logo Stil
+    .footer-logo {
+        margin-bottom: 35px;
+
+        h2 {
+            font-family: $font-serif; // Elegantni serif za glavni naziv
+            color: $text-white;
+            font-size: 1.8rem;
+            letter-spacing: 3px;
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+    }
+
+    // 2. Social Icons Stil (Krugovi)
+    .footer-socials {
+        display: flex;
+        gap: 15px;
+        margin-bottom: 40px;
+
+        .social-circle {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 45px;
+            height: 45px;
+            background-color: rgba(255, 255, 255, 0.1); // Tamno sivi krugovi kao na slici
+            border-radius: 50%;
+            color: $text-white;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            text-decoration: none;
+
+            &:hover {
+                background-color: $primary-color; // Tvoja ljubičasta na hover
+                transform: translateY(-3px);
+            }
+        }
+    }
+
+    // 3. Navigacija Stil
+    .footer-nav {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 45px;
+        padding: 0;
+
+        li {
+            a {
+                text-decoration: none;
+                color: $text-white;
+                font-size: 0.9rem;
+                font-weight: 500;
+                text-transform: uppercase; // Velika slova kao na slici
+                letter-spacing: 1.5px;
+                transition: color 0.3s ease;
+
+                &:hover {
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+
+    // 4. Copyright Stil
+    .footer-copyright {
+        p {
+            color: $text-muted; // Prigušena boja za copyright
+            font-size: 0.75rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            opacity: 0.7;
+        }
+    }
+}
+
+// Responzivnost za manje ekrane
+@media (max-width: 768px) {
+    .footer-section {
+        padding: 60px 20px 30px;
+
+        .footer-nav {
+            flex-direction: column; // Linkovi jedan ispod drugog na mobilnom
+            gap: 20px;
+        }
+    }
+}

@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+$coffee-cream: #f4ece1; // Boja dugmeta i svetlijih elemenata sa slike
+$coffee-brown: hsla(35, 78%, 21%, 0.76); // Tamno braon za bedž
+$side-margin: 8%; // Tvoja standardna margina
+
+.coffee-section {
+    width: 100%;
+    min-height: 80vh;
+    background: linear-gradient(135deg, #452c1e 0%, #1e130d 100%);
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+
+
+    &::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        opacity: 0.1;
+        pointer-events: none;
+        background-image: url("https://grainy-gradients.vercel.app/noise.svg");
+        z-index: 1;
+    }
+
+    .coffee-container {
+        width: 100%;
+        padding: 0 $side-margin;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        z-index: 2;
+    }
+
+    .coffee-text-side {
+        flex: 1;
+        max-width: 600px;
+
+        .coffee-badge {
+            background-color: $coffee-brown;
+            color: rgba(255, 255, 255, 0.8);
+            padding: 6px 15px;
+            border-radius: 50px;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-family: 'Montserrat', sans-serif;
+            display: inline-block;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif; // Elegantni serif font sa slike
+            color: #ffffff;
+            font-size: clamp(2.5rem, 6vw, 4.5rem);
+            line-height: 1.1;
+            font-weight: 400;
+            margin-bottom: 25px;
+        }
+
+        h1 i {
+            font-style: italic;
+            font-family: 'Playfair Display', serif;
+            color: $coffee-cream; // Blaga promena boje za tu reč
+        }
+
+        p {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 1.1rem;
+            line-height: 1.7;
+            margin-bottom: 40px;
+            max-width: 450px;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .btn-visit {
+            background-color: $coffee-cream;
+            color: #1a1a1a;
+            border: none;
+            padding: 15px 45px;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-family: 'Montserrat', sans-serif;
+
+            &:hover {
+                transform: scale(1.05);
+                background-color: #ffffff;
+                box-shadow: 0 10px 20px rgba(255, 255, 255, 0.1);
+            }
+        }
+    }
+
+    .coffee-image-side {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+
+        img {
+            max-width: 90%;
+            height: auto;
+            max-height: 70vh;
+            object-fit: contain;
+            filter: drop-shadow(0 0 40px rgba(0, 0, 0, 0.6));
+            transform: translateX(-50px)
+        }
+
+    }
+}
+
+// Responzivnost
+@media (max-width: 992px) {
+    .coffee-section {
+        padding: 80px 0;
+
+        .coffee-container {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .coffee-text-side {
+            margin-bottom: 50px;
+
+            p {
+                margin: 0 auto 40px;
+            }
+        }
+
+        .coffee-image-side {
+            justify-content: center;
+        }
+    }
+}

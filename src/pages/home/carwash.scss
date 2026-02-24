@@ -1,0 +1,158 @@
+@use "sass:color";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+
+$primary-color: #5a3285;
+$text-white: #ffffff;
+$bg-dark: #0a0a0a;
+$font-main: 'Montserrat', sans-serif;
+
+.carwash-page {
+    background-color: $bg-dark;
+    color: $text-white;
+    font-family: $font-main;
+    padding: 100px 8%;
+
+    .subtitle {
+        color: $primary-color;
+        font-weight: 700;
+        font-size: 0.8rem;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    h2 {
+        font-size: clamp(2rem, 4vw, 3.5rem);
+        line-height: 1.2;
+        margin-bottom: 25px;
+
+        span {
+            color: $primary-color;
+        }
+    }
+
+    .about-section {
+        display: grid;
+        grid-template-columns: 1fr 1.2fr;
+        gap: 80px;
+        align-items: center;
+        margin-bottom: 120px;
+
+        .about-images {
+            position: relative;
+
+            .image-main img {
+                width: 100%;
+                border-radius: 30px;
+                filter: grayscale(15%);
+                box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+            }
+
+            .image-inset {
+                position: absolute;
+                bottom: -40px;
+                right: -20px;
+                width: 60%;
+                border: 8px solid $bg-dark;
+                border-radius: 25px;
+                overflow: hidden;
+                box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+
+                img {
+                    width: 100%;
+                    display: block;
+                }
+            }
+        }
+
+        .about-text {
+            p {
+                color: rgba(255, 255, 255, 0.6);
+                line-height: 1.8;
+                margin-bottom: 40px;
+            }
+        }
+    }
+
+    .brand-bar {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 0 10px;
+
+        .brand-pill {
+            width: 100%;
+            max-width: 900px;
+            background: linear-gradient(90deg, rgba($primary-color, 0.4), rgba($primary-color, 0.1));
+            padding: 20px 30px;
+            border-radius: 100px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px 40px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-sizing: border-box;
+
+            .brand-item {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                font-weight: 700;
+                white-space: nowrap;
+                font-size: clamp(0.8rem, 2vw, 1.1rem);
+            }
+        }
+    }
+}
+
+.btn-secondary {
+    background: $primary-color;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+        transform: translateY(-3px);
+        background: color.adjust($primary-color, $lightness: 5%);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    }
+}
+
+@media (max-width: 1024px) {
+    .carwash-page {
+        padding: 60px 5%;
+
+        .about-section {
+            grid-template-columns: 1fr;
+            gap: 60px;
+            text-align: center;
+
+            .about-images {
+                max-width: 500px;
+                margin: 0 auto;
+            }
+        }
+
+        .brand-pill {
+            border-radius: 30px !important;
+            padding: 20px !important;
+            display: grid !important;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px 10px !important;
+
+            .brand-item {
+                justify-content: center;
+                font-size: 0.85rem !important;
+            }
+        }
+    }
+}

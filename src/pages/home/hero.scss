@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+// 1. Varijable
+$primary-color: #3978a8;
+$text-white: #ffffff;
+$bg-dark: #0a0a0a;
+$font-main: 'Montserrat', sans-serif;
+
+.hero {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: $bg-dark;
+    overflow: hidden;
+
+    .hero-sidebar {
+        width: 80px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-right: 1px solid rgba(255, 255, 255, 0.1);
+        z-index: 10;
+        position: relative;
+
+        .sidebar-line {
+            position: absolute;
+            top: 0;
+            width: 4px;
+            height: 80px;
+            background: $primary-color;
+        }
+
+        .social-links {
+            display: flex;
+            flex-direction: column;
+            gap: 35px;
+
+            a {
+                color: rgba(255, 255, 255, 0.5);
+                text-decoration: none;
+                font-size: 0.75rem;
+                font-weight: 700;
+                letter-spacing: 1px;
+                transition: color 0.3s ease;
+
+                &:hover {
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+
+    .hero-content {
+        flex: 1;
+        z-index: 5;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 8%;
+        background: linear-gradient(to right, $bg-dark 20%, transparent 100%);
+
+        .hero-text {
+            .tagline {
+                color: $primary-color;
+                text-transform: uppercase;
+                letter-spacing: 5px;
+                font-size: 0.8rem;
+                display: block;
+                margin-bottom: 15px;
+            }
+
+            h1 {
+                color: $text-white;
+                font-size: clamp(2.5rem, 7vw, 5rem);
+                line-height: 1.1;
+                font-weight: 800;
+                margin: 0;
+
+                span {
+                    display: block;
+                    color: $primary-color;
+                    font-style: italic;
+                    font-weight: 300;
+                }
+            }
+
+            p {
+                color: rgba(255, 255, 255, 0.7);
+                max-width: 500px;
+                margin-top: 25px;
+                line-height: 1.6;
+                font-family: $font-main;
+                ;
+                font-weight: 300;
+            }
+        }
+
+        .hero-action {
+            margin-top: 40px;
+
+            .btn-primary {
+                background-color: $primary-color;
+                color: $text-white;
+                border: none;
+                padding: 16px 45px;
+                border-radius: 50px;
+                font-size: 0.9rem;
+                font-weight: 700;
+                font-family: $font-main;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                cursor: pointer;
+
+                transition: all 0.3s ease;
+                box-shadow: 0 4px 15px rgba($primary-color, 0.2);
+
+                &:hover {
+                    transform: translateY(-3px);
+                    background-color: lighten($primary-color, 8%);
+                    box-shadow: 0 8px 25px rgba($primary-color, 0.4);
+                }
+
+                &:active {
+                    transform: translateY(-1px);
+                }
+            }
+        }
+
+        .hero-slider-status {
+            margin-top: 60px;
+            display: flex;
+            align-items: center;
+
+            .progress-dash {
+                display: flex;
+                gap: 12px;
+
+                .dash {
+                    width: 35px;
+                    height: 2px;
+                    background: rgba(255, 255, 255, 0.15);
+                    transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+
+                    &.active {
+                        background: $primary-color;
+                        width: 60px;
+                    }
+                }
+            }
+        }
+    }
+
+    .hero-background {
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+
+        .slide {
+            position: absolute;
+            inset: 0;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            opacity: 0;
+            transition: opacity 1.5s ease-in-out;
+
+            &.active {
+                opacity: 1;
+            }
+
+            .overlay {
+                position: absolute;
+                inset: 0;
+                background: linear-gradient(to right, $bg-dark 15%, rgba(10, 10, 10, 0.3) 60%, transparent 100%);
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .hero {
+        .hero-sidebar {
+            width: 60px;
+        }
+
+        .hero-content {
+            padding-left: 5%;
+
+            h1 {
+                font-size: clamp(2.5rem, 8vw, 4rem);
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+    .hero {
+        flex-direction: column;
+        height: 100dvh;
+
+        .hero-sidebar {
+            width: 100%;
+            height: auto;
+            border-right: none;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 15px 0;
+            flex-direction: row;
+            order: 2;
+
+            .sidebar-line {
+                display: none;
+            }
+
+            .social-links {
+                flex-direction: row;
+                gap: 25px;
+            }
+        }
+
+        .hero-content {
+            order: 1;
+            padding: 0 5%;
+            align-items: center;
+            text-align: center;
+            background: linear-gradient(to top, $bg-dark 30%, transparent 100%);
+
+            .hero-text {
+                p {
+                    margin: 25px auto 0;
+                }
+            }
+
+            .hero-slider-status {
+                justify-content: center;
+                margin-top: 40px;
+            }
+        }
+
+        .hero-background {
+            .slide .overlay {
+                background: rgba(10, 10, 10, 0.6);
+            }
+        }
+    }
+}

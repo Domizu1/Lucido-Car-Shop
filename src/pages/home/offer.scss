@@ -1,0 +1,179 @@
+@use "sass:color";
+
+$primary-color: #5a3285;
+$bg-dark: #0a0a0a;
+$text-light: #fffefe;
+$text-muted: rgba(255, 255, 255, 0.6);
+$font-main: 'Montserrat', sans-serif;
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.offer-section {
+    width: 100%;
+    font-family: $font-main;
+    background-color: $bg-dark;
+    overflow-x: hidden;
+    padding-top: 100px;
+
+    .section-header {
+        text-align: center;
+        margin-bottom: 80px;
+
+        .section-main-title {
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            font-weight: 600;
+            color: $text-light;
+            letter-spacing: 10px;
+            text-transform: uppercase;
+            margin: 0;
+
+            span {
+                color: $primary-color;
+            }
+        }
+
+        .title-underline {
+            width: 900px;
+            height: 1px;
+            background: $primary-color;
+            margin: 2px auto 0;
+        }
+    }
+
+    .offer-block {
+        display: flex;
+        min-height: 70dvh;
+        width: 100%;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        opacity: 0;
+        animation: fadeInUp 1s ease forwards;
+
+        &:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        &:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+
+        &:nth-child(4) {
+            animation-delay: 0.6s;
+        }
+
+        &.reverse {
+            flex-direction: row-reverse;
+
+            .offer-text-side {
+                justify-content: flex-start;
+
+                .content-wrapper {
+                    text-align: left;
+                    transform: translateX(80px);
+                    border-left: 2px solid $primary-color;
+                    border-right: none;
+                }
+            }
+        }
+
+        .offer-image-side {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 60px;
+            z-index: 1;
+
+            img {
+                max-width: 90%;
+                height: auto;
+                max-height: 55vh;
+                object-fit: cover;
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                transform: translateZ(0);
+                will-change: transform;
+            }
+        }
+
+        .offer-text-side {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding: 0 5%;
+            z-index: 2;
+
+            .content-wrapper {
+                max-width: 600px;
+                background-color: rgba(20, 20, 20, 0.85);
+                backdrop-filter: blur(15px);
+                padding: 60px;
+                width: 100%;
+                text-align: right;
+                transition: all 0.5s ease;
+                transform: translateX(-80px);
+                border-right: 2px solid $primary-color;
+            }
+
+            .offer-title {
+                font-size: clamp(1.8rem, 3vw, 2.4rem);
+                font-weight: 300;
+                color: $text-light;
+                letter-spacing: 4px;
+                margin-bottom: 30px;
+                text-transform: uppercase;
+                line-height: 1.2;
+            }
+
+            .offer-desc {
+                font-size: 1.05rem;
+                line-height: 1.8;
+                color: $text-muted;
+                font-weight: 300;
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .offer-section {
+        padding-top: 60px;
+
+        .section-header {
+            margin-bottom: 40px;
+        }
+
+        .title-underline {
+            display: none;
+        }
+
+        .offer-block {
+            flex-direction: column !important;
+            min-height: auto;
+
+            .offer-text-side .content-wrapper,
+            &.reverse .offer-text-side .content-wrapper {
+                transform: translateX(0) !important;
+                text-align: center !important;
+                border: none;
+                padding: 40px 20px;
+                max-width: 100%;
+            }
+
+            .offer-image-side,
+            .offer-text-side {
+                padding: 40px 5%;
+                width: 100%;
+            }
+        }
+    }
+}

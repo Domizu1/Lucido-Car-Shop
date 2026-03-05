@@ -1,0 +1,107 @@
+.details-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+
+    .details-title {
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+        font-weight: 500;
+        color: #1a1e2e;
+    }
+
+    .details-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        align-items: center;
+
+        .image-section img {
+            width: 100%;
+            display: block;
+        }
+
+        .info-section {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            .product-name {
+                font-size: 2.25rem;
+                font-weight: 700;
+                text-transform: uppercase;
+                line-height: 1.2;
+                margin: 0;
+            }
+
+            .product-price {
+                font-size: 1.875rem;
+                font-weight: 700;
+                margin: 0;
+            }
+
+            .action-row {
+                display: flex;
+                gap: 20px;
+                align-items: center;
+                margin-top: 10px;
+
+                .quantity-selector {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    button {
+                        background-color: #eeeef0;
+                        width: 36px;
+                        height: 36px;
+                        border: none;
+                        border-radius: 8px;
+                        font-size: 1.2rem;
+                        cursor: pointer;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        &:hover {
+                            background-color: #e2e2e5;
+                        }
+                    }
+
+                    span {
+                        font-weight: 700;
+                        font-size: 1.1rem;
+                        min-width: 20px;
+                        text-align: center;
+                    }
+                }
+
+                .add-to-cart-btn {
+                    background-color: #1a1e2e;
+                    color: white;
+                    border: none;
+                    padding: 12px 24px;
+                    border-radius: 10px;
+                    font-weight: 500;
+                    font-size: 0.9rem;
+                    cursor: pointer;
+                    transition: opacity 0.2s;
+
+                    &:hover {
+                        opacity: 0.9;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Mobile responsiveness
+@media (max-width: 768px) {
+    .details-container .details-content {
+        grid-template-columns: 1fr;
+    }
+}

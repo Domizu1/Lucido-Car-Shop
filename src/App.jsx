@@ -1,20 +1,25 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Navbar from './layout/Navbar'
-import Footer from './layout/Footer'
+import MainLayout from './layout/MainLayout'
 import Home from './pages/home/Home'
 import Wash from './pages/wash/Wash'
 import Caffe from './pages/caffe/Caffe'
+import Shop from './pages/shop/Shop'
+import Details from './pages/shop/Details'
+
 
 function App() {
   return (
     <Router>
-      <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/wash" element={<Wash />} />
-        <Route path="/caffe" element={<Caffe />} />
+        <Route element={<MainLayout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/wash" element={<Wash />} />
+          <Route path="/caffe" element={<Caffe />} />
+        </Route>
+        <Route path="/shop" element={<Shop />} />
+        {/* show details component when a slug is present */}
+        <Route path="/shop/:slug" element={<Details />} />
       </Routes>
-      <Footer />
     </Router>
   )
 }

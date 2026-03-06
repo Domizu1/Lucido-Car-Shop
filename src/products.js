@@ -5,7 +5,7 @@ export const products = [
     {
         id: 1,
         name: 'Product 1',
-        price: 19.99,
+        price: '200 RSD',
         image: productImg,
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         slug: 'product-1'
@@ -13,7 +13,7 @@ export const products = [
     {
         id: 2,
         name: 'Product 2',
-        price: 29.99,
+        price: '200 RSD',
         image: productImg,
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         slug: 'product-2'
@@ -21,7 +21,7 @@ export const products = [
     {
         id: 3,
         name: 'Product 3',
-        price: 29.99,
+        price: '200 RSD',
         image: productImg,
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         slug: 'product-3'
@@ -29,7 +29,7 @@ export const products = [
     {
         id: 4,
         name: 'Product 4',
-        price: 29.99,
+        price: '200 RSD',
         image: productImg,
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         slug: 'product-4'
@@ -37,7 +37,7 @@ export const products = [
     {
         id: 5,
         name: 'Product 5',
-        price: 19.99,
+        price: '200 RSD',
         image: productImg,
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         slug: 'product-5'
@@ -45,7 +45,7 @@ export const products = [
     {
         id: 6,
         name: 'Product 6',
-        price: 29.99,
+        price: '200 RSD',
         image: productImg,
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         slug: 'product-6'
@@ -53,7 +53,7 @@ export const products = [
     {
         id: 7,
         name: 'Product 7',
-        price: 29.99,
+        price: '200 RSD',
         image: productImg,
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         slug: 'product-7'
@@ -61,7 +61,7 @@ export const products = [
     {
         id: 8,
         name: 'Product 8',
-        price: 29.99,
+        price: '200 RSD',
         image: productImg,
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         slug: 'product-8'
@@ -69,7 +69,7 @@ export const products = [
     {
         id: 9,
         name: 'Product 9',
-        price: 19.99,
+        price: '200 RSD',
         image: productImg,
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         slug: 'product-9'
@@ -77,7 +77,7 @@ export const products = [
     {
         id: 10,
         name: 'Product 10',
-        price: 29.99,
+        price: '200 RSD',
         image: productImg,
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         slug: 'product-10'
@@ -85,7 +85,7 @@ export const products = [
     {
         id: 11,
         name: 'Product 11',
-        price: 29.99,
+        price: '200 RSD',
         image: productImg,
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         slug: 'product-11'
@@ -93,7 +93,7 @@ export const products = [
     {
         id: 12,
         name: 'Product 12',
-        price: 29.99,
+        price: '200 RSD',
         image: productImg,
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         slug: 'product-12'

@@ -37,7 +37,7 @@ $font-sans: 'Montserrat', sans-serif;
                     margin-bottom: 20px;
 
                     span {
-                        color: $primary-color;
+                        color: $accent-color;
                     }
                 }
 
@@ -47,7 +47,9 @@ $font-sans: 'Montserrat', sans-serif;
                     margin-bottom: 35px;
                 }
 
+                // --- OPTIMIZOVANO DUGME SA HOVER EFEKTOM ---
                 .btn-primary {
+                    position: relative;
                     background: linear-gradient(90deg, #5a3285 0%, #8b5ec1 100%);
                     color: $text-white;
                     border: none;
@@ -61,18 +63,45 @@ $font-sans: 'Montserrat', sans-serif;
                     cursor: pointer;
                     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
                     box-shadow: 0 4px 15px rgba(90, 50, 133, 0.3);
+                    overflow: hidden;
+                    min-width: 240px;
                     backface-visibility: hidden;
-                    transform: translateZ(0);
+
+                    span {
+                        display: block;
+                        transition: transform 0.3s ease;
+                    }
+
+                    &::after {
+                        content: attr(data-phone);
+                        position: absolute;
+                        inset: 0;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background: linear-gradient(90deg, #6b3d9c 0%, #9b6dd2 100%);
+                        transform: translateY(100%);
+                        transition: transform 0.3s ease;
+                        font-size: 1rem;
+                        letter-spacing: 1px;
+                        color: white;
+                    }
 
                     &:hover {
-                        transform: translateY(-3px) scale(1.02);
+                        transform: translateY(-3px);
                         box-shadow: 0 8px 25px rgba(90, 50, 133, 0.5);
-                        background: linear-gradient(90deg, #6b3d9c 0%, #9b6dd2 100%);
+
+                        span {
+                            transform: translateY(-150%);
+                        }
+
+                        &::after {
+                            transform: translateY(0);
+                        }
                     }
 
                     &:active {
-                        transform: translateY(-1px);
-                        box-shadow: 0 4px 10px rgba(90, 50, 133, 0.3);
+                        transform: translateY(-1px) scale(0.97);
                     }
                 }
             }
@@ -94,25 +123,20 @@ $font-sans: 'Montserrat', sans-serif;
             h2 {
                 color: $text-white;
                 font-size: clamp(1.8rem, 4vw, 2.5rem);
-                font-family: $font-sans;
                 margin-bottom: 20px;
                 text-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-                letter-spacing: 1px;
             }
 
             p {
                 color: #ffffff;
                 line-height: 1.8;
                 font-size: 1.05rem;
-                font-family: $font-sans;
                 font-weight: 500;
-                text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
             }
         }
 
         .image-block {
             overflow: hidden;
-            height: 100%;
 
             img {
                 width: 100%;
@@ -124,51 +148,104 @@ $font-sans: 'Montserrat', sans-serif;
         }
     }
 
+    // --- GLASSMORPHISM FEATURES SEKCIJA ---
     .wash-features {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 50px 30px;
-        padding: 80px $side-margin;
-        text-align: center;
+        // Forsiramo tačno 4 kolone jednake širine
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px; // Smanjio sam gap da bi lakše stalo na manjim ekranima
+        padding: 100px $side-margin;
+        background: radial-gradient(circle at center, #1a0f2e 0%, $bg-black 100%);
+        align-items: stretch;
+        max-width: 1600px;
+        margin: 0 auto;
+
+
+        .wash-title-container {
+            grid-column: 1 / -1;
+            text-align: center;
+            margin-bottom: 60px;
+            position: relative;
+
+            .subtitle {
+                display: block;
+                color: $accent-color;
+                font-weight: 700;
+                letter-spacing: 4px;
+                font-size: 0.8rem;
+                text-transform: uppercase;
+                margin-bottom: 10px;
+            }
+
+            .wash-title {
+                color: $text-white;
+                font-size: clamp(2rem, 5vw, 3rem);
+                font-weight: 800;
+                letter-spacing: 1px;
+                margin: 0;
+                position: relative;
+                z-index: 1;
+            }
+
+            .underline {
+                width: 80px;
+                height: 4px;
+                background: linear-gradient(90deg, transparent, $accent-color, transparent);
+                margin: 20px auto 0;
+                border-radius: 2px;
+            }
+        }
 
         .feature-item {
+            padding: 40px 25px;
+            background: rgba(255, 255, 255, 0.03); // Glass effect
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            transition: all 0.4s ease;
+
+            &:hover {
+                transform: translateY(-10px);
+                background: rgba(255, 255, 255, 0.07);
+                border-color: rgba($accent-color, 0.3);
+                box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+            }
+
             .icon {
-                font-size: 2.8rem;
-                color: $primary-color;
+                font-size: 3rem;
+                color: $accent-color;
                 margin-bottom: 20px;
+                filter: drop-shadow(0 0 10px rgba($accent-color, 0.4));
             }
 
             h3 {
                 color: $text-white;
-                font-size: 1.25rem;
+                font-size: 1.3rem;
                 margin-bottom: 15px;
                 font-weight: 700;
-                font-family: $font-sans;
             }
 
             p {
                 color: rgba(255, 255, 255, 0.6);
                 font-size: 0.95rem;
                 line-height: 1.6;
-                font-family: $font-sans;
             }
         }
     }
 }
 
+// --- RESPONSIVE ---
 @media (max-width: 1024px) {
-    .wash-section {
-        .wash-info-grid {
-            grid-template-columns: 1fr;
+    .wash-section .wash-info-grid {
+        grid-template-columns: 1fr;
 
-            .text-block {
-                order: 1;
-            }
+        .text-block {
+            order: 1;
+        }
 
-            .image-block {
-                order: 2;
-                height: 400px;
-            }
+        .image-block {
+            order: 2;
+            height: 400px;
         }
     }
 }
@@ -176,24 +253,20 @@ $font-sans: 'Montserrat', sans-serif;
 @media (max-width: 768px) {
     .wash-section {
         .wash-hero .wash-hero-overlay {
-            background: rgba(0, 0, 0, 0.6);
+            background: rgba(0, 0, 0, 0.7);
             justify-content: center;
             text-align: center;
-
-            .content {
-                max-width: 100%;
-            }
+            padding: 0 5%;
         }
 
         .btn-primary {
-            width: 70%;
-            padding: 14px 30px;
-            font-size: 0.85rem;
+            width: 100%;
+            max-width: 300px;
         }
 
         .wash-features {
             padding: 60px 5%;
-            gap: 40px;
+            gap: 25px;
         }
     }
 }
@@ -205,7 +278,7 @@ $font-sans: 'Montserrat', sans-serif;
         }
 
         .wash-hero {
-            height: 80dvh;
+            height: 85dvh;
         }
     }
 }

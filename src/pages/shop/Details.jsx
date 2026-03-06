@@ -4,6 +4,7 @@ import { products } from '../../products';
 import './details.scss';
 import { useDispatch } from 'react-redux';
 import { addToCart } from '../../store/cart';
+import { FaArrowLeft } from 'react-icons/fa'; // Importuj ikonicu
 
 function Details() {
     const { slug } = useParams();
@@ -40,7 +41,13 @@ function Details() {
 
     return (
         <div className="details-container">
-            <h2 className="details-title">PRODUCT DETAIL</h2>
+            {/* NOVO DUGME ZA POVRATAK */}
+            <button className="back-to-shop" onClick={() => navigate('/shop')}>
+                <FaArrowLeft />
+                <span>NAZAD U SHOP</span>
+            </button>
+
+            <h2 className="details-title">DETALJI O PROIZVODU</h2>
 
             <div className="details-content">
                 <div className="image-section">
@@ -49,19 +56,19 @@ function Details() {
 
                 <div className="info-section">
                     <h1 className="product-name">{detail.name}</h1>
-                    <p className="product-price">${detail.price}</p>
+                    <p className="product-price">RSD {detail.price}</p>
                     {detail.description && (
                         <p className="product-desc">{detail.description}</p>
                     )}
 
                     <div className="action-row">
                         <div className="quantity-selector">
-                            <button onClick={handleMinusQuantity}>-</button>
+                            <button onClick={handleMinusQuantity} className='btn-minus'>-</button>
                             <span>{quantity}</span>
-                            <button onClick={handlePlusQuantity}>+</button>
+                            <button onClick={handlePlusQuantity} className='btn-plus'>+</button>
                         </div>
                         <button className="add-to-cart-btn" onClick={handleAddToCart}>
-                            Add To Cart
+                            DODAJ U KORPU
                         </button>
                     </div>
                 </div>

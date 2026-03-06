@@ -1,5 +1,6 @@
 import React from 'react';
 import './carwash.scss';
+import { Link } from 'react-router-dom';
 
 import aboutImg1 from '../../assets/images/carwash1.webp';
 import aboutImg2 from '../../assets/images/carwash2.webp';
@@ -26,7 +27,9 @@ function CarWash() {
                         Kombinacijom iskustva i najsavremenije tehnologije, osiguravamo da svaki
                         klijent pronađe put do savršenog sjaja.
                     </p>
-                    <button className="btn-secondary">Saznaj Više</button>
+                    <Link to="/wash" className="btn-link">
+                        <button className="btn-secondary">Saznaj Više</button>
+                    </Link>
                 </div>
             </div>
 

@@ -3,6 +3,10 @@ import './hero.scss';
 import herobackground1 from '../../assets/images/heroimg1.webp';
 import herobackground2 from '../../assets/images/heroimg2.webp';
 import herobackground3 from '../../assets/images/heroimg3.webp';
+import facebooksvg from '../../assets/images/facebook.svg';
+import instagramsvg from '../../assets/images/instagram.svg';
+import whatsapps from '../../assets/images/whatsapp.svg';
+import youtubesvg from '../../assets/images/youtube.svg';
 
 const images = [
     herobackground1,
@@ -12,6 +16,14 @@ const images = [
 
 function Hero() {
     const [current, setCurrent] = useState(0);
+
+
+    const handleScroll = (id) => {
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
 
     useEffect(() => {
         const preloadFirst = () => {
@@ -69,10 +81,20 @@ function Hero() {
             <aside className='hero-sidebar'>
                 <div className='sidebar-line'></div>
                 <div className='social-links'>
-                    <a href='#'>FB</a>
-                    <a href='#'>IG</a>
-                    <a href='#'>WA</a>
-                    <a href='#'>YT</a>
+                    <a
+                        href="https://www.facebook.com/p/Lucido-Detailing-61553209057015/"
+                        target="_blank"
+                    >
+                        <img src={facebooksvg} alt="Facebook" className="social-icon" />
+                    </a>
+                    <a href='https://www.instagram.com/lucidodetailing/?hl=en'
+                        target="_blank"
+                    >
+                        <img src={instagramsvg} alt="Instagram" className='social-icon' /></a>
+                    <a href="tel:+381658828422">
+                        <img src={whatsapps} alt="Call WhatsApp" className="social-icon" />
+                    </a>
+                    <a href='#'><img src={youtubesvg} alt="YouTube" className='social-icon' /></a>
                 </div>
             </aside>
 
@@ -84,7 +106,7 @@ function Hero() {
                 </div>
 
                 <div className='hero-action'>
-                    <button className='btn-primary'>Saznaj Više</button>
+                    <button className='btn-primary' onClick={() => handleScroll('detailing')}>Saznaj Više</button>
                 </div>
                 <div className='hero-slider-status'>
                     <div className='progress-dash'>

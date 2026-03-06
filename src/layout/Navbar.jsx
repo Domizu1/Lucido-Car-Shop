@@ -3,7 +3,6 @@ import logo from '../assets/images/logocarshop.svg'
 import { Link } from 'react-router-dom';
 
 function Navbar() {
-    // 1. Definiši funkciju unutar komponente
     const handleScroll = (id) => {
         const element = document.getElementById(id);
         if (element) {
@@ -26,7 +25,9 @@ function Navbar() {
                     <li onClick={() => handleScroll('lokacija')}>Lokacija</li>
                 </ul>
                 <div className="navbar-cta">
-                    <button className="btn-get-started">PRODAVNICA 🛒</button>
+                    <Link to="/shop">
+                        <button className="btn-get-started">PRODAVNICA 🛒</button>
+                    </Link>
                 </div>
             </div>
         </nav>

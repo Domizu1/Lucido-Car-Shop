@@ -25,18 +25,22 @@ $font-main: 'Montserrat', sans-serif;
         z-index: 10;
         position: relative;
 
-        .sidebar-line {
-            position: absolute;
-            top: 0;
-            width: 4px;
-            height: 80px;
-            background: $primary-color;
-        }
+        // .sidebar-line {
+        //     position: absolute;
+        //     top: 0;
+        //     width: 4px;
+        //     height: 80px;
+        //     background: $primary-color;
+        // }
 
         .social-links {
             display: flex;
             flex-direction: column;
             gap: 35px;
+            background-color: #3978a8ad;
+            border-radius: 22px;
+            padding: 10px 10px;
+            margin-top: 5px;
 
             a {
                 color: rgba(255, 255, 255, 0.5);
@@ -45,9 +49,23 @@ $font-main: 'Montserrat', sans-serif;
                 font-weight: 700;
                 letter-spacing: 1px;
                 transition: color 0.3s ease;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+
+            }
+
+            .social-icon {
+                width: 23px;
+                height: 23px;
+                object-fit: contain;
+                transition: filter 0.3s ease;
+
 
                 &:hover {
-                    color: $primary-color;
+                    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.7));
+
                 }
             }
         }

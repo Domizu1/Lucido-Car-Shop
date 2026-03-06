@@ -35,7 +35,7 @@ const offerData = [
 
 function Offer() {
     return (
-        <section section id="detailing" className="offer-section">
+        <section id="detailing" className="offer-section">
             <div className="section-header">
                 <h2 className="section-main-title">LUCIDO <span>DETAILING</span></h2>
                 <div className="title-underline"></div>

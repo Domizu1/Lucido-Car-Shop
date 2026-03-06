@@ -1,6 +1,7 @@
 import React from 'react';
 import './coffee.scss';
 import coffeeImg from '../../assets/images/coffee.webp';
+import { Link } from 'react-router-dom';
 
 function Coffee() {
     return (
@@ -13,7 +14,9 @@ function Coffee() {
                         Uživajte u premium aromi dok čekate. Naša kafa je pažljivo birana
                         kako bi vam pružila savršen trenutak relaksacije u srcu našeg studija.
                     </p>
-                    <button className="btn-visit">Pogledaj Ponudu</button>
+                    <Link to="/caffe">
+                        <button className="btn-visit">Pogledaj Ponudu</button>
+                    </Link>
                 </div>
 
                 <div className="coffee-image-side">

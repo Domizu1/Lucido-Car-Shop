@@ -1,6 +1,6 @@
 
 import './footer.scss';
-import { FaFacebookF, FaInstagram, FaYoutube, FaPinterestP } from 'react-icons/fa';
+import { FaFacebookF, FaInstagram, FaYoutube, FaPinterestP, FaWhatsapp } from 'react-icons/fa';
 
 function Footer() {
     const currentYear = new Date().getFullYear();
@@ -13,14 +13,14 @@ function Footer() {
                 </div>
 
                 <div className="footer-socials">
-                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="social-circle">
+                    <a href="https://www.facebook.com/p/Lucido-Detailing-61553209057015/" target="_blank" rel="noopener noreferrer" className="social-circle">
                         <FaFacebookF />
                     </a>
-                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="social-circle">
+                    <a href="https://www.instagram.com/lucidodetailing/?hl=en" target="_blank" rel="noopener noreferrer" className="social-circle">
                         <FaInstagram />
                     </a>
-                    <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer" className="social-circle">
-                        <FaPinterestP />
+                    <a href="https://wa.me/381658828422" target="_blank" rel="noopener noreferrer" className="social-circle">
+                        <FaWhatsapp />
                     </a>
                     <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="social-circle">
                         <FaYoutube />
@@ -29,11 +29,10 @@ function Footer() {
 
 
                 <ul className="footer-nav">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#services">Usluge</a></li>
-                    <li><a href="#about">O Nama</a></li>
-                    <li><a href="#booking">Zakazivanje</a></li>
-                    <li><a href="#contact">Kontakt</a></li>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#detailing">Usluge</a></li>
+                    <li><a href="#perionica">Zakazivanje</a></li>
+                    <li><a href="#hero">Kontakt</a></li>
                 </ul>
 
 

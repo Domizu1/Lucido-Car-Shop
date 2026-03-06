@@ -5,7 +5,7 @@ import ProductCard from '../../components/ProductCard';
 import { useState, useEffect } from 'react';
 import './shop.scss';
 import { useSelector, useDispatch } from 'react-redux';
-import CartTab from '../shop/Carttab';
+import CartTab from '../shop/CartTab';
 import { toggleStatusTab } from '../../store/cart';
 
 function Shop() {

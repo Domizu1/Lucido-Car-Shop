@@ -4,7 +4,7 @@ import { products } from '../../products';
 import './details.scss';
 import { useDispatch } from 'react-redux';
 import { addToCart } from '../../store/cart';
-import { FaArrowLeft } from 'react-icons/fa'; // Importuj ikonicu
+import { FaArrowLeft } from 'react-icons/fa';
 
 function Details() {
     const { slug } = useParams();

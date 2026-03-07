@@ -1,6 +1,5 @@
 $font-sans: 'Montserrat', sans-serif;
 
-
 .cart-tab {
     position: fixed;
     top: 0;
@@ -86,5 +85,54 @@ $font-sans: 'Montserrat', sans-serif;
 
     &:hover {
         background-color: #dd7b2a;
+    }
+}
+
+@media (max-width: 900px) {
+    .cart-tab {
+        width: min(23rem, 96vw);
+        grid-template-rows: 56px 1fr 64px;
+    }
+
+    .cart-tab h2 {
+        font-size: 1.12rem;
+        line-height: 56px;
+        padding: 0 0.95rem;
+    }
+
+    .cart-items {
+        padding: 0.8rem;
+        gap: 0.55rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .cart-tab {
+        width: 100vw;
+        max-width: 100vw;
+        border-left: none;
+        box-shadow: none;
+        grid-template-rows: 54px 1fr 74px;
+    }
+
+    .cart-tab h2 {
+        font-size: 1rem;
+        line-height: 54px;
+        padding: 0 0.8rem;
+    }
+
+    .cart-items {
+        padding: 0.7rem;
+    }
+
+    .cart-btns {
+        padding: 0.65rem 0.7rem calc(0.65rem + env(safe-area-inset-bottom));
+        gap: 0.45rem;
+    }
+
+    .cart-btns .cart-btn-close,
+    .cart-btns .cart-btn-checkout {
+        font-size: 0.9rem;
+        padding: 0.68rem 0;
     }
 }

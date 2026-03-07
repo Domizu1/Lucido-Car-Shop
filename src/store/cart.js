@@ -33,6 +33,19 @@ const cartSlice = createSlice({
                     state.items = state.items.filter(item => item.productId !== productId);
                 }
             }
+
+            localStorage.setItem('carts', JSON.stringify(state.items));
+        },
+
+        removeFromCart(state, action) {
+            const productId = action.payload;
+            state.items = state.items.filter(item => item.productId !== productId);
+            localStorage.setItem('carts', JSON.stringify(state.items));
+        },
+
+        clearCart(state) {
+            state.items = [];
+            localStorage.removeItem('carts');
         },
 
         toggleStatusTab(state) {
@@ -53,5 +66,5 @@ const cartSlice = createSlice({
     }
 });
 
-export const { addToCart, changeQuantity, toggleStatusTab, toggleCheckoutForm, setCheckoutData } = cartSlice.actions;
+export const { addToCart, changeQuantity, removeFromCart, clearCart, toggleStatusTab, toggleCheckoutForm, setCheckoutData } = cartSlice.actions;
 export default cartSlice.reducer;

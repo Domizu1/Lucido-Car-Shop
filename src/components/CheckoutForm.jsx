@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import emailjs from 'emailjs-com';
-import { toggleCheckoutForm, setCheckoutData } from '../store/cart';
+import { toggleCheckoutForm, setCheckoutData, clearCart } from '../store/cart';
 import { products } from '../products';
 import './checkoutform.scss';
 
@@ -66,7 +66,7 @@ const CheckoutForm = () => {
             );
 
             if (hasPlaceholder) {
-                throw new Error('EmailJS ključevi nisu podešeni u .env.local.');
+                throw new Error('EmailJS ključevi nisu podešeni (lokalno u .env.local ili na Vercel Environment Variables).');
             }
 
             const formattedItems = carts.map(item => {
@@ -136,6 +136,7 @@ const CheckoutForm = () => {
                     city: '',
                     postalCode: ''
                 });
+                dispatch(clearCart());
                 dispatch(toggleCheckoutForm());
             }, 2000);
         } catch (error) {

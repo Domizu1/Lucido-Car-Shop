@@ -1,6 +1,7 @@
+@use "sass:color";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
 
-// 1. Varijable
+
 $primary-color: #3978a8;
 $text-white: #ffffff;
 $bg-dark: #0a0a0a;
@@ -24,14 +25,6 @@ $font-main: 'Montserrat', sans-serif;
         border-right: 1px solid rgba(255, 255, 255, 0.1);
         z-index: 10;
         position: relative;
-
-        // .sidebar-line {
-        //     position: absolute;
-        //     top: 0;
-        //     width: 4px;
-        //     height: 80px;
-        //     background: $primary-color;
-        // }
 
         .social-links {
             display: flex;
@@ -137,7 +130,7 @@ $font-main: 'Montserrat', sans-serif;
 
                 &:hover {
                     transform: translateY(-3px);
-                    background-color: lighten($primary-color, 8%);
+                    background-color: color.adjust($primary-color, $lightness: 8%);
                     box-shadow: 0 8px 25px rgba($primary-color, 0.4);
                 }
 
@@ -207,6 +200,7 @@ $font-main: 'Montserrat', sans-serif;
 
         .hero-content {
             padding-left: 5%;
+            margin-top: 110px;
 
             h1 {
                 font-size: clamp(2.5rem, 8vw, 4rem);
@@ -229,6 +223,7 @@ $font-main: 'Montserrat', sans-serif;
             padding: 15px 0;
             flex-direction: row;
             order: 2;
+            background-color: #0a0a0a;
 
             .sidebar-line {
                 display: none;
@@ -237,6 +232,7 @@ $font-main: 'Montserrat', sans-serif;
             .social-links {
                 flex-direction: row;
                 gap: 25px;
+                margin-bottom: 150px;
             }
         }
 

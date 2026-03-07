@@ -1,13 +1,12 @@
 @use "sass:color";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
 $btn-color: #3978a8;
 $text-white: #ffffff;
 $bg-glass: rgba(20, 20, 20, 0.6);
 $border-glass: rgba(255, 255, 255, 0.1);
 $font-main: 'Montserrat', sans-serif;
 
-
-// 2. Container - Handles the floating & centering over the Hero
 .navbar-container {
     position: absolute;
     top: 0;
@@ -18,12 +17,11 @@ $font-main: 'Montserrat', sans-serif;
     justify-content: center;
     padding: 20px 0;
     font-family: $font-main;
-    pointer-events: none; // Allows interaction with hero background elements
+    pointer-events: none;
 }
 
-// 3. The Navbar Pill
 .navbar {
-    pointer-events: auto; // Restores clickability for links and buttons
+    pointer-events: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,30 +36,17 @@ $font-main: 'Montserrat', sans-serif;
     border-radius: 50px;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
 
-
     .navbar-logo {
         display: flex;
         align-items: center;
-        cursor: pointer;
-        transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), filter 0.3s ease;
-
-        &:hover {
-            transform: scale(1.05);
-            filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.2));
-        }
 
         .logo-image {
             height: clamp(45px, 6vw, 60px);
             width: auto;
-            display: block;
-            object-fit: contain;
             border-radius: 50%;
-            filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.1));
-            backface-visibility: hidden;
         }
     }
 
-    // Navigation Links
     .navbar-links {
         display: flex;
         list-style: none;
@@ -75,36 +60,17 @@ $font-main: 'Montserrat', sans-serif;
             font-weight: 500;
             letter-spacing: 1.5px;
             cursor: pointer;
-            position: relative; // Required for the absolute positioning of the underline
-            padding: 4px 0; // Adds a little hit-box space
             opacity: 0.85;
             transition: opacity 0.3s ease;
-
-            // The Underline
-            &::after {
-                content: '';
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                width: 100%;
-                height: 2px;
-                background-color: $btn-color; // Matches your button theme
-                transform: scaleX(0); // Start at 0 width
-                transform-origin: bottom left; // Forces growth from left to right
-                transition: transform 0.3s ease; // Smooth animation
-            }
+            position: relative;
+            padding: 4px 0;
 
             &:hover {
                 opacity: 1;
-
-                &::after {
-                    transform: scaleX(1); // Expand to full width
-                }
             }
         }
     }
 
-    // CTA Button (Prodavnica)
     .navbar-cta {
         .btn-get-started {
             background-color: $btn-color;
@@ -116,14 +82,19 @@ $font-main: 'Montserrat', sans-serif;
             font-size: 0.85rem;
             font-family: $font-main;
             text-transform: uppercase;
-            letter-spacing: 0.5px;
             cursor: pointer;
             transition: all 0.2s ease;
+            align-items: center;
+            justify-content: center;
+
+            span {
+                margin-right: 8px;
+                text-decoration: none;
+            }
 
             &:hover {
                 background-color: color.adjust($btn-color, $lightness: 5%);
                 transform: scale(1.05);
-                box-shadow: 0 4px 15px rgba($btn-color, 0.3);
             }
 
             &:active {
@@ -133,13 +104,28 @@ $font-main: 'Montserrat', sans-serif;
     }
 }
 
-// 4. Mobile Responsiveness (Basic)
 @media (max-width: 768px) {
     .navbar {
         width: 95%;
+        padding: 0 8px 0 15px;
 
         .navbar-links {
-            display: none; // Typically you'd swap this for a hamburger menu
+            display: none;
+        }
+
+        .navbar-cta {
+            .btn-get-started {
+                width: 48px;
+                height: 48px;
+                padding: 0;
+                border-radius: 50%;
+                font-size: 1.2rem;
+
+                span {
+                    display: none;
+
+                }
+            }
         }
     }
 }

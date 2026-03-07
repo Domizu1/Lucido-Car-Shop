@@ -26,7 +26,9 @@ function Navbar() {
                 </ul>
                 <div className="navbar-cta">
                     <Link to="/shop">
-                        <button className="btn-get-started">PRODAVNICA 🛒</button>
+                        <button className="btn-get-started">
+                            <span>PRODAVNICA</span> 🛒
+                        </button>
                     </Link>
                 </div>
             </div>

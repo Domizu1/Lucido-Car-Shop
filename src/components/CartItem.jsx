@@ -4,6 +4,15 @@ import './cartitem.scss';
 import { useDispatch } from "react-redux";
 import { changeQuantity } from "../store/cart";
 
+const parsePrice = (value) => {
+    if (typeof value === 'number') return value;
+    if (typeof value === 'string') {
+        const numeric = Number.parseFloat(value.replace(/[^\d.,-]/g, '').replace(',', '.'));
+        return Number.isNaN(numeric) ? 0 : numeric;
+    }
+    return 0;
+};
+
 const CartItem = (props) => {
     const { productId, quantity } = props.data;
     const [detail, setDetail] = useState(null);
@@ -30,12 +39,15 @@ const CartItem = (props) => {
 
     if (!detail) return null;
 
+    const unitPrice = parsePrice(detail.price);
+    const totalPrice = unitPrice * quantity;
+
     // FIX 2: This return must be at the component level, not inside a handler
     return (
         <div className="cart-item">
             <img src={detail.image} alt={detail.name} className="cart-item-img" />
             <h3>{detail.name}</h3>
-            <p>RSD {detail.price * quantity}</p>
+            <p>RSD {totalPrice}</p>
             <div className="quantity-controls">
                 <button onClick={handleMinusQuantity}>-</button>
                 <span>{quantity}</span>

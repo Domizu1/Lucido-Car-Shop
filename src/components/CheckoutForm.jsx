@@ -5,6 +5,15 @@ import { toggleCheckoutForm, setCheckoutData } from '../store/cart';
 import { products } from '../products';
 import './checkoutform.scss';
 
+const parsePrice = (value) => {
+    if (typeof value === 'number') return value;
+    if (typeof value === 'string') {
+        const numeric = Number.parseFloat(value.replace(/[^\d.,-]/g, '').replace(',', '.'));
+        return Number.isNaN(numeric) ? 0 : numeric;
+    }
+    return 0;
+};
+
 const CheckoutForm = () => {
     const dispatch = useDispatch();
     const showForm = useSelector(store => store.cart.showCheckoutForm);
@@ -62,7 +71,7 @@ const CheckoutForm = () => {
 
             const formattedItems = carts.map(item => {
                 const product = products.find(p => p.id === item.productId);
-                const price = product?.price || 0;
+                const price = parsePrice(product?.price);
                 return {
                     productId: item.productId,
                     name: product?.name || 'Unknown Product',

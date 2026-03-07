@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './ProductCard.scss';
+import './Productcard.scss';
 import cart from '../assets/shop/cart.svg';
 import { useSelector, useDispatch } from 'react-redux';
 import { addToCart } from '../store/cart';

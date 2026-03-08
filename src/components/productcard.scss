@@ -48,9 +48,12 @@
 
         .product-price {
             color: #ffffff;
-            font-size: 1.1rem;
+            font-size: 1rem;
             font-weight: 700;
             letter-spacing: 0.2px;
+            display: inline-flex;
+            align-items: baseline;
+            white-space: nowrap;
 
             span {
                 font-size: 0.7rem;

@@ -12,6 +12,24 @@ import allaround5l from './assets/shop/All Around APC – Supermoćni Višenamen
 import amethyst from './assets/shop/AMETHYST Rim Cleaner – Bezbedno i efikasno čišćenje felni.webp';
 import amber from './assets/shop/AMBER All Purpose Cleaner – Višenamenski Auto Čistač u Koncentratu 750ml.webp';
 import amber5l from './assets/shop/AMBER All Purpose Cleaner – Višenamenski Auto Čistač u Koncentratu5l.webp';
+import mikrofiber from './assets/shop/Allrounder Mikrofiber.webp';
+import aplikatorzagume from './assets/shop/Aplikator za Gume Bi-.webp';
+import aplikatorzagume2 from './assets/shop/Aplikator za gume i plastike FlashDetail.webp';
+import aplikatorzaplasticu from './assets/shop/Applicator Pads 10 kom.webp';
+import apcgreen from './assets/shop/APC Green750ml.webp';
+import apcgreen5l from './assets/shop/APC Green5L.webp';
+import appledressing from './assets/shop/Apple Dressing.webp';
+import back2black from './assets/shop/Back2Black.webp';
+import beadprince from './assets/shop/Bead Prince.webp';
+import beadprince5l from './assets/shop/Bead Prince5l.webp';
+import bluesnow1l from './assets/shop/Blue Snow Foam1l.webp';
+import bluesnow5l from './assets/shop/Blue Snow Foam5l.webp';
+import buggyboy from './assets/shop/Buggy Boy.webp';
+import citrine from './assets/shop/citrine.webp';
+import cocotyre from './assets/shop/Coco Tyre.webp';
+import cuteaplicator from './assets/shop/cubeaplicator.webp';
+import detailerone from './assets/shop/Detailer ONE.webp';
+
 
 export const products = [
     {
@@ -383,5 +401,266 @@ Problem sa prljavim felnama? Brzo rešenje je ovde! 🚗💦 AMETHYST Rim Cleane
 `,
         slug: 'product-29'
     },
+    {
+        id: 30,
+        name: 'Allrounder Mikrofiber Krpa 250GSM – 40x40 cm | Royal Pads',
+        price: '300 RSD',
+        image: mikrofiber,
+        description: `Royal Pads Allrounder mikrofiber krpa od 250GSM, dimenzija 40x40 cm, izrađena je od nežnih, kratkih i mekih vlakana koja ne ostavljaju tragove ili vlakna na laku. Savršena je za rad sa proizvodima za zaštitu laka, kao što su sealanti, spray voskovi i keramički premazivači.
+                        Takođe je pogodna za lako spoljašnje čišćenje ili uklanjanje prašine i prljavštine iz unutrašnjosti vozila, bez rizika od grebanja površine.`,
+        slug: 'product-30'
+    },
+    {
+        id: 31,
+        name: 'Aplikator za Gume Bi-Color – Shiny Garage | Auto kozmetika Srbija',
+        price: '450 RSD',
+        image: aplikatorzagume,
+        description: `Savršen alat za precizno nanošenje preparata! Bi-Color Tire Applicator je ergonomski dizajniran za ravnomernu i bez mrlja primenu dressinga na gumama, obezbeđujući besprekoran finish bez kapljica i prelivanja.`,
+        slug: 'product-31'
+    },
+    {
+        id: 32,
+        name: 'Aplikator za gume i plastike FlashDetail',
+        price: '800 RSD',
+        image: aplikatorzagume2,
+        description: `Premium Tire Dressing Applicator – Najbolji Aplikator za Negu Guma u Srbiji! 🚗✨
+                        Tražite profesionalni aplikator za preparate za gume koji pruža savršen sjaj i zaštitu? Naš premium aplikator za gume omogućava preciznu i ravnomernu primenu bez mrlja, čuvajući vaše gume kao nove!`,
+        slug: 'product-32'
+    },
+    {
+        id: 33,
+        name: 'Applicator Pads 10 kom – Precizni aplikatori za keramičke premaze',
+        price: '3000 RSD',
+        image: aplikatorzaplasticu,
+        description: `✨ UltraCoat Applicator Pads – Savršen Alat za Keramičku Zaštitu!`,
+        slug: 'product-33'
+    },
+    {
+        id: 34,
+        name: 'APC Green – Efikasno i Sigurno Rešenje za Sve Površine 1L',
+        price: '1500 RSD',
+        image: apcgreen,
+        description: `Ovaj inovativni proizvod nudi 100% bezbednost za korisnika i okolinu, bez natrijum hidroksida i svih štetnih supstanci. Savršen je za čišćenje kako unutrašnjih, tako i spoljašnjih delova automobila. Zahvaljujući jedinstvenom sastavu, efikasno veže i uklanja prljavštinu, čak i pri najnižim koncentracijama. Dodatno, rad čini prijatnijim miris breskve! 🍉`,
+        slug: 'product-34'
+    },
+    {
+        id: 35,
+        name: 'APC Green – Efikasno i Sigurno Rešenje za Sve Površine 5L',
+        price: '3500 RSD',
+        image: apcgreen5l,
+        description: `Ovaj inovativni proizvod nudi 100% bezbednost za korisnika i okolinu, bez natrijum hidroksida i svih štetnih supstanci. Savršen je za čišćenje kako unutrašnjih, tako i spoljašnjih delova automobila. Zahvaljujući jedinstvenom sastavu, efikasno veže i uklanja prljavštinu, čak i pri najnižim koncentracijama. Dodatno, rad čini prijatnijim miris breskve! 🍉`,
+        slug: 'product-35'
+    },
+    {
+        id: 36,
+        name: 'Apple Dressing – Višenamenski Preparat za Negu Enterijera Automobila 500ml',
+        price: '1200 RSD',
+        image: appledressing,
+        description: `osvežavanje svih površina u vašem automobilu. Specijalna formula sa prirodnim voskovima pruža:
+✔ Duboku ishranu za plastiku, drvo i hrom
+✔ Trajnu antistatičku zaštitu od prašine
+✔ Prirodan sjaj bez lepljivog efekta
+✔ Osvežavajući miris sveže jabuke koji dugo traje`,
+        slug: 'product-36'
+    },
+    {
+        id: 37,
+        name: 'Apple Dressing – Višenamenski Preparat za Negu Enterijera Automobila 1L',
+        price: '1600 RSD',
+        image: appledressing,
+        description: `osvežavanje svih površina u vašem automobilu. Specijalna formula sa prirodnim voskovima pruža:
+✔ Duboku ishranu za plastiku, drvo i hrom
+✔ Trajnu antistatičku zaštitu od prašine
+✔ Prirodan sjaj bez lepljivog efekta
+✔ Osvežavajući miris sveže jabuke koji dugo traje`,
+        slug: 'product-37'
+    },
+    {
+        id: 38,
+        name: 'AVENTURINE IPA Cleaner 99% – Profesionalni Odmašćivač 400ml',
+        price: '1000 RSD',
+        image: apcgreen5l,
+        description: `Ovaj inovativni proizvod nudi 100% bezbednost za korisnika i okolinu, bez natrijum hidroksida i svih štetnih supstanci. Savršen je za čišćenje kako unutrašnjih, tako i spoljašnjih delova automobila. Zahvaljujući jedinstvenom sastavu, efikasno veže i uklanja prljavštinu, čak i pri najnižim koncentracijama. Dodatno, rad čini prijatnijim miris breskve! 🍉`,
+        slug: 'product-38'
+    },
+    {
+        id: 39,
+        name: 'AVENTURINE IPA Cleaner 99% – Profesionalni Odmašćiva 750ml',
+        price: '1400 RSD',
+        image: apcgreen5l,
+        description: `Ovaj inovativni proizvod nudi 100% bezbednost za korisnika i okolinu, bez natrijum hidroksida i svih štetnih supstanci. Savršen je za čišćenje kako unutrašnjih, tako i spoljašnjih delova automobila. Zahvaljujući jedinstvenom sastavu, efikasno veže i uklanja prljavštinu, čak i pri najnižim koncentracijama. Dodatno, rad čini prijatnijim miris breskve! 🍉`,
+        slug: 'product-39'
+    },
+    {
+        id: 40,
+        name: 'AVENTURINE IPA Cleaner 99% – Profesionalni Odmašćivač 5L',
+        price: '6900 RSD',
+        image: apcgreen5l,
+        description: `Ovaj inovativni proizvod nudi 100% bezbednost za korisnika i okolinu, bez natrijum hidroksida i svih štetnih supstanci. Savršen je za čišćenje kako unutrašnjih, tako i spoljašnjih delova automobila. Zahvaljujući jedinstvenom sastavu, efikasno veže i uklanja prljavštinu, čak i pri najnižim koncentracijama. Dodatno, rad čini prijatnijim miris breskve! 🍉`,
+        slug: 'product-40'
+    },
+    {
+        id: 41,
+        name: 'Back2Black Polymer Tire Dressing – Izdržljivi dressing za gume sa SiO2 500ml',
+        price: '1900 RSD',
+        image: back2black,
+        description: `Back2Black Polymer Tire Dressing je premium preparat koji kombinira najsavremeniju SiO2 tehnologiju sa dubokom ishranom za vaše gume. Obezbeđuje:
+✔ Dugotrajnu zaštitu do 2 meseca
+✔ Inteligentna hidrofobna svojstva - odbija vodu i prljavštinu
+✔ Prirodan satenski sjaj - bez neprirodnog "plastičnog" izgleda
+✔ Eko-friendly formulu - bez štetnih silikona`,
+        slug: 'product-41'
+    },
+    {
+        id: 42,
+        name: 'Back2Black Polymer Tire Dressing – Izdržljivi dressing za gume sa SiO2 5L',
+        price: '3800 RSD',
+        image: back2black,
+        description: `Back2Black Polymer Tire Dressing je premium preparat koji kombinira najsavremeniju SiO2 tehnologiju sa dubokom ishranom za vaše gume. Obezbeđuje:
+✔ Dugotrajnu zaštitu do 2 meseca
+✔ Inteligentna hidrofobna svojstva - odbija vodu i prljavštinu
+✔ Prirodan satenski sjaj - bez neprirodnog "plastičnog" izgleda
+✔ Eko-friendly formulu - bez štetnih silikona`,
+        slug: 'product-42'
+    },
+
+    {
+        id: 43,
+        name: 'Bead Prince UltraCoat – SiO₂ sprej za hidrofobnu zaštitu i sjaj 500ml',
+        price: '1900 RSD',
+        image: beadprince,
+        description: `Bead Prince – Revolucionarna SiO₂ Zaštita za Auto sa Neverovatnim Sjajem!`,
+        slug: 'product-43'
+    },
+
+    {
+        id: 44,
+        name: 'Bead Prince UltraCoat – SiO₂ sprej za hidrofobnu zaštitu i sjaj 5L',
+        price: '9000 RSD',
+        image: beadprince5l,
+        description: `Bead Prince – Revolucionarna SiO₂ Zaštita za Auto sa Neverovatnim Sjajem!`,
+        slug: 'product-44'
+    },
+    {
+        id: 45,
+        name: 'Blue Snow Foam – Aktivna Pena za Pranje 1L',
+        price: '1500 RSD',
+        image: bluesnow1l,
+        description: `Blue Snow Foam je premium auto šampon koji stvara gustom penu za dubinsko čišćenje bez dodirivanja. Specijalno formulisan za:
+✔ Hladne vremenske uslove (idealno za jesen i zimu)
+✔ Očuvanje voska i zaštitnih premaza
+✔ Efikasno uklanjanje soli, blata i putnih naslaga`,
+        slug: 'product-45'
+    },
+    {
+        id: 46,
+        name: 'Blue Snow Foam – Aktivna Pena za Pranje 5L',
+        price: '4500 RSD',
+        image: bluesnow5l,
+        description: `Blue Snow Foam je premium auto šampon koji stvara gustom penu za dubinsko čišćenje bez dodirivanja. Specijalno formulisan za:
+✔ Hladne vremenske uslove (idealno za jesen i zimu)
+✔ Očuvanje voska i zaštitnih premaza
+✔ Efikasno uklanjanje soli, blata i putnih naslaga`,
+        slug: 'product-46'
+    },
+    {
+        id: 47,
+        name: 'Buggy Boy UltraCoat – Uklanjanje insekata i prljavštine sa vozila 500ml',
+        price: '1000 RSD',
+        image: buggyboy,
+        description: ` Buggy Boy – Najjači Saveznik Protiv Insekata i Organskih Naslaga!`,
+        slug: 'product-47'
+    },
+    {
+        id: 48,
+        name: 'Buggy Boy UltraCoat – Uklanjanje insekata i prljavštine sa vozila 5L',
+        price: '4500 RSD',
+        image: buggyboy,
+        description: ` Buggy Boy – Najjači Saveznik Protiv Insekata i Organskih Naslaga!`,
+        slug: 'product-48'
+    },
+    {
+        id: 49,
+        name: 'CITRINE TFR čistač za auto – Uklonite tvrdokorne naslage bez dodira! 400ml',
+        price: '900 RSD',
+        image: citrine,
+        description: `CITRINE TFR – Profesionalni Alkalni Čistač za Kontaktno Pranje!`,
+        slug: 'product-49'
+    },
+    {
+        id: 50,
+        name: 'CITRINE TFR čistač za auto – Uklonite tvrdokorne naslage bez dodira! 750ml',
+        price: '1500 RSD',
+        image: citrine,
+        description: `CITRINE TFR – Profesionalni Alkalni Čistač za Kontaktno Pranje!`,
+        slug: 'product-50'
+    },
+    {
+        id: 51,
+        name: 'Coco Tyre Spray – Emulzija za gume sa efektom satena ili sjaja!',
+        price: '1800 RSD',
+        image: cocotyre,
+        description: `Coco Tyre Spray je revolucionarni preparat koji vam omogućava da samostalno odredite finiš vaših guma - od elegantnog satena do spektakularnog sjaja. Zahvaljujući jedinstvenoj formuli sa voštanim i silikonskim emulzijama:
+✔ Održava gume savršeno negovanim do 2 nedelje
+✔ Može se nanositi na mokre površine - štedi vreme
+✔ Ne sadrži agresivne rastvarače - bezbedan za gume`,
+        slug: 'product-51'
+    },
+    {
+        id: 52,
+        name: 'Cube aplikator za keramičke premaze – Precizno i ravnomerno nanošenje',
+        price: '1300 RSD',
+        image: cuteaplicator,
+        description: `Cube Aplikator – Profesionalna Preciznost u Nanošenju Keramike!`,
+        slug: 'product-52'
+    },
+    {
+        id: 53,
+        name: 'Detailer ONE – Univerzalni detailer za lak! ',
+        price: '1500 RSD',
+        image: detailerone,
+        description: `Detailer ONE je revolucionarni univerzalni detailer koji kombinuje najbolje karakteristike 4 proizvoda u jednom:
+✔ Stakleni sjaj kao Quick Detail Spray
+✔ Dubina boje kao Almond Quick Detailer
+✔ Svežina kao Morning Dew
+✔ Hidrofobna zaštita kao ICY Ceramic Detailer
+
+`,
+        slug: 'product-53'
+    },
+    {
+        id: 54,
+        name: 'AVENTURINE IPA Cleaner 99% – Profesionalni Odmašćivač 5L',
+        price: '6900 RSD',
+        image: apcgreen5l,
+        description: ``,
+        slug: 'product-54'
+    },
+    {
+        id: 55,
+        name: 'AVENTURINE IPA Cleaner 99% – Profesionalni Odmašćivač 5L',
+        price: '6900 RSD',
+        image: apcgreen5l,
+        description: ``,
+        slug: 'product-55'
+    },
+    {
+        id: 56,
+        name: 'AVENTURINE IPA Cleaner 99% – Profesionalni Odmašćivač 5L',
+        price: '6900 RSD',
+        image: apcgreen5l,
+        description: ``,
+        slug: 'product-56'
+    },
+    {
+        id: 56,
+        name: 'AVENTURINE IPA Cleaner 99% – Profesionalni Odmašćivač 5L',
+        price: '6900 RSD',
+        image: apcgreen5l,
+        description: ``,
+        slug: 'product-56'
+    }
+
+
 
 ];

@@ -2,17 +2,20 @@
     display: flex;
     align-items: center;
     gap: 0.75rem;
+    flex-wrap: wrap;
     background: linear-gradient(180deg, rgba(71, 85, 105, 0.88), rgba(51, 65, 85, 0.9));
     padding: 0.75rem;
     border-radius: 0.65rem;
     border: 1px solid rgba(255, 255, 255, 0.12);
     color: #fff;
+    overflow: hidden;
 
     h3 {
         margin: 0;
         font-size: 0.92rem;
         line-height: 1.2;
         flex: 1;
+        min-width: 140px;
     }
 
     p {
@@ -56,6 +59,7 @@
     align-items: center;
     gap: 0.45rem;
     margin-left: auto;
+    flex-shrink: 0;
 }
 
 .quantity-controls button {
@@ -85,4 +89,16 @@
     min-width: 24px;
     text-align: center;
     font-weight: 600;
+}
+
+@media (max-width: 520px) {
+    .cart-item {
+        align-items: flex-start;
+    }
+
+    .quantity-controls {
+        width: 100%;
+        justify-content: flex-end;
+        margin-left: 0;
+    }
 }

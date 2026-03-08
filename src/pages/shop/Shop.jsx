@@ -10,9 +10,16 @@ import { toggleStatusTab } from '../../store/cart';
 
 function Shop() {
 
+    const PRODUCTS_PER_PAGE = 32;
+
     const [totalQuantity, setTotalQuantity] = useState(0);
+    const [currentPage, setCurrentPage] = useState(1);
     const carts = useSelector(store => store.cart.items);
     const dispatch = useDispatch();
+
+    const totalPages = Math.ceil(products.length / PRODUCTS_PER_PAGE);
+    const startIndex = (currentPage - 1) * PRODUCTS_PER_PAGE;
+    const currentProducts = products.slice(startIndex, startIndex + PRODUCTS_PER_PAGE);
 
     useEffect(() => {
         let total = 0;
@@ -23,6 +30,11 @@ function Shop() {
     const handleOpenTabCart = () => {
         dispatch(toggleStatusTab());
     }
+
+    const handlePageChange = (pageNumber) => {
+        setCurrentPage(pageNumber);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
 
     return (
         <div className="shop-page">
@@ -38,10 +50,49 @@ function Shop() {
             <main className="shop-items">
                 <h1 className='shop-title'>Proizvodi</h1>
                 <div className='shop-products'>
-                    {products.map((product, key) => (
-                        <ProductCard key={key} data={product} />
+                    {currentProducts.map((product) => (
+                        <ProductCard key={product.id} data={product} />
                     ))}
                 </div>
+
+                {totalPages > 1 && (
+                    <div className='pagination'>
+                        <button
+                            type='button'
+                            className='page-btn nav-btn'
+                            onClick={() => handlePageChange(currentPage - 1)}
+                            disabled={currentPage === 1}
+                        >
+                            Prethodna
+                        </button>
+
+                        <div className='page-numbers'>
+                            {Array.from({ length: totalPages }, (_, index) => {
+                                const pageNumber = index + 1;
+                                return (
+                                    <button
+                                        type='button'
+                                        key={pageNumber}
+                                        className={`page-btn ${currentPage === pageNumber ? 'active' : ''}`}
+                                        onClick={() => handlePageChange(pageNumber)}
+                                    >
+                                        {pageNumber}
+                                    </button>
+                                );
+                            })}
+                        </div>
+
+                        <button
+                            type='button'
+                            className='page-btn nav-btn'
+                            onClick={() => handlePageChange(currentPage + 1)}
+                            disabled={currentPage === totalPages}
+                        >
+                            Sledeca
+                        </button>
+                    </div>
+                )}
+
                 < CartTab />
 
             </main>

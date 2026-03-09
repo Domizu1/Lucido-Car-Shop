@@ -17,7 +17,7 @@ import aplikatorzagume from './assets/shop/Aplikator za Gume Bi-.webp';
 import aplikatorzagume2 from './assets/shop/Aplikator za gume i plastike FlashDetail.webp';
 import aplikatorzaplasticu from './assets/shop/Applicator Pads 10 kom.webp';
 import apcgreen from './assets/shop/APC Green750ml.webp';
-import apcgreen5l from './assets/shop/APC Green5L.webp';
+import apcgreen5l from './assets/shop/APC Green5l.webp';
 import appledressing from './assets/shop/Apple Dressing.webp';
 import back2black from './assets/shop/Back2Black.webp';
 import beadprince from './assets/shop/Bead Prince.webp';

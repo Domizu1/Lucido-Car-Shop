@@ -93,6 +93,31 @@ $accent-color: #8359b1;
                 color: $accent-color;
             }
 
+            .product-desc {
+                margin: 0;
+                color: rgba(255, 255, 255, 0.88);
+                line-height: 1.65;
+                font-size: 0.98rem;
+
+                p {
+                    margin: 0 0 0.7rem;
+                }
+
+                p:last-child {
+                    margin-bottom: 0;
+                }
+
+                ul {
+                    margin: 0.35rem 0 0.8rem;
+                    padding-left: 1.1rem;
+                    list-style: disc;
+                }
+
+                li {
+                    margin: 0.2rem 0;
+                }
+            }
+
             .action-row {
                 display: flex;
                 flex-wrap: wrap;

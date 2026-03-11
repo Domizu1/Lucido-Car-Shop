@@ -65,8 +65,25 @@ $font-main: 'Montserrat', sans-serif;
             position: relative;
             padding: 4px 0;
 
+            &::after {
+                content: '';
+                position: absolute;
+                left: 0;
+                bottom: -2px;
+                width: 100%;
+                height: 2px;
+                background: $btn-color;
+                transform: scaleX(0);
+                transform-origin: left;
+                transition: transform 0.25s ease;
+            }
+
             &:hover {
                 opacity: 1;
+
+                &::after {
+                    transform: scaleX(1);
+                }
             }
         }
     }

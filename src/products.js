@@ -29,6 +29,56 @@ import citrine from './assets/shop/citrine.webp';
 import cocotyre from './assets/shop/Coco Tyre.webp';
 import cuteaplicator from './assets/shop/cubeaplicator.webp';
 import detailerone from './assets/shop/Detailer ONE.webp';
+import dissolver from './assets/shop/Dissolver Tar&Glue.webp';
+import doublescrub from './assets/shop/Double Scrub.webp';
+import doublesour from './assets/shop/DOUBLE SOUR.webp';
+import drillbrush from './assets/shop/DRILL BRUSH.webp';
+import emerald from './assets/shop/EMERALD.webp'
+// import extradry from './assets/shop/ExtraDry.webp';
+import extremedrying from './assets/shop/Extreme Drying.webp';
+import giantflash from './assets/shop/GIANT FLASH.webp';
+import glassfiber from './assets/shop/GlassFiber.webp';
+import gentlebuff from './assets/shop/Gentle Buff.webp';
+import foambottle from './assets/shop/Foam Bottle.webp';
+import flashdetailing from './assets/shop/FLASH DETAILING.webp';
+import peskirv2 from './assets/shop/Flash Detail Towel V2.webp';
+import rasprsivac from './assets/shop/flasa.webp';
+import fibercut from './assets/shop/FiberCut.webp';
+import fabricCleaner from './assets/shop/Fabric Cleaner.webp';
+import fabricCleaner5l from './assets/shop/Fabric Cleaner 5L.webp';
+import jetblack from './assets/shop/Jet Black.webp';
+import leathercleaner from './assets/shop/Leather Cleaner.webp';
+import leatherconditioner from './assets/shop/Leather Conditioner.webp';
+import ironhunter from './assets/shop/Iron Hunter.webp';
+import interiorquick from './assets/shop/Interior Quick.webp';
+import interiorq from './assets/shop/Interior Q.webp';
+import interiorplastic from './assets/shop/Interior Plastic.webp';
+import leathercleanerprofi from './assets/shop/Leather Cleaner Professional.webp';
+import heli from './assets/shop/HELIODOR.webp';
+import lazurite from './assets/shop/Lazurite.webp';
+import hydrohd from './assets/shop/Hydro HD.webp';
+import insiderinterior from './assets/shop/Insider Interior.webp';
+import insiderinterior5l from './assets/shop/Insider Interior5l.webp';
+import leatherkit from './assets/shop/Leather Kit.webp';
+import leatherqdetailer from './assets/shop/Leather Q-Detailer.webp';
+import leatherqd from './assets/shop/Leather QD.webp';
+import miniflash from './assets/shop/MINI FLASH.webp';
+import mikrofibercetka from './assets/shop/Mikrofiber Cetka.webp';
+import perfectglass from './assets/shop/Perfect Glass.webp';
+import malachite from './assets/shop/MALACHITE.webp';
+import malachite5l from './assets/shop/MALACHITE5l.webp';
+import masterwash from './assets/shop/Master Wash.webp';
+import masterwash5l from './assets/shop/Master Wash5l.webp';
+import morganite from './assets/shop/MORGANITE.webp';
+import nepheline from './assets/shop/NEPHELINE.webp';
+import nepheline5l from './assets/shop/NEPHELINE5l.webp';
+import offinish from './assets/shop/OF Finish.webp';
+import ofheavycut from './assets/shop/OF Heavy Cut.webp';
+import onestep from './assets/shop/OF One Step.webp';
+import perfectglasscleaner from './assets/shop/Perfect Glass Cleaner.webp';
+import perfectglasscleaner5l from './assets/shop/Perfect Glass Cleaner5l.webp';
+import onetouchwool from './assets/shop/One-Touch Wool.webp';
+import onyx from './assets/shop/ONYX.webp';
 
 
 export const products = [
@@ -630,37 +680,836 @@ Problem sa prljavim felnama? Brzo rešenje je ovde! 🚗💦 AMETHYST Rim Cleane
     },
     {
         id: 54,
-        name: 'AVENTURINE IPA Cleaner 99% – Profesionalni Odmašćivač 5L',
-        price: '6900 RSD',
-        image: apcgreen5l,
-        description: ``,
+        name: 'Dissolver Tar&Glue Remover – Uklanjanje katrana, asfalta i lepka bez oštećenja!',
+        price: '1950 RSD',
+        image: dissolver,
+        description: `Dissolver Tar&Glue Remover je profesionalno sredstvo koje bez oštećenja uklanja:
+✔ Tvrdokorni katran i asfalt
+✔ Trajne lepne trake i nalepnice
+✔ Smolu i druge teške naslage`,
         slug: 'product-54'
     },
     {
         id: 55,
-        name: 'AVENTURINE IPA Cleaner 99% – Profesionalni Odmašćivač 5L',
-        price: '6900 RSD',
-        image: apcgreen5l,
-        description: ``,
+        name: 'Double Scrub Pad – Skruber Royal Pads',
+        price: '1100 RSD',
+        image: doublescrub,
+        description: `Otkrij novu dimenziju čistoće uz Double_Scrub Pad, specijalno razvijen za temeljno i bezbedno čišćenje enterijera automobila. Ovaj praktičan i izdržljiv pad kombinuje visoku efikasnost čišćenja sa potpunom bezbednošću za osetljive površine, zbog čega je idealan za uklanjanje tvrdokorne prljavštine sa plastike, vinila, kože i tekstila.`,
         slug: 'product-55'
     },
     {
         id: 56,
-        name: 'AVENTURINE IPA Cleaner 99% – Profesionalni Odmašćivač 5L',
-        price: '6900 RSD',
-        image: apcgreen5l,
-        description: ``,
+        name: 'Double Sour Sampon&Aktivna pena 2u1 1lit Shiny Garage',
+        price: '1500 RSD',
+        image: doublesour,
+        description: `Prvi na tržištu sa duplom funkcijom! DOUBLE SOUR kombinuje kiseli šampon i aktivnu penu u jednom proizvodu – savršen za keramički zaštićene lakove i redovnu negu.`,
         slug: 'product-56'
     },
     {
-        id: 56,
-        name: 'AVENTURINE IPA Cleaner 99% – Profesionalni Odmašćivač 5L',
-        price: '6900 RSD',
-        image: apcgreen5l,
-        description: ``,
-        slug: 'product-56'
-    }
+        id: 57,
+        name: 'DRILL BRUSH - Set od 3 četke za sve površine FlashDetail',
+        price: '1500 RSD',
+        image: drillbrush,
+        description: `Transformišite običnu bušilicu u moćan alat za dubinsko čišćenje! Ovaj revolucionarni set omogućava brzo i efikasno uklanjanje tvrdokorne prljavštine, uljnih naslaga i mrlja sa svih površina vašeg vozila.`,
+        slug: 'product-57'
+    },
+    {
+        id: 58,
+        name: 'EMERALD Čistač Stakla – Hidrofobna Zaštita i Nevidljivi Brisač 400ml',
+        price: '1000 RSD',
+        image: emerald,
+        description: `EMERALD Hydrophobic Glass Cleaner je premium 2u1 rеšenje koje kombinira:
+✔ Profesionalno čišćenje bez tragova
+✔ Dugotrajnu hidrofobnu zaštitu sa SiO2 tehnologijom`,
+        slug: 'product-58'
+    }, {
+        id: 59,
+        name: 'EMERALD Čistač Stakla – Hidrofobna Zaštita i Nevidljivi Brisač 750ml',
+        price: '1700 RSD',
+        image: emerald,
+        description: `EMERALD Hydrophobic Glass Cleaner je premium 2u1 rеšenje koje kombinira:
+✔ Profesionalno čišćenje bez tragova
+✔ Dugotrajnu hidrofobnu zaštitu sa SiO2 tehnologijom`,
+        slug: 'product-59'
+    },
+    {
+        id: 60,
+        name: 'EMERALD Čistač Stakla – Hidrofobna Zaštita i Nevidljivi Brisač 5L',
+        price: '5300 RSD',
+        image: emerald,
+        description: `EMERALD Hydrophobic Glass Cleaner je premium 2u1 rеšenje koje kombinira:
+✔ Profesionalno čišćenje bez tragova
+✔ Dugotrajnu hidrofobnu zaštitu sa SiO2 tehnologijom`,
+        slug: 'product-60'
+    },
+    {
+        id: 61,
+        name: 'Extra Dry – Revolucionarni Proizvod za Suvo Čišćenje Osetljivih Površina Vozila',
+        price: '1500 RSD',
+        image: extremedrying,
+        description: `Extra Dry – revolucionarni proizvod za čišćenje plafona, bočnih strana vrata 🚪 i svih materijalnih delova osetljivih na vlagu! 💧✨ Ovaj proizvod ne zahteva ispiranje vodom, što eliminiše rizik od odlepljivanja materijala. Zahvaljujući tehnologiji umrežavanja prljavštine, zatvara nečistoće u čestice koje se lako uklanjaju suvom mikrofibrom 🧽 ili usisivačem. Bez potrebe za ekstrakcijskim usisivačem! 🚫🧹`,
+        slug: 'product-61'
+    },
+    {
+        id: 62,
+        name: 'GIANT FLASH DETAIL PEŠKIR',
+        price: '3500 RSD',
+        image: giantflash,
+        description: `Otkrijte revolucionarno rešenje za brzo i besprekorno sušenje vašeg vozila! Naša Giant Flash Towel sa premium 1600 GSM mikrofiberom i duplom twisted-loop strukturom omogućava instant sušenje bez mrlja, čak i za velika vozila.`,
+        slug: 'product-62'
+    },
+    {
+        id: 63,
+        name: 'GlassFiber 400GSM Mikrofiber Krpa za Stakla i Ogledala | Royal Pads',
+        price: '600 RSD',
+        image: glassfiber,
+        description: `GlassFiber mikrofiber krpa gustine 400GSM (grama po kvadratnom metru) sa "waffle" strukturom površine i bešavnim laser-cut ivicama, savršeno je rešenje za čišćenje stakla, ogledala, hroma i sjajnih površina bez tragova, linija ili mikrodlačica.
+Zahvaljujući specijalnoj vafel površini, krpa omogućava dublje i efikasnije čišćenje čak i najosetljivijih površina – bez upotrebe agresivnih sredstava.`,
+        slug: 'product-63'
+    },
+    {
+        id: 64,
+        name: 'Gentle Buff Mikrofiber krpa 2 kom – Poliranje bez ogrebotina',
+        price: '1000 RSD',
+        image: gentlebuff,
+        description: ` Gentle Buff Mikrofiber – Profesionalno Rešenje za Besprekorno Čišćenje!`,
+        slug: 'product-64'
+    },
+    {
+        id: 65,
+        name: 'Foam Bottle 150ml – Bočica za preciznu aplikaciju pene',
+        price: '500 RSD',
+        image: foambottle,
+        description: `Precizna i kontrolisana primena preparata! Ova penasta bočica od 150ml omogućava vam ravnomernu distribuciju auto kozmetičkih proizvoda, idealna za delikatne površine gde je prekomerno vlaženje nepoželjno.`,
+        slug: 'product-65'
+    },
+    {
+        id: 66,
+        name: 'FLASH DETAILING BRUSH - Ultra Soft četkica',
+        price: '800 RSD',
+        image: flashdetailing,
+        description: `Otkrijte ultimativno rešenje za besprekorno čišćenje svakog ugla vašeg vozila! Naša premium detailing četkica sa mekim sintetičkim vlaknima i ergonomskim drškom omogućava precizno uklanjanje prašine i naslaga sa svih površina.`,
+        slug: 'product-66'
+    },
+    {
+        id: 67,
+        name: 'FLASH DETAIL PEŠKIR - Ultimativni peškir za sušenje auta',
+        price: '3000 RSD',
+        image: peskirv2,
+        description: `Otkrijte ultimativno rešenje za brzo i besprekorno sušenje vašeg vozila! Flash Detail Towel V2 sa premium 850 GSM twisted-loop mikrofiberom nudi najbolju apsorpciju i nežnost na tržištu, čineći sušenje vašeg auta lakšim nego ikada.`,
+        slug: 'product-67'
+    },
+    {
+        id: 68,
+        name: 'Flaša sa Raspršivačem 500ml – Idealna za Razblažene Proizvode',
+        price: '450 RSD',
+        image: rasprsivac,
+        description: `Organizujte svoje auto detailing preparate na profesionalan način! Ova HDPE bočica sa raspršivačem omogućava vam laku identifikaciju i pravilno razblaživanje proizvoda, štedeći vreme i sprečavajući greške u upotrebi.`,
+        slug: 'product-68'
+    },
+    {
+        id: 69,
+        name: 'FiberCut – Vrhunski Mikrofiber Polishing Pad za Agresivnu Korekciju Laka 80mm',
+        price: '1300 RSD',
+        image: fibercut,
+        description: `FiberCut je mikrofiber polishing pad visokih performansi, posebno dizajniran za agresivno uklanjanje dubokih oštećenja na laku. Zahvaljujući optimiziranoj gustini i strukturi vlakana, pruža:
+✔ Izuzetnu reznu moć – brzo uklanjanje dubokih ogrebotina, tragova nakon brušenja i oksidacije.
+✔ Stabilnu radnu temperaturu – otvorenopenušasti spacer obezbeđuje efikasno hlađenje.
+✔ Ravnomernu obradu – smanjena vibracija i otpor pri radu.`,
+        slug: 'product-69'
+    },
+    {
+        id: 70,
+        name: 'FiberCut – Vrhunski Mikrofiber Polishing Pad za Agresivnu Korekciju Laka 130mm',
+        price: '1500 RSD',
+        image: fibercut,
+        description: `FiberCut je mikrofiber polishing pad visokih performansi, posebno dizajniran za agresivno uklanjanje dubokih oštećenja na laku. Zahvaljujući optimiziranoj gustini i strukturi vlakana, pruža:
+✔ Izuzetnu reznu moć – brzo uklanjanje dubokih ogrebotina, tragova nakon brušenja i oksidacije.
+✔ Stabilnu radnu temperaturu – otvorenopenušasti spacer obezbeđuje efikasno hlađenje.
+✔ Ravnomernu obradu – smanjena vibracija i otpor pri radu.`,
+        slug: 'product-70'
+    },
+    {
+        id: 71,
+        name: 'FiberCut – Vrhunski Mikrofiber Polishing Pad za Agresivnu Korekciju Laka 150mm',
+        price: '1800 RSD',
+        image: fibercut,
+        description: `FiberCut je mikrofiber polishing pad visokih performansi, posebno dizajniran za agresivno uklanjanje dubokih oštećenja na laku. Zahvaljujući optimiziranoj gustini i strukturi vlakana, pruža:
+✔ Izuzetnu reznu moć – brzo uklanjanje dubokih ogrebotina, tragova nakon brušenja i oksidacije.
+✔ Stabilnu radnu temperaturu – otvorenopenušasti spacer obezbeđuje efikasno hlađenje.
+✔ Ravnomernu obradu – smanjena vibracija i otpor pri radu.`,
+        slug: 'product-71'
+    },
+    {
+        id: 72,
+        name: 'Fabric Cleaner Shampoo – Inovativni preparat za „suvo” čišćenje 1L',
+        price: '900 RSD',
+        image: fabricCleaner,
+        description: `Otkrijte revolucionarno rešenje za brzo i besprekorno sušenje vašeg vozila! Naša Giant Flash Towel sa premium 1600 GSM mikrofiberom i duplom twisted-loop strukturom omogućava instant sušenje bez mrlja, čak i za velika vozila.`,
+        slug: 'product-72'
+    },
+    {
+        id: 73,
+        name: 'Fabric Cleaner Shampoo – Inovativni preparat za „suvo” čišćenje 5L',
+        price: '2000 RSD',
+        image: fabricCleaner5l,
+        description: `Otkrijte revolucionarno rešenje za brzo i besprekorno sušenje vašeg vozila! Naša Giant Flash Towel sa premium 1600 GSM mikrofiberom i duplom twisted-loop strukturom omogućava instant sušenje bez mrlja, čak i za velika vozila.`,
+        slug: 'product-73'
+    },
+    {
+        id: 74,
+        name: 'Jet Black Dressing za spoljašnje plastike – Visokokvalitetna zaštita i regeneracija!',
+        price: '2000 RSD',
+        image: jetblack,
+        description: `Jet Black Dressing je premium kremasti preparat specijalno razvijen za regeneraciju i zaštitu spoljnih plastičnih površina. Unikatna formula sa UV filterima obezbeđuje:
+✔ Trajno vraćanje crne boje izbledelim plastikama
+✔ Intenzivnu hidrataciju koja sprečava pucanje
+✔ Ekološki bezbednu formulu bez štetnih rastvarača
+✔ Prijatan miris svežeg grejpa tokom i nakon nanošenja`,
+        slug: 'product-74'
+    },
+    {
+        id: 75,
+        name: 'Leather Cleaner UltraCoat – Sredstvo za čišćenje kožnih površina 5L',
+        price: '4500 RSD',
+        image: leathercleaner,
+        description: `🔹 Zašto Izabrati UltraCoat Leather Cleaner?
+✔ Dubinsko čišćenje bez oštećenja 🧼 – Uklanja ulja, masti, i uporne mrlje sa kože!
+✔ Bezbedan za sve vrste kože 🚗 – Prirodna, sintetička, Nappa, Alcantara – bez rizika!
+✔ Osvježavajuća aroma 🌿 – Prijatno miriše tokom i nakon čišćenja!
+✔ Gusta pena za brzo delovanje ⏱️ – Bez trljanja – štedi vreme i snagu!
+✔ Spreman za upotrebu 🚀 – Bez mešanja – odmah deluje!`,
+        slug: 'product-75'
+    },
+    {
+        id: 76,
+        name: 'Leather Conditioner 500ml – Nega i zaštita kožnog enterijera',
+        price: '2000 RSD',
+        image: leatherconditioner,
+        description: `🔹 Zašto Izabrati UltraCoat Leather Conditioner?
+✔ Dubinsko hranjenje & regeneracija 🌿 – Vraća prirodnu mekoću i elastičnost koži!
+✔ Mat finiš bez masnog efekta ✨ – Elegantan izgled bez sjaja – kao iz salona!
+✔ UV zaštita ☀️ – Sprečava izbledevanje i pucanje kože!
+✔ Nežna aroma luksuza 👃 – Prijatno osvežava enterijer!
+✔ Univerzalna upotreba 🚗 – Za sve tipove kože (prirodna, sintetička, Nappa, Alcantara)!`,
+        slug: 'product-76'
+    },
+    {
+        id: 77,
+        name: 'Iron Hunter – Uklanjanje metalnih čestica i rđe sa felni i laka',
+        price: '1400 RSD',
+        image: ironhunter,
+        description: `🔹 Zašto Iron Hunter?
+✔ Instant Reaction ⚡ – Crveni efekat vizualno pokazuje uklanjanje železnih čestica
+✔ pH Neutralan 🛡️ – Bezbedan za keramičke premaze, voskove i PPF folije
+✔ Viskozna formula 🧴 – Ne curi – idealno za vertikalne površine
+✔ Mentol miris 🌿 – Neutrališe neprijatne mirise tokom dekontaminacije
+✔ Univerzalna upotreba – Deluje na felnama, lakiranim površinama, plastikama.`,
+        slug: 'product-77'
+    },
+    {
+        id: 78,
+        name: 'Interior Quick Detailer – Sprej za Negu Enterijera Automobila',
+        price: '1150 RSD',
+        image: interiorquick,
+        description: `Interior Quick Detailer je profesionalni sprej za brzo čišćenje i zaštitu enterijera automobila. Savršen je za plastiku, vinil, kožu, drvo i aluminijum – uklanja prašinu, otiske prstiju i lake naslage, vraćajući površinama fabrički mat izgled. Obezbeđuje dugotrajnu antistatičku i UV zaštitu, a dodatno osvežava enterijer prijatnim mirisom kole! �`,
+        slug: 'product-78'
+    },
+    {
+        id: 79,
+        name: 'Interior Q-Detailer – Mat finiš i UV zaštita za enterijer auta 500ml',
+        price: '1300 RSD',
+        image: interiorq,
+        description: `🔹 Zašto Izabrati Interior Q-Detailer?
+✔ Dubinsko čišćenje & dugotrajna zaštita 🧼 – Uklanja masne naslage i prljavštinu bez ostavljanja tragova!
+✔ Elegantan mat finiš ✨ – Bez sjaja, bez lepljivosti – savršen za premium izgled!
+✔ UV zaštita ☀️ – Sprečava izbledevanje i čuva boju plastike i lakiranih površina!
+✔ Antistatičko delovanje ⚡ – Smanjuje nakupljanje prašine – enterijer duže ostaje svež!
+✔ Prelep miris mlečne čokolade 🍫 – Prijatna aroma koja osvežava auto!`,
+        slug: 'product-79'
+    }, {
+        id: 80,
+        name: 'Interior Q-Detailer – Mat finiš i UV zaštita za enterijer auta 5L',
+        price: '7800 RSD',
+        image: interiorq,
+        description: `🔹 Zašto Izabrati Interior Q-Detailer?
+✔ Dubinsko čišćenje & dugotrajna zaštita 🧼 – Uklanja masne naslage i prljavštinu bez ostavljanja tragova!
+✔ Elegantan mat finiš ✨ – Bez sjaja, bez lepljivosti – savršen za premium izgled!
+✔ UV zaštita ☀️ – Sprečava izbledevanje i čuva boju plastike i lakiranih površina!
+✔ Antistatičko delovanje ⚡ – Smanjuje nakupljanje prašine – enterijer duže ostaje svež!
+✔ Prelep miris mlečne čokolade 🍫 – Prijatna aroma koja osvežava auto!`,
+        slug: 'product-80'
+    },
+    {
+        id: 81,
+        name: 'Interior Plastic Protectant Matt – Dressing za Plastične Površine sa Mat Završnom Obradom 500ml',
+        price: '3500 RSD',
+        image: interiorplastic,
+        description: `Interior Plastic Protectant Matt je premium dressing specijalno formulisan za dugotrajnu zaštitu i negu plastičnih površina u vašem automobilu. Zahvaljujući silikonskim emulzijama, UV filterima i antistatičkim svojstvima, pruža:
+✔ Izuzetnu zaštitu od sunčevih zraka i habanja
+✔ Mat završnu obradu – elegantan, fabrički izgled
+✔ Duboko potamnjivanje – vraća plastičnim delovima izgled kao novim
+✔ Čokoladni miris – prijatna atmosfera u kabini`,
+        slug: 'product-81'
+    },
+    {
+        id: 82,
+        name: 'Interior Plastic Protectant Matt – Dressing za Plastične Površine sa Mat Završnom Obradom 1L',
+        price: '3500 RSD',
+        image: interiorplastic,
+        description: `Interior Plastic Protectant Matt je premium dressing specijalno formulisan za dugotrajnu zaštitu i negu plastičnih površina u vašem automobilu. Zahvaljujući silikonskim emulzijama, UV filterima i antistatičkim svojstvima, pruža:
+✔ Izuzetnu zaštitu od sunčevih zraka i habanja
+✔ Mat završnu obradu – elegantan, fabrički izgled
+✔ Duboko potamnjivanje – vraća plastičnim delovima izgled kao novim
+✔ Čokoladni miris – prijatna atmosfera u kabini`,
+        slug: 'product-82'
+    },
+    {
+        id: 83,
+        name: 'Leather Cleaner Professional – Profesionalni preparat za čišćenje kože 150ml',
+        price: '900 RSD',
+        image: leathercleanerprofi,
+        description: `Leather Cleaner Professional je premium preparat za dubinsko čišćenje svih vrsta automobilske kože. Specijalna formula sa pH 7.3 garantuje:
+✔ Snažno uklanjanje najtvrdokornijih naslaga
+✔ Dubinsko čišćenje bez oštećenja materijala
+✔ Hidrataciju i regeneraciju kožnih površina
+✔ Profesionalne rezultate u samo nekoliko minuta`,
+        slug: 'product-83'
+    },
+    {
+        id: 84,
+        name: 'Leather Cleaner Professional – Profesionalni preparat za čišćenje kože 1L',
+        price: '2100 RSD',
+        image: leathercleanerprofi,
+        description: `Leather Cleaner Professional je premium preparat za dubinsko čišćenje svih vrsta automobilske kože. Specijalna formula sa pH 7.3 garantuje:
+✔ Snažno uklanjanje najtvrdokornijih naslaga
+✔ Dubinsko čišćenje bez oštećenja materijala
+✔ Hidrataciju i regeneraciju kožnih površina
+✔ Profesionalne rezultate u samo nekoliko minuta`,
+        slug: 'product-84'
+    },
+    {
+        id: 85,
+        name: 'HELIODOR Interior Detailer – Čistač i dresing za Auto Enterijer 400ml',
+        price: '1050 RSD',
+        image: heli,
+        description: `HELIODOR Interior Detailer je revolucionarno 6u1 rešenje koje kombinira:
+✔ Čišćenje svih enterijerskih površina
+✔ Negovanje bez lepljivog efekta
+✔ Zaštitu od UV zraka i habanja`,
+        slug: 'product-85'
+    },
+    {
+        id: 86,
+        name: 'HELIODOR Interior Detailer – Čistač i dresing za Auto Enterijer 750ml',
+        price: '1800 RSD',
+        image: heli,
+        description: `HELIODOR Interior Detailer je revolucionarno 6u1 rešenje koje kombinira:
+✔ Čišćenje svih enterijerskih površina
+✔ Negovanje bez lepljivog efekta
+✔ Zaštitu od UV zraka i habanja`,
+        slug: 'product-86'
+    },
+    {
+        id: 87,
+        name: 'Lazurite – Water Spot Remover 💦✨ | Auto Graph 400ml',
+        price: '1500 RSD',
+        image: lazurite,
+        description: `Otkrijte revolucionarno rešenje za brzo i besprekorno sušenje vašeg vozila! Naša Giant Flash Towel sa premium 1600 GSM mikrofiberom i duplom twisted-loop strukturom omogućava instant sušenje bez mrlja, čak i za velika vozila.`,
+        slug: 'product-87'
+    },
+    {
+        id: 88,
+        name: 'Lazurite – Water Spot Remover 💦✨ | Auto Graph 750ml',
+        price: '2450 RSD',
+        image: lazurite,
+        description: `Otkrijte revolucionarno rešenje za brzo i besprekorno sušenje vašeg vozila! Naša Giant Flash Towel sa premium 1600 GSM mikrofiberom i duplom twisted-loop strukturom omogućava instant sušenje bez mrlja, čak i za velika vozila.`,
+        slug: 'product-88'
+    },
+    {
+        id: 89,
+        name: 'Lazurite – Water Spot Remover 💦✨ | Auto Graph 5L',
+        price: '6000 RSD',
+        image: lazurite,
+        description: `Otkrijte revolucionarno rešenje za brzo i besprekorno sušenje vašeg vozila! Naša Giant Flash Towel sa premium 1600 GSM mikrofiberom i duplom twisted-loop strukturom omogućava instant sušenje bez mrlja, čak i za velika vozila.`,
+        slug: 'product-89'
+    },
+    {
+        id: 90,
+        name: 'Hydro HD – Najtrajnija SiO2 zaštita za auto do 12 meseci 30ml',
+        price: '3500 RSD',
+        image: hydrohd,
+        description: `Zašto odabrati Hydro HD? 🔍
+✔ Izuzetno hidrofobno svojstvo 💧 – Voda odbija se kao magija!
+✔ Jednostavna i brza aplikacija ⏳ – Brže od voska, dugotrajnije od standardnih zaštita!
+✔ Zaštitni sloj za sve površine 🛡️ – Farbu, plastiku, čak i staklo automobila!
+✔ Antistatičko delovanje ⚡ – Prašina se ne lepi – auto duže ostaje čist!
+✔ Sjajan sjaj ✨ – Vaš auto će blistati i izdvajati se iz mase!`,
+        slug: 'product-90'
+    },
+    {
+        id: 91,
+        name: 'Hydro HD – Najtrajnija SiO2 zaštita za auto do 12 meseci 50ml',
+        price: '3500 RSD',
+        image: hydrohd,
+        description: `Zašto odabrati Hydro HD? 🔍
+✔ Izuzetno hidrofobno svojstvo 💧 – Voda odbija se kao magija!
+✔ Jednostavna i brza aplikacija ⏳ – Brže od voska, dugotrajnije od standardnih zaštita!
+✔ Zaštitni sloj za sve površine 🛡️ – Farbu, plastiku, čak i staklo automobila!
+✔ Antistatičko delovanje ⚡ – Prašina se ne lepi – auto duže ostaje čist!
+✔ Sjajan sjaj ✨ – Vaš auto će blistati i izdvajati se iz mase!`,
+        slug: 'product-91'
+    },
+    {
+        id: 92,
+        name: 'Insider Interior Cleaner – Inovativno sredstvo za čišćenje enterijera automobila 500ml',
+        price: '900 RSD',
+        image: insiderinterior,
+        description: `Insider Interior Cleaner je revolucionarno sredstvo za brzo i efikasno čišćenje svih unutrašnjih površina vašeg automobila. Specijalna formula sa pH 10.7 pruža:
+✔ Dubinsko čišćenje bez oštećenja materijala
+✔ Ne zahteva ispiranje – štedi vreme i trud
+✔ Svež miris grejpa – prijatna atmosfera u kabini
+✔ Univerzalna primena – za plastiku, kožu, tekstil i hrom`,
+        slug: 'product-92'
+    },
+    {
+        id: 93,
+        name: 'Insider Interior Cleaner – Inovativno sredstvo za čišćenje enterijera automobila 1L',
+        price: '1200 RSD',
+        image: insiderinterior,
+        description: `Insider Interior Cleaner je revolucionarno sredstvo za brzo i efikasno čišćenje svih unutrašnjih površina vašeg automobila. Specijalna formula sa pH 10.7 pruža:
+✔ Dubinsko čišćenje bez oštećenja materijala
+✔ Ne zahteva ispiranje – štedi vreme i trud
+✔ Svež miris grejpa – prijatna atmosfera u kabini
+✔ Univerzalna primena – za plastiku, kožu, tekstil i hrom`,
+        slug: 'product-93'
+    },
+    {
+        id: 94,
+        name: 'Insider Interior Cleaner – Inovativno sredstvo za čišćenje enterijera automobila 5L',
+        price: '3700 RSD',
+        image: insiderinterior5l,
+        description: `Insider Interior Cleaner je revolucionarno sredstvo za brzo i efikasno čišćenje svih unutrašnjih površina vašeg automobila. Specijalna formula sa pH 10.7 pruža:
+✔ Dubinsko čišćenje bez oštećenja materijala
+✔ Ne zahteva ispiranje – štedi vreme i trud
+✔ Svež miris grejpa – prijatna atmosfera u kabini
+✔ Univerzalna primena – za plastiku, kožu, tekstil i hrom`,
+        slug: 'product-94'
+    },
+    {
+        id: 95,
+        name: 'Leather Kit Strong – Set za Dubinsko Čišćenje i Negu Kože | Auto kozmetika Srbija',
+        price: '3500 RSD',
+        image: leatherkit,
+        description: `Kompletno rešenje za dubinsko čišćenje i zaštitu kožnih površina! Leather Kit Strong je premium set specijalno dizajniran za teško zaprljane kožne enterijere, pružajući sve što vam je potrebno za obnovu i dugotrajnu zaštitu.`,
+        slug: 'product-95'
+    },
+    {
+        id: 96,
+        name: 'Leather Q-Detailer – Sredstvo za čišćenje i zaštitu kože sa UV zaštitom',
+        price: '1900 RSD',
+        image: leatherqdetailer,
+        description: `✔ 2-u-1 Formula 🧼 – Čisti + Štiti u jednom koraku
+✔ UV Zaštita ☀️ – Sprečava izbledevanje i pucanje kože
+✔ Prijatan miris kokosa 🥥 – Osvježava enterijer bez hemijskih mirisa
+✔ Mat Satin Finiš ✨ – Bez lepljivog efekta – prirodan izgled
+✔ Smart Hydration 💧 – Regeneriše kožu – sprečava sušenje i pucanje`,
+        slug: 'product-96'
+    },
+    {
+        id: 97,
+        name: 'Leather QD – Proizvod za Redovnu Nego Kožne Tapacerije sa Prirodnim Mirisom',
+        price: '1500 RSD',
+        image: leatherqd,
+        description: `Leather QD je premium preparat za svakodnevno održavanje kožnih površina u vašem vozilu. Specijalno formulisan da:
+✔ Čisti, hrani i štiti sve vrste automobilske kože
+✔ Održava prirodan izgled sa mat završnom obradom
+✔ Obnavlja boju blagim potamnjivanjem
+✔ Ostavlja prijatan miris prirodne kože`,
+        slug: 'product-97'
+    },
+    {
+        id: 98,
+        name: 'MINI FLASH DETAIL PEŠKIR',
+        price: '1400 RSD',
+        image: miniflash,
+        description: `Otkrijte kvalitet u kompaktnom pakovanju sa našom MINI Flash Detail Towel! Ova 40x40cm mikrofiber krpa sa 750 GSM twisted-loop strukturom nudi vrhunsku apsorpciju i nežnost, čineći je savršenom za sve detaljne poslove na vašem vozilu.`,
+        slug: 'product-98'
+    },
+    {
+        id: 99,
+        name: 'Mikrofiber Cetka za felne - Flash Detail',
+        price: '1400 RSD',
+        image: mikrofibercetka,
+        description: `Flash Detail Microfibre Wheel Brush je savršen dodatak za bezbedno i efikasno čišćenje felni, čak i kod najtvrdokornije kočione prašine, masnoće i teških nečistoća. Dizajnirana je za maksimalan učinak u kombinaciji sa svim vrstama sredstava za čišćenje felni.`,
+        slug: 'product-99'
+    },
+    {
+        id: 100,
+        name: 'Perfect Glass Pro – Profesionalni preparat za čišćenje stakala',
+        price: '1000 RSD',
+        image: perfectglass,
+        description: `Perfect Glass Pro je profesionalni preparat koji postavlja nove standarde u čišćenju auto stakala. Zahvaljujući farmaceutski čistoj formuli:
+✔ Uklanja sve naslage (insketne tragove, masnoće, vodene fleke)
+✔ Ne ostavlja tragove - savršen pregled u svim vremenskim uslovima
+✔ Brzo isparava - sprečava ponovno zamagljivanje
+✔ Bezbedan za sve površine - ne oštećuje gume, plastiku ili lak`,
+        slug: 'product-100'
+    },
+    {
+        id: 101,
+        name: 'MALACHITE Čistač Stakla – Profesionalno Čišćenje Bez Tragova 400ml',
+        price: '800 RSD',
+        image: malachite,
+        description: `MALACHITE Glass Cleaner je ultimativni profesionalni preparat koji postavlja nove standarde u čišćenju auto stakala. Zahvaljujući patentiranoj formuli sa brzim isparavanjem, garantuje:
+✔ 100% bez tragova - savršena preglednost u svim uslovima
+✔ Intenzivno uklanjanje masnoća, mineralnih naslaga i insekata
+✔ Dugotrajnu zaštitu od ponovnog prljanja revolucionarno rešenje za brzo i besprekorno sušenje vašeg vozila! Naša Giant Flash Towel sa premium 1600 GSM mikrofiberom i duplom twisted-loop strukturom omogućava instant sušenje bez mrlja, čak i za velika vozila.`,
+        slug: 'product-101'
+    },
+    {
+        id: 102,
+        name: 'MALACHITE Čistač Stakla – Profesionalno Čišćenje Bez Tragova 750ml',
+        price: '1250 RSD',
+        image: malachite,
+        description: `MALACHITE Glass Cleaner je ultimativni profesionalni preparat koji postavlja nove standarde u čišćenju auto stakala. Zahvaljujući patentiranoj formuli sa brzim isparavanjem, garantuje:
+✔ 100% bez tragova - savršena preglednost u svim uslovima
+✔ Intenzivno uklanjanje masnoća, mineralnih naslaga i insekata
+✔ Dugotrajnu zaštitu od ponovnog prljanja revolucionarno rešenje za brzo i besprekorno sušenje vašeg vozila! Naša Giant Flash Towel sa premium 1600 GSM mikrofiberom i duplom twisted-loop strukturom omogućava instant sušenje bez mrlja, čak i za velika vozila.`,
+        slug: 'product-102'
+    },
+    {
+        id: 103,
+        name: 'MALACHITE Čistač Stakla – Profesionalno Čišćenje Bez Tragova 5L',
+        price: '2500 RSD',
+        image: malachite5l,
+        description: `MALACHITE Glass Cleaner je ultimativni profesionalni preparat koji postavlja nove standarde u čišćenju auto stakala. Zahvaljujući patentiranoj formuli sa brzim isparavanjem, garantuje:
+✔ 100% bez tragova - savršena preglednost u svim uslovima
+✔ Intenzivno uklanjanje masnoća, mineralnih naslaga i insekata
+✔ Dugotrajnu zaštitu od ponovnog prljanja   revolucionarno rešenje za brzo i besprekorno sušenje vašeg vozila! Naša Giant Flash Towel sa premium 1600 GSM mikrofiberom i duplom twisted-loop strukturom omogućava instant sušenje bez mrlja, čak i za velika vozila.`,
+        slug: 'product-103'
+    },
+    {
+        id: 104,
+        name: 'Master Wash – Višenamensko sredstvo za brzo i efikasno čišćenje spoljašnjosti vozila 500ml',
+        price: '3500 RSD',
+        image: masterwash,
+        description: `🔹 Zašto Master Wash?
+✔ 5-u-1 Univerzalnost – Čisti farbu, felne, plastiku, motor i stakla u jednom proizvodu!
+✔ Ultra-jaka formula 💪 – Uklanja inske ostatke, ptičji izmet, uljane naslage za 30 sekundi
+✔ Inteligentna koncentracija 🧪 – 1:9 (za teške naslage) ili 1:80 (za svakodnevno pranje)
+✔ Gusta aktivna pena 🧼 – Povećava efektivnost pri korišćenju sa pjenilom
+✔ Ekološki siguran 🌱 – Bez fosfata i agresivnih rastvarača
 
+.`,
+        slug: 'product-104'
+    },
+    {
+        id: 105,
+        name: 'Master Wash – Višenamensko sredstvo za brzo i efikasno čišćenje spoljašnjosti vozila 5L',
+        price: '3500 RSD',
+        image: masterwash5l,
+        description: `🔹 Zašto Master Wash?
+✔ 5-u-1 Univerzalnost – Čisti farbu, felne, plastiku, motor i stakla u jednom proizvodu!
+✔ Ultra-jaka formula 💪 – Uklanja inske ostatke, ptičji izmet, uljane naslage za 30 sekundi
+✔ Inteligentna koncentracija 🧪 – 1:9 (za teške naslage) ili 1:80 (za svakodnevno pranje)
+✔ Gusta aktivna pena 🧼 – Povećava efektivnost pri korišćenju sa pjenilom
+✔ Ekološki siguran 🌱 – Bez fosfata i agresivnih rastvarača
+
+ revolucionarno rešenje za brzo i besprekorno sušenje vašeg vozila! Naša Giant Flash Towel sa premium 1600 GSM mikrofiberom i duplom twisted-loop strukturom omogućava instant sušenje bez mrlja, čak i za velika vozila.`,
+        slug: 'product-105'
+    },
+    {
+        id: 106,
+        name: 'MORGANITE Interior Dressing – Zaštita i Sjaj za Kontrolnu Tablu 400ml',
+        price: '1450 RSD',
+        image: morganite,
+        description: `MORGANITE Interior Dressing je elitni preparat koji vašoj kontrolnoj tabli daje:
+✔ Fabrički satenski sjaj - bez neprirodnog leska
+✔ Nano zaštitni sloj - odbija prašinu i UV zrake
+✔ Dubinsku ishranu - sprečava starenje plastike`,
+        slug: 'product-106'
+    },
+    {
+        id: 107,
+        name: 'MORGANITE Interior Dressing – Zaštita i Sjaj za Kontrolnu Tablu 750ml',
+        price: '2450 RSD',
+        image: morganite,
+        description: `MORGANITE Interior Dressing je elitni preparat koji vašoj kontrolnoj tabli daje:
+✔ Fabrički satenski sjaj - bez neprirodnog leska
+✔ Nano zaštitni sloj - odbija prašinu i UV zrake
+✔ Dubinsku ishranu - sprečava starenje plastike`,
+        slug: 'product-107'
+    },
+    {
+        id: 108,
+        name: 'MORGANITE Interior Dressing – Zaštita i Sjaj za Kontrolnu Tablu 5L',
+        price: '7000 RSD',
+        image: morganite,
+        description: `MORGANITE Interior Dressing je elitni preparat koji vašoj kontrolnoj tabli daje:
+✔ Fabrički satenski sjaj - bez neprirodnog leska
+✔ Nano zaštitni sloj - odbija prašinu i UV zrake
+✔ Dubinsku ishranu - sprečava starenje plastike`,
+        slug: 'product-108'
+    },
+    {
+        id: 109,
+        name: 'NEPHELINE Leather Cleaner – Sigurno i Dubinsko Čišćenje Kože 400ml',
+        price: '1000 RSD',
+        image: nepheline,
+        description: `NEPHELINE Leather Cleaner je revolucionarno 2u1 rešenje koje:
+✔ Dubinski čisti bez oštećenja kože
+✔ Aktivno neguje - hidrira dok čisti
+✔ Osvežava enterijer - uklanja neprijatne mirise`,
+        slug: 'product-109'
+    },
+    {
+        id: 110,
+        name: 'NEPHELINE Leather Cleaner – Sigurno i Dubinsko Čišćenje Kože 750ml',
+        price: '1600 RSD',
+        image: nepheline,
+        description: `NEPHELINE Leather Cleaner je revolucionarno 2u1 rešenje koje:
+✔ Dubinski čisti bez oštećenja kože
+✔ Aktivno neguje - hidrira dok čisti
+✔ Osvežava enterijer - uklanja neprijatne mirise`,
+        slug: 'product-110'
+    },
+    {
+        id: 111,
+        name: 'NEPHELINE Leather Cleaner – Sigurno i Dubinsko Čišćenje Kože 50L',
+        price: '5500 RSD',
+        image: nepheline5l,
+        description: `NEPHELINE Leather Cleaner je revolucionarno 2u1 rešenje koje:
+✔ Dubinski čisti bez oštećenja kože
+✔ Aktivno neguje - hidrira dok čisti
+✔ Osvežava enterijer - uklanja neprijatne mirise`,
+        slug: 'product-111'
+    },
+    {
+        id: 112,
+        name: 'OF Finish – Polir Finishing Pad 80mm',
+        price: '1000 RSD',
+        image: offinish,
+        description: `Open Flow Finishing pad dizajniran je da laku vozila pruži maksimalnu dubinu boje i efekat ogledala. Izrađen od pene sa otvorenom ćelijskom strukturom, obezbeđuje odličnu cirkulaciju vazduha, smanjuje rizik od pregrevanja površine i garantuje stabilan rad čak i tokom dugih poliranja. 🔥💨`,
+        slug: 'product-112'
+    },
+    {
+        id: 113,
+        name: 'OF Finish – Polir Finishing Pad 130mm',
+        price: '1300 RSD',
+        image: offinish,
+        description: `Open Flow Finishing pad dizajniran je da laku vozila pruži maksimalnu dubinu boje i efekat ogledala. Izrađen od pene sa otvorenom ćelijskom strukturom, obezbeđuje odličnu cirkulaciju vazduha, smanjuje rizik od pregrevanja površine i garantuje stabilan rad čak i tokom dugih poliranja. 🔥💨`,
+        slug: 'product-113'
+    },
+    {
+        id: 114,
+        name: 'OF Finish – Polir Finishing Pad 150mm',
+        price: '1700 RSD',
+        image: offinish,
+        description: `Open Flow Finishing pad dizajniran je da laku vozila pruži maksimalnu dubinu boje i efekat ogledala. Izrađen od pene sa otvorenom ćelijskom strukturom, obezbeđuje odličnu cirkulaciju vazduha, smanjuje rizik od pregrevanja površine i garantuje stabilan rad čak i tokom dugih poliranja. 🔥💨`,
+        slug: 'product-114'
+    },
+    {
+        id: 115,
+        name: 'OF Heavy Cut – Heavy Cut Polishing Pad 80mm',
+        price: '1000 RSD',
+        image: ofheavycut,
+        description: `Open Flow Heavy Cut Pad dizajniran je za maksimalnu efikasnost u uklanjanju dubokih ogrebotina, matiranih površina i ozbiljnih oštećenja laka. Napravljen od visokokvalitetne pene sa otvorenom ćelijskom strukturom, obezbeđuje odličan protok vazduha i značajno smanjuje zagrevanje površine tokom rada.`,
+        slug: 'product-115'
+    },
+    {
+        id: 116,
+        name: 'OF Heavy Cut – Heavy Cut Polishing Pad 130mm',
+        price: '1300 RSD',
+        image: ofheavycut,
+        description: `Open Flow Heavy Cut Pad dizajniran je za maksimalnu efikasnost u uklanjanju dubokih ogrebotina, matiranih površina i ozbiljnih oštećenja laka. Napravljen od visokokvalitetne pene sa otvorenom ćelijskom strukturom, obezbeđuje odličan protok vazduha i značajno smanjuje zagrevanje površine tokom rada.`,
+        slug: 'product-116'
+    },
+    {
+        id: 117,
+        name: 'OF Heavy Cut – Heavy Cut Polishing Pad 150mm',
+        price: '1700 RSD',
+        image: ofheavycut,
+        description: `Open Flow Heavy Cut Pad dizajniran je za maksimalnu efikasnost u uklanjanju dubokih ogrebotina, matiranih površina i ozbiljnih oštećenja laka. Napravljen od visokokvalitetne pene sa otvorenom ćelijskom strukturom, obezbeđuje odličan protok vazduha i značajno smanjuje zagrevanje površine tokom rada.`,
+        slug: 'product-117'
+    },
+    {
+        id: 118,
+        name: 'OF One Step – Royal Pads Royal Pads 80mm',
+        price: '1000 RSD',
+        image: giantflash,
+        description: `OF One-Step Pad je dizajniran za maksimalnu efikasnost u jednostepenom poliranju, kombinujući solidnu korektivnu moć sa visokokvalitetnim završnim sjajem. Izrađen od pene sa otvorenom ćelijskom strukturom, obezbeđuje optimalnu cirkulaciju vazduha, smanjuje zagrevanje laka i omogućava stabilan rad tokom celog procesa. `,
+        slug: 'product-118'
+    },
+    {
+        id: 119,
+        name: 'OF One Step – Royal PadsRoyal Pads 130mm',
+        price: '1300 RSD',
+        image: onestep,
+        description: `OF One-Step Pad je dizajniran za maksimalnu efikasnost u jednostepenom poliranju, kombinujući solidnu korektivnu moć sa visokokvalitetnim završnim sjajem. Izrađen od pene sa otvorenom ćelijskom strukturom, obezbeđuje optimalnu cirkulaciju vazduha, smanjuje zagrevanje laka i omogućava stabilan rad tokom celog procesa. `,
+        slug: 'product-119'
+    },
+    {
+        id: 120,
+        name: 'OF One Step – Royal Pads Royal Pads 150mm',
+        price: '1700 RSD',
+        image: onestep,
+        description: `OF One-Step Pad je dizajniran za maksimalnu efikasnost u jednostepenom poliranju, kombinujući solidnu korektivnu moć sa visokokvalitetnim završnim sjajem. Izrađen od pene sa otvorenom ćelijskom strukturom, obezbeđuje optimalnu cirkulaciju vazduha, smanjuje zagrevanje laka i omogućava stabilan rad tokom celog procesa. `,
+        slug: 'product-120'
+    },
+    {
+        id: 121,
+        name: 'Perfect Glass Cleaner – Savršen preparat za pranje stakala! 500ml',
+        price: '900 RSD',
+        image: perfectglasscleaner,
+        description: `Perfect Glass Cleaner je revolucionarno rešenje za besprekorno čista stakla vašeg vozila. Formulisan za najzahtevnije uslove, ovaj preparat:
+✔ Uklanja sve vrste naslaga (prstiju, insekata, vodnih mrlja)
+✔ Ne ostavlja tragove - kristalna preglednost u svakom vremenu
+✔ Štiti staklo - formira zaštitni sloj protiv brzog prljanja`,
+        slug: 'product-121'
+    },
+    {
+        id: 122,
+        name: 'Perfect Glass Cleaner – Savršen preparat za pranje stakala! 1L',
+        price: '3500 RSD',
+        image: perfectglasscleaner,
+        description: `Perfect Glass Cleaner je revolucionarno rešenje za besprekorno čista stakla vašeg vozila. Formulisan za najzahtevnije uslove, ovaj preparat:
+✔ Uklanja sve vrste naslaga (prstiju, insekata, vodnih mrlja)
+✔ Ne ostavlja tragove - kristalna preglednost u svakom vremenu
+✔ Štiti staklo - formira zaštitni sloj protiv brzog prljanja`,
+        slug: 'product-122'
+    },
+    {
+        id: 123,
+        name: 'Perfect Glass Cleaner – Savršen preparat za pranje stakala! 5L',
+        price: '3500 RSD',
+        image: perfectglasscleaner5l,
+        description: `Perfect Glass Cleaner je revolucionarno rešenje za besprekorno čista stakla vašeg vozila. Formulisan za najzahtevnije uslove, ovaj preparat:
+✔ Uklanja sve vrste naslaga (prstiju, insekata, vodnih mrlja)
+✔ Ne ostavlja tragove - kristalna preglednost u svakom vremenu
+✔ Štiti staklo - formira zaštitni sloj protiv brzog prljanja`,
+        slug: 'product-123'
+    },
+    {
+        id: 124,
+        name: 'One-Touch Wool – Revolucionarni Polishing Wool za Jednofaznu Korekciju Laka 80mm',
+        price: '1300 RSD',
+        image: onetouchwool,
+        description: `One-Touch Wool je moderan polishing wool od 100% sintetičkih vlakana, dizajniran za efikasnu jednofaznu korekciju laka. Zahvaljujući optimalnoj dužini i gustini čekinji, omogućava:
+✔ Umerenu reznu moć – brzo uklanjanje srednjih ogrebotina, holograma i zamućenja.
+✔ Visok kvalitet finiša – bez potrebe za smenjivanjem pad-ova tokom procesa.
+✔ Minimalno prašenje i niska radna temperatura – udobniji i čistiji rad.
+
+`,
+        slug: 'product-124'
+    },
+    {
+        id: 125,
+        name: 'One-Touch Wool – Revolucionarni Polishing Wool za Jednofaznu Korekciju Laka 130mm',
+        price: '1500 RSD',
+        image: onetouchwool,
+        description: `One-Touch Wool je moderan polishing wool od 100% sintetičkih vlakana, dizajniran za efikasnu jednofaznu korekciju laka. Zahvaljujući optimalnoj dužini i gustini čekinji, omogućava:
+✔ Umerenu reznu moć – brzo uklanjanje srednjih ogrebotina, holograma i zamućenja.
+✔ Visok kvalitet finiša – bez potrebe za smenjivanjem pad-ova tokom procesa.
+✔ Minimalno prašenje i niska radna temperatura – udobniji i čistiji rad.
+
+`,
+        slug: 'product-125'
+    },
+    {
+        id: 126,
+        name: 'One-Touch Wool – Revolucionarni Polishing Wool za Jednofaznu Korekciju Laka 150mm',
+        price: '1800 RSD',
+        image: onetouchwool,
+        description: `One-Touch Wool je moderan polishing wool od 100% sintetičkih vlakana, dizajniran za efikasnu jednofaznu korekciju laka. Zahvaljujući optimalnoj dužini i gustini čekinji, omogućava:
+✔ Umerenu reznu moć – brzo uklanjanje srednjih ogrebotina, holograma i zamućenja.
+✔ Visok kvalitet finiša – bez potrebe za smenjivanjem pad-ova tokom procesa.
+✔ Minimalno prašenje i niska radna temperatura – udobniji i čistiji rad.
+
+`,
+        slug: 'product-126'
+    },
+    {
+        id: 127,
+        name: 'ONYX Tire Dressing – Dugotrajna zaštita i sjaj za gume 400ml',
+        price: '1450 RSD',
+        image: giantflash,
+        description: `ONYX Tire Dressing – Revolucionarna formula sa SiO2 koja vašim gumama daje:
+✔️ Dubok crni satenski sjaj
+✔️ Nepobedivu zaštitu od UV zračenja
+✔️ Hidrofobni efekat koji traje nedeljama`,
+        slug: 'product-127'
+    },
+    {
+        id: 128,
+        name: 'ONYX Tire Dressing – Dugotrajna zaštita i sjaj za gume 750ml',
+        price: '2450 RSD',
+        image: giantflash,
+        description: `ONYX Tire Dressing – Revolucionarna formula sa SiO2 koja vašim gumama daje:
+✔️ Dubok crni satenski sjaj
+✔️ Nepobedivu zaštitu od UV zračenja
+✔️ Hidrofobni efekat koji traje nedeljama`,
+        slug: 'product-128'
+    },
+    {
+        id: 129,
+        name: 'ONYX Tire Dressing – Dugotrajna zaštita i sjaj za gume 5L',
+        price: '9500 RSD',
+        image: onyx,
+        description: `ONYX Tire Dressing – Revolucionarna formula sa SiO2 koja vašim gumama daje:
+✔️ Dubok crni satenski sjaj
+✔️ Nepobedivu zaštitu od UV zračenja
+✔️ Hidrofobni efekat koji traje nedeljama`,
+        slug: 'product-129'
+    },
+    {
+        id: 130,
+        name: 'MORGANITE Interior Dressing – Zaštita i Sjaj za Kontrolnu Tablu 750ml',
+        price: '3500 RSD',
+        image: giantflash,
+        description: ``,
+        slug: 'product-130'
+    },
+    {
+        id: 131,
+        name: 'MORGANITE Interior Dressing – Zaštita i Sjaj za Kontrolnu Tablu 750ml',
+        price: '3500 RSD',
+        image: giantflash,
+        description: ``,
+        slug: 'product-131'
+    },
+    {
+        id: 132,
+        name: 'MORGANITE Interior Dressing – Zaštita i Sjaj za Kontrolnu Tablu 750ml',
+        price: '3500 RSD',
+        image: giantflash,
+        description: ``,
+        slug: 'product-132'
+    },
+    {
+        id: 133,
+        name: 'MORGANITE Interior Dressing – Zaštita i Sjaj za Kontrolnu Tablu 750ml',
+        price: '3500 RSD',
+        image: giantflash,
+        description: ``,
+        slug: 'product-133'
+    },
+    {
+        id: 134,
+        name: 'MORGANITE Interior Dressing – Zaštita i Sjaj za Kontrolnu Tablu 750ml',
+        price: '3500 RSD',
+        image: giantflash,
+        description: ``,
+        slug: 'product-134'
+    },
+    {
+        id: 135,
+        name: 'MORGANITE Interior Dressing – Zaštita i Sjaj za Kontrolnu Tablu 750ml',
+        price: '3500 RSD',
+        image: giantflash,
+        description: ``,
+        slug: 'product-135'
+    }
 
 
 ];

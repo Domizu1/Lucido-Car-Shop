@@ -6,6 +6,41 @@ import { useDispatch } from 'react-redux';
 import { addToCart } from '../../store/cart';
 import { FaArrowLeft } from 'react-icons/fa';
 
+const normalizeDescriptionLines = (description) => {
+    if (!description) return [];
+
+    return description
+        .split('\n')
+        .map((line) => line.replace(/\s+/g, ' ').trim())
+        .filter(Boolean);
+};
+
+const formatDescriptionBlocks = (description) => {
+    const lines = normalizeDescriptionLines(description);
+    const blocks = [];
+    let bulletBuffer = [];
+
+    lines.forEach((line) => {
+        if (line.startsWith('✔')) {
+            bulletBuffer.push(line.replace(/^✔\s*/, '').trim());
+            return;
+        }
+
+        if (bulletBuffer.length > 0) {
+            blocks.push({ type: 'bullets', items: bulletBuffer });
+            bulletBuffer = [];
+        }
+
+        blocks.push({ type: 'paragraph', text: line });
+    });
+
+    if (bulletBuffer.length > 0) {
+        blocks.push({ type: 'bullets', items: bulletBuffer });
+    }
+
+    return blocks;
+};
+
 function Details() {
     const { slug } = useParams();
     const [detail, setDetail] = useState(null);
@@ -23,6 +58,8 @@ function Details() {
     }, [slug, navigate]);
 
     if (!detail) return null;
+
+    const descriptionBlocks = formatDescriptionBlocks(detail.description);
 
     const handleMinusQuantity = () => {
         setQuantity(quantity - 1 < 1 ? 1 : quantity - 1);
@@ -57,8 +94,22 @@ function Details() {
                 <div className="info-section">
                     <h1 className="product-name">{detail.name}</h1>
                     <p className="product-price">RSD {detail.price}</p>
-                    {detail.description && (
-                        <p className="product-desc">{detail.description}</p>
+                    {descriptionBlocks.length > 0 && (
+                        <div className="product-desc">
+                            {descriptionBlocks.map((block, index) => {
+                                if (block.type === 'bullets') {
+                                    return (
+                                        <ul key={`bullets-${index}`}>
+                                            {block.items.map((item, itemIndex) => (
+                                                <li key={`item-${itemIndex}`}>{item}</li>
+                                            ))}
+                                        </ul>
+                                    );
+                                }
+
+                                return <p key={`paragraph-${index}`}>{block.text}</p>;
+                            })}
+                        </div>
                     )}
 
                     <div className="action-row">

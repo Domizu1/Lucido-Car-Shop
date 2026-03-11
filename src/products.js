@@ -96,6 +96,19 @@ import softsundjer from './assets/shop/PRO Soft Sunđer.webp';
 import proonestep from './assets/shop/PRO One Step.webp';
 import promedium from './assets/shop/PRO Medium.webp';
 import sapphire from './assets/shop/SAPPHIRE.webp';
+import sealseparator from './assets/shop/Seal Separator.webp';
+import shampooone from './assets/shop/Shampoo ONE.webp';
+import silkyfinish from './assets/shop/silkyfinish.webp';
+import smoothclaylube from './assets/shop/smoothclaylube.webp';
+import softpremiumtouch from './assets/shop/Soft Touch Premium.webp';
+import softwashsponge from './assets/shop/softwashsponge.jpg';
+import spotoff from './assets/shop/spotoff.webp';
+import standardaplikator from './assets/shop/Standardni Aplikator.jpg';
+import spotlessfabric from './assets/shop/spotlessfabric.webp';
+import thinhard from './assets/shop/THIN Hard.webp';
+import thinheavy from './assets/shop/THIN Heavy.webp';
+import thinmedium from './assets/shop/THIN Medium.webp';
+import thinonestep from './assets/shop/THIN One Step.webp';
 
 
 export const products = [
@@ -1773,5 +1786,226 @@ Kompatibilan je sa blago abrazivnim pastama, kao i “One Step” i AIO (All-in-
 ✔ Premium wet look efekat - dubina boje kao u salonu
 ✔ Brzu i jednostavnu aplikaciju - vidljivi rezultati za 30 minuta`,
         slug: 'product-159'
+    },
+    {
+        id: 160,
+        name: 'Seal Separator – Profesionalni proizvod za negu vratnih kedera',
+        price: '1000 RSD',
+        image: sealseparator,
+        description: `Seal Separator je profesionalni preparat za negu vratnih brtvi automobila koji sprečava sušenje, pucanje i zaleđivanje. Ovaj specijalni preparat obogaćen je antistatičkim i hranljivim sastojcima koji vraćaju brtvama prvobitnu elastičnost i crnu boju, čak i u ekstremnim zimskim uslovima do -50°C.`,
+        slug: 'product-160'
+    },
+    {
+        id: 161,
+        name: 'Shampoo ONE – Šampon za Savršen Sjaj Automobila!',
+        price: '900 RSD',
+        image: shampooone,
+        description: `Shampoo ONE je revolucionarni 2u1 šampon koji kombinuje:
+✔ Dubinsko čišćenje Base Shampoo-a
+✔ Premium sjaj i klizanje Sleek Premium Shampoo-a
+✔ Ekstremnu ekonomičnost - samo 5ml po pranju
+
+`,
+        slug: 'product-161'
+    },
+    {
+        id: 162,
+        name: 'Silky Finish Mikrofiber krpa – Višenamenska krpa za detailing bez ogrebotina',
+        price: '1000 RSD',
+        image: silkyfinish,
+        description: `🔹 Zašto je Ova Krpa Posebna?
+✔ 3-u-1 Detailing Rešenje 🧽 – Za poliranje, nanošenje voskova i sušenje – sve u jednoj krpi!
+✔ Premium Korejsko Mikrovlakno 🇰🇷 – 400 GSM gustina za maksimalnu efikasnost i trajnost!
+✔ 100% Bezbedna za Lak 🚗 – Bez šavova i oštrih ivica – nikakve ogrebotine!
+✔ Super-apsorbujuća & prozračna 💨 – Brzo suši bez ostavljanja vlakana!`,
+        slug: 'product-162'
+    },
+    {
+        id: 163,
+        name: 'Smooth Clay Lube – Lubrikant za glinu koji štiti lak i olakšava rad',
+        price: '900 RSD',
+        image: smoothclaylube,
+        description: `Smooth Clay Lube je premium lubrikant specijalno formulisan za:
+✔ Savršeno klizanje glinice po površini laka
+✔ Zaštitu od ogrebotina tokom detaljnog čišćenja
+✔ Povećanje efikasnosti clay tretmana`,
+        slug: 'product-163'
+    },
+    {
+        id: 164,
+        name: 'Soft Touch Premium Rukavica za pranje auta – Mikrofiber bez ogrebotina',
+        price: '1800 RSD',
+        image: softpremiumtouch,
+        description: `🔹 Zašto je Ova Rukavica Posebna?
+✔ Ultra-sigurno pranje 🚗💦 – Dvoslojni mikrofiber sprečava ogrebotine i oštećenja!
+✔ Vrhunska apsorpcija 🌊 – Debljina materijala zadržava više vode – manje cik-cak pokreta!
+✔ Pametno oslobađanje prljavštine 🧼 – Prljavština automatski se ispire pri potapanju u kofu!
+✔ Ergonomija & udobnost ✋ – Savršeno pristaje uz ruku – bez zamaranja tokom pranja!`,
+        slug: 'product-164'
+    },
+    {
+        id: 165,
+        name: 'Soft Wash Sponge – Nežan i bezbedan sundjer za pranje auta 🧽✨| Royal Pads',
+        price: '900 RSD',
+        image: softwashsponge,
+        description: `Ovaj delikatan i siguran sundjer namenjen je pranju laka i osetljivih površina automobila. Idealna je za čišćenje teško dostupnih zona poput felni, delova branika, uskih pukotina i rubova vrata. Profilisana radna površina omogućava temeljno ispiranje prljavštine i efikasno čišćenje bez rizika od oštećenja.`,
+        slug: 'product-165'
+    },
+    {
+        id: 166,
+        name: 'Spot Off – Sredstvo za uklanjanje kamenca',
+        price: '900 RSD',
+        image: spotoff,
+        description: `Spot Off je profesionalna tekućina koja brzo i bezbedno:
+✔ Uklanja bele mrlje od kamenca i tvrde vode
+✔ Štiti površinu - bezbedan za keramičke i kvarcne premaze
+✔ Preventivno deluje - sprečava ponovno stvaranje naslaga`,
+        slug: 'product-166'
+    },
+    {
+        id: 167,
+        name: 'Standardni Aplikator od Mekane Pene | Royal Pads',
+        price: '300 RSD',
+        image: standardaplikator,
+        description: `Standard aplikator od guste, mekane pene idealan je za sigurno i precizno nanošenje različitih proizvoda za čišćenje, zaštitu i negu automobila. Njegova nežna struktura omogućava rad bez grebanja i ostavlja ujednačen sloj proizvoda na svim vrstama površina – kako u enterijeru, tako i na eksterijeru vozila.`,
+        slug: 'product-167'
+    },
+    {
+        id: 168,
+        name: 'Spotless Fabric UltraCoat – Hidrofobna zaštita za tekstil bez rastvarača',
+        price: '4300 RSD',
+        image: spotlessfabric,
+        description: `🔹 Zašto Izabrati Spotless Fabric 2.0?
+✔ Nepropustiva hidrofobna zaštita 💧 – Odbija tečnosti (kafa, sok, kiša) u sekundi!
+✔ Dubinska penetracija 🔍 – Ne samo na površini – štiti unutar vlakana tkanine!
+✔ Bezbedan za sve tekstile – Od auto presvlaka do kabrio krovova, nameštaja i obuće!
+✔ Nevidljiva zaštita ✨ – Ne menja izgled tkanine – samo je čuva!
+✔ Bez hemijskog mirisa 🌿 – Nakon sušenja – neutralan zadah!
+
+`,
+        slug: 'product-168'
+    },
+    {
+        id: 169,
+        name: 'THIN Hard Niskoprofilni Tvrdi Polir Sunđer za Prvu Fazu Korekcije Laka – Cutting Faza Royal Pads 80mm',
+        price: '800 RSD',
+        image: thinhard,
+        description: `Profesionalni niskoprofilni tvrdi polir sunđer namenjen prvoj fazi korekcije laka – poznatoj kao Cutting faza. Idealno rešenje za brzo uklanjanje težih oštećenja kao što su duboke ogrebotine, tragovi oksidacije i ostale nepravilnosti na površini laka. Pogodan za upotrebu na svim vrstama auto premaza – uključujući tvrde, mekane i keramičke premaze.`,
+        slug: 'product-169'
+    },
+    {
+        id: 170,
+        name: 'THIN Hard Niskoprofilni Tvrdi Polir Sunđer za Prvu Fazu Korekcije Laka – Cutting Faza Royal Pads 130mm',
+        price: '1100 RSD',
+        image: thinhard,
+        description: `Profesionalni niskoprofilni tvrdi polir sunđer namenjen prvoj fazi korekcije laka – poznatoj kao Cutting faza. Idealno rešenje za brzo uklanjanje težih oštećenja kao što su duboke ogrebotine, tragovi oksidacije i ostale nepravilnosti na površini laka. Pogodan za upotrebu na svim vrstama auto premaza – uključujući tvrde, mekane i keramičke premaze.`,
+        slug: 'product-170'
+    },
+    {
+        id: 171,
+        name: 'THIN Hard Niskoprofilni Tvrdi Polir Sunđer za Prvu Fazu Korekcije Laka – Cutting Faza Royal Pads 150mm',
+        price: '1300 RSD',
+        image: thinhard,
+        description: `Profesionalni niskoprofilni tvrdi polir sunđer namenjen prvoj fazi korekcije laka – poznatoj kao Cutting faza. Idealno rešenje za brzo uklanjanje težih oštećenja kao što su duboke ogrebotine, tragovi oksidacije i ostale nepravilnosti na površini laka. Pogodan za upotrebu na svim vrstama auto premaza – uključujući tvrde, mekane i keramičke premaze.`,
+        slug: 'product-171'
+    },
+    {
+        id: 172,
+        name: 'THIN Heavy Cut Polir Sunđer za Prvu Fazu Korekcije Laka – Za Profesionalne Rezultate Royal Pads 80mm',
+        price: '800 RSD',
+        image: thinheavy,
+        description: `Karakteristike:
+
+Zatvorena ćelijska struktura pene – omogućava ravnomerno raspoređivanje paste i duži vek trajanja.
+Nizak profil – za bolju kontrolu tokom rada i veći pritisak na površinu.
+Centralna perforacija – omogućava efikasno raspršivanje toplote i sprečava pregrevanje površine.
+Vrlo visoka abrazivnost – idealna za korišćenje sa agresivnim polir pastama.
+Preporučena upotreba:
+Najbolje rezultate daje u kombinaciji sa visoko abrazivnim polir pastama, posebno onima koje se koriste za brzo i dubinsko uklanjanje oštećenja pre finije dorade.`,
+        slug: 'product-172'
+    },
+    {
+        id: 173,
+        name: 'THIN Heavy Cut Polir Sunđer za Prvu Fazu Korekcije Laka – Za Profesionalne Rezultate Royal Pads 130mm',
+        price: '1100 RSD',
+        image: thinheavy,
+        description: `Karakteristike:
+
+Zatvorena ćelijska struktura pene – omogućava ravnomerno raspoređivanje paste i duži vek trajanja.
+Nizak profil – za bolju kontrolu tokom rada i veći pritisak na površinu.
+Centralna perforacija – omogućava efikasno raspršivanje toplote i sprečava pregrevanje površine.
+Vrlo visoka abrazivnost – idealna za korišćenje sa agresivnim polir pastama.
+Preporučena upotreba:
+Najbolje rezultate daje u kombinaciji sa visoko abrazivnim polir pastama, posebno onima koje se koriste za brzo i dubinsko uklanjanje oštećenja pre finije dorade.`,
+        slug: 'product-173'
+    },
+    {
+        id: 174,
+        name: 'THIN Heavy Cut Polir Sunđer za Prvu Fazu Korekcije Laka – Za Profesionalne Rezultate Royal Pads 150mm',
+        price: '1300 RSD',
+        image: thinheavy,
+        description: `Karakteristike:
+
+Zatvorena ćelijska struktura pene – omogućava ravnomerno raspoređivanje paste i duži vek trajanja.
+Nizak profil – za bolju kontrolu tokom rada i veći pritisak na površinu.
+Centralna perforacija – omogućava efikasno raspršivanje toplote i sprečava pregrevanje površine.
+Vrlo visoka abrazivnost – idealna za korišćenje sa agresivnim polir pastama.
+Preporučena upotreba:
+Najbolje rezultate daje u kombinaciji sa visoko abrazivnim polir pastama, posebno onima koje se koriste za brzo i dubinsko uklanjanje oštećenja pre finije dorade.`,
+        slug: 'product-174'
+    },
+    {
+        id: 175,
+        name: 'THIN Medium Niskoprofilni Polir Sunđer Medium – Žuti Royal Pads 80mm',
+        price: '800 RSD',
+        image: thinmedium,
+        description: `Ovaj niskoprofilni polir sunđer srednje tvrdoće je namenjen za drugu fazu korekcije laka, poznatu kao Polish faza. Njegova uloga je da ukloni tragove koje ostavlja gruba faza poliranja, dok istovremeno poboljšava dubinu boje i visok sjaj površine. Dizajniran je da funkcioniše sa svim vrstama auto premaza – uključujući tvrde OEM lakove, meke lakove i keramičke premaze.`,
+        slug: 'product-175'
+    },
+    {
+        id: 176,
+        name: 'THIN Medium Niskoprofilni Polir Sunđer Medium – Žuti Royal Pads 130mm',
+        price: '1100 RSD',
+        image: thinmedium,
+        description: `Ovaj niskoprofilni polir sunđer srednje tvrdoće je namenjen za drugu fazu korekcije laka, poznatu kao Polish faza. Njegova uloga je da ukloni tragove koje ostavlja gruba faza poliranja, dok istovremeno poboljšava dubinu boje i visok sjaj površine. Dizajniran je da funkcioniše sa svim vrstama auto premaza – uključujući tvrde OEM lakove, meke lakove i keramičke premaze.`,
+        slug: 'product-176'
+    },
+    {
+        id: 177,
+        name: 'THIN Medium Niskoprofilni Polir Sunđer Medium – Žuti Royal Pads 150mm',
+        price: '1300 RSD',
+        image: thinmedium,
+        description: `Ovaj niskoprofilni polir sunđer srednje tvrdoće je namenjen za drugu fazu korekcije laka, poznatu kao Polish faza. Njegova uloga je da ukloni tragove koje ostavlja gruba faza poliranja, dok istovremeno poboljšava dubinu boje i visok sjaj površine. Dizajniran je da funkcioniše sa svim vrstama auto premaza – uključujući tvrde OEM lakove, meke lakove i keramičke premaze.`,
+        slug: 'product-177'
+    },
+    {
+        id: 178,
+        name: 'THIN One Step Niskoprofilni Polir Sunđer za Jednostepenu Korekciju Laka – One Step Royal Pads 80mm',
+        price: '800 RSD',
+        image: thinonestep,
+        description: `Profesionalni niskoprofilni polir sunđer srednje tvrdoće, specijalno dizajniran za jednostepenu obradu laka (One Step ili All-in-One – AIO pristup). Idealan je za korisnike koji žele da uklone manje nesavršenosti i istovremeno poboljšaju sjaj površine, u jednom radnom koraku.
+
+Pogodan za sve vrste premaza – uključujući i tvrde OEM premaze, meke lakove i moderne keramičke premaze.`,
+        slug: 'product-178'
+    },
+    {
+        id: 179,
+        name: 'THIN One Step Niskoprofilni Polir Sunđer za Jednostepenu Korekciju Laka – One Step Royal Pads 130mm',
+        price: '1100 RSD',
+        image: thinonestep,
+        description: `Profesionalni niskoprofilni polir sunđer srednje tvrdoće, specijalno dizajniran za jednostepenu obradu laka (One Step ili All-in-One – AIO pristup). Idealan je za korisnike koji žele da uklone manje nesavršenosti i istovremeno poboljšaju sjaj površine, u jednom radnom koraku.
+
+Pogodan za sve vrste premaza – uključujući i tvrde OEM premaze, meke lakove i moderne keramičke premaze.`,
+        slug: 'product-179'
+    },
+    {
+        id: 180,
+        name: 'THIN One Step Niskoprofilni Polir Sunđer za Jednostepenu Korekciju Laka – One Step Royal Pads 150mm',
+        price: '1300 RSD',
+        image: thinonestep,
+        description: `Profesionalni niskoprofilni polir sunđer srednje tvrdoće, specijalno dizajniran za jednostepenu obradu laka (One Step ili All-in-One – AIO pristup). Idealan je za korisnike koji žele da uklone manje nesavršenosti i istovremeno poboljšaju sjaj površine, u jednom radnom koraku.
+
+Pogodan za sve vrste premaza – uključujući i tvrde OEM premaze, meke lakove i moderne keramičke premaze.`,
+        slug: 'product-180'
     }
 ];

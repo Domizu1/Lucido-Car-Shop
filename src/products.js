@@ -41,7 +41,7 @@ import glassfiber from './assets/shop/GlassFiber.webp';
 import gentlebuff from './assets/shop/Gentle Buff.webp';
 import foambottle from './assets/shop/Foam Bottle.webp';
 import flashdetailing from './assets/shop/FLASH DETAILING.webp';
-import peskirv2 from './assets/shop/Flash Detail Towel V2.webp';
+import peskirv2 from './assets/shop/FLASH DETAIL TOWEL V2.webp';
 import rasprsivac from './assets/shop/flasa.webp';
 import fibercut from './assets/shop/FiberCut.webp';
 import fabricCleaner from './assets/shop/Fabric Cleaner.webp';

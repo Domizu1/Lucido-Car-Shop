@@ -77,8 +77,25 @@ import ofheavycut from './assets/shop/OF Heavy Cut.webp';
 import onestep from './assets/shop/OF One Step.webp';
 import perfectglasscleaner from './assets/shop/Perfect Glass Cleaner.webp';
 import perfectglasscleaner5l from './assets/shop/Perfect Glass Cleaner5l.webp';
+// import giantprohardflash from './assets/shop/PRO Hard Flash.webp';
 import onetouchwool from './assets/shop/One-Touch Wool.webp';
 import onyx from './assets/shop/ONYX.webp';
+import princetouch from './assets/shop/Prince Touch.webp';
+import premiumaplikator from './assets/shop/Premium Aplikator.webp';
+import pureblacktire from './assets/shop/Pure Black Tire.webp';
+import reddevil from './assets/shop/Red Devil.webp';
+import purpleblaze from './assets/shop/Purple Blaze.webp';
+import satininterior from './assets/shop/Satin Interior.webp';
+import prewashconcetrate from './assets/shop/Pre Wash Concentrate.webp';
+import prewashconcetrate5l from './assets/shop/Pre Wash Concentrate5l.webp';
+import profinish from './assets/shop/PRO Finish Crown.webp';
+import prohard from './assets/shop/PRO Hard.webp';
+import proheavycut from './assets/shop/PRO Heavy Cut.webp';
+import scaninspection from './assets/shop/Scan Inspection.webp';
+import softsundjer from './assets/shop/PRO Soft Sunđer.webp';
+import proonestep from './assets/shop/PRO One Step.webp';
+import promedium from './assets/shop/PRO Medium.webp';
+import sapphire from './assets/shop/SAPPHIRE.webp';
 
 
 export const products = [
@@ -1464,52 +1481,297 @@ Zahvaljujući specijalnoj vafel površini, krpa omogućava dublje i efikasnije �
     },
     {
         id: 130,
-        name: 'MORGANITE Interior Dressing – Zaštita i Sjaj za Kontrolnu Tablu 750ml',
-        price: '3500 RSD',
-        image: giantflash,
-        description: ``,
+        name: 'Prince Touch Mikrofiber Krpa 500GSM – 40x40 cm | Royal Pads',
+        price: '700 RSD',
+        image: princetouch,
+        description: `Prince Touch mikrofiber krpa gustine 500GSM (g/m²), dimenzija 40x40 cm, predstavlja vrhunski izbor za sve entuzijaste i profesionalce u auto-detailingu. Izuzetno mekana, bešavna (edgeless) i pahuljasta struktura sprečava rizik od grebanja, čak i na najosetljivijim lakovima.
+
+Idealna je za:
+
+nanošenje i brisanje quick detailera,
+uklanjanje voskova i sealanta,
+brisanje ostataka polir pasti,
+suvo ili mokro čišćenje unutrašnjosti i spoljašnjosti vozila.`,
         slug: 'product-130'
     },
     {
         id: 131,
-        name: 'MORGANITE Interior Dressing – Zaštita i Sjaj za Kontrolnu Tablu 750ml',
-        price: '3500 RSD',
-        image: giantflash,
-        description: ``,
+        name: 'Premium Aplikator sa Tvrdom Drškom i Delikatnom Radnom Površinom | Royal Pads',
+        price: '650 RSD',
+        image: premiumaplikator,
+        description: `Visokokvalitetni aplikator sa čvrstom, ergonomskom drškom i izuzetno nežnom radnom površinom namenjen je za bezbedno i precizno nanošenje proizvoda na najzahtevnije vrste automobilski lakova. Ova kombinacija omogućava potpunu kontrolu i zaštitu, eliminišući rizik od oštećenja ili ogrebotina čak i na sofisticiranim i osetljivim premazima.`,
         slug: 'product-131'
     },
     {
         id: 132,
-        name: 'MORGANITE Interior Dressing – Zaštita i Sjaj za Kontrolnu Tablu 750ml',
-        price: '3500 RSD',
-        image: giantflash,
-        description: ``,
+        name: 'Pure Black Tire Cleaner – Koncentrat za čišćenje guma i gumenih delova',
+        price: '1500 RSD',
+        image: pureblacktire,
+        description: `Pure Black Tire Cleaner je super koncentrisani preparat koji do 5x smanjuje troškove čišćenja guma. Zahvaljujući aktivnoj penetrirajućoj formuli:
+✔ Uklanja najteže naslage (ulja, kočione prašine, asfaltne tragove)
+✔ Vraća gumama prvobitnu crnu boju
+✔ Priprema površinu za nanošenje dressinga
+✔ Ekonomičan - 1L koncentrata = do 5L gotovog proizvoda`,
         slug: 'product-132'
     },
     {
         id: 133,
-        name: 'MORGANITE Interior Dressing – Zaštita i Sjaj za Kontrolnu Tablu 750ml',
-        price: '3500 RSD',
-        image: giantflash,
-        description: ``,
+        name: 'Red Devil Degreaser – Snažno sredstvo za čišćenje masnih i tvrdokornih naslaga',
+        price: '1000 RSD',
+        image: reddevil,
+        description: `Red Devil Degreaser je industrijski jači preparat specijalno dizajniran za:
+✔ Dubinsko čišćenje motornog prostora
+✔ Uklanjanje ulja, masti i teških naslaga
+✔ Zaštitu metalnih površina od korozije`,
         slug: 'product-133'
     },
     {
         id: 134,
-        name: 'MORGANITE Interior Dressing – Zaštita i Sjaj za Kontrolnu Tablu 750ml',
-        price: '3500 RSD',
-        image: giantflash,
-        description: ``,
+        name: 'Purple Blaze mikrofiber krpa – Bezbedno i efikasno čišćenje bez ogrebotina',
+        price: '1000 RSD',
+        image: purpleblaze,
+        description: `🔹 Zašto Purple Blaze?
+✔ Ultra-efikasno uklanjanje masnoća & tragova voska 🧽 – Idealna za degreasing i poliranje!
+✔ Bezbedna za sve površine 🚗💎 – Bez ogrebotina zahvaljujući kratkodlakom mikrovlaknu bez ivica!
+✔ Izuzetno izdržljiva 💪 – Gustina 320 g/m² – traje duplo duže od običnih krpa!
+✔ Univerzalna upotreba 🏠 – Koristi je za prozore, automobile, nameštaj, kućne površine!`,
         slug: 'product-134'
     },
     {
         id: 135,
-        name: 'MORGANITE Interior Dressing – Zaštita i Sjaj za Kontrolnu Tablu 750ml',
-        price: '3500 RSD',
-        image: giantflash,
-        description: ``,
+        name: 'Satin Interior Plastic Dressing – Kremasti Dressing za Plastiku u Enterijeru',
+        price: '1300 RSD',
+        image: satininterior,
+        description: `Satin Interior Plastic Dressing je premium kremasti preparat za duboku negu i zaštitu plastičnih površina u enterijeru automobila. Zahvaljujući bezbednom sastavu bez rastvarača, obezbeđuje dugotrajnu ishranu, potamnjivanje i zaštitu od UV zraka i habanja, dok antistatička formula sprečava nakupljanje prašine. Poseduje prijatan kokosov miris koji osvežava enterijer!`,
         slug: 'product-135'
+    },
+    {
+        id: 136,
+        name: 'Pre Wash Concentrate – Pripremite Svoj Automobil za Savršeno Pranje 1L',
+        price: '1500 RSD',
+        image: prewashconcetrate,
+        description: `Pre Wash Concentrate je najjači prirodni čistač za predpranje, baziran na citrusnim uljima i naprednoj formuli koja:
+✔ Rastvara najtvrdokornije naslage (insekti, asfalt, smola)
+✔ Priprema površinu za glavno pranje
+✔ Štiti lak sprečavajući mikro-ogrebotine`,
+        slug: 'product-136'
+    },
+    {
+        id: 137,
+        name: 'Pre Wash Concentrate – Pripremite Svoj Automobil za Savršeno Pranje 5L',
+        price: '3500 RSD',
+        image: profinish,
+        description: `Pre Wash Concentrate je najjači prirodni čistač za predpranje, baziran na citrusnim uljima i naprednoj formuli koja:
+✔ Rastvara najtvrdokornije naslage (insekti, asfalt, smola)
+✔ Priprema površinu za glavno pranje
+✔ Štiti lak sprečavajući mikro-ogrebotine`,
+        slug: 'product-137'
+    },
+    {
+        id: 138,
+        name: 'PRO Finish Crown Sunđer za Finish Poliranje – Vrhunski Sjaj Bez Holograma Royal Pads 130mm',
+        price: '1000 RSD',
+        image: prohard,
+        description: `Profilisani, ultra mekani sunđer za poliranje osmišljen je za završnu fazu korekcije auto laka – “Finish”, gde je potreban maksimalan sjaj bez rizika od holograma i mikroogrebotina.
+Posebno profilisana radna površina omogućava ravnomernu raspodelu pritiska i paste, što doprinosi besprekornoj završnoj obradi, čak i na najzahtevnijim lakovima.
+
+Izrađen je od otvorenoćelijske pene bez abrazivnih svojstava, i kompatibilan je sa svim vrstama voskova, finiš pastama i čistačima laka (cleaner-ima).
+
+`,
+        slug: 'product-138'
+    },
+    {
+        id: 139,
+        name: 'PRO Finish Crown Sunđer za Finish Poliranje – Vrhunski Sjaj Bez Holograma Royal Pads 150mm',
+        price: '1300 RSD',
+        image: prohard,
+        description: `Profilisani, ultra mekani sunđer za poliranje osmišljen je za završnu fazu korekcije auto laka – “Finish”, gde je potreban maksimalan sjaj bez rizika od holograma i mikroogrebotina.
+Posebno profilisana radna površina omogućava ravnomernu raspodelu pritiska i paste, što doprinosi besprekornoj završnoj obradi, čak i na najzahtevnijim lakovima.
+
+Izrađen je od otvorenoćelijske pene bez abrazivnih svojstava, i kompatibilan je sa svim vrstama voskova, finiš pastama i čistačima laka (cleaner-ima).
+
+`,
+        slug: 'product-139'
+    },
+    {
+        id: 140,
+        name: 'PRO Hard Sunđer za Grubo Poliranje – “Cutting” Faza | Visoka Abrazivnost za Dubinske Korekcije Royal Pads 80mm',
+        price: '800 RSD',
+        image: prohard,
+        description: ``,
+        slug: 'product-140'
+    },
+    {
+        id: 141,
+        name: 'PRO Hard Sunđer za Grubo Poliranje – “Cutting” Faza | Visoka Abrazivnost za Dubinske Korekcije Royal Pads 130mm',
+        price: '1000 RSD',
+        image: prohard,
+        description: ``,
+        slug: 'product-141'
+    },
+    {
+        id: 142,
+        name: 'PRO Hard Sunđer za Grubo Poliranje – “Cutting” Faza | Visoka Abrazivnost za Dubinske Korekcije Royal Pads 150mm',
+        price: '800 RSD',
+        image: prohard,
+        description: `Profesionalni vrlo tvrdi sunđer za poliranje razvijen za prvu fazu korekcije auto laka – grubo poliranje (cutting). Izrađen od zatvorenih ćelija pene sa izuzetno visokim abrazivnim svojstvima, idealan je za brzo i efikasno uklanjanje dubokih ogrebotina, oksidacije i ozbiljnijih oštećenja laka. Kompatibilan sa svim vrstama lakiranih površina.`,
+        slug: 'product-142'
+    },
+    {
+        id: 143,
+        name: 'PRO Heavy cut Sunđer za Poliranje – “Cutting” Faza | Intenzivna Korekcija Laka Royal Pads 80mm',
+        price: '1000 RSD',
+        image: proheavycut,
+        description: `Profesionalni vrlo tvrdi sunđer za poliranje razvijen za prvu fazu korekcije auto laka – grubo poliranje (cutting). Izrađen od zatvorenih ćelija pene sa izuzetno visokim abrazivnim svojstvima, idealan je za brzo i efikasno uklanjanje dubokih ogrebotina, oksidacije i ozbiljnijih oštećenja laka. Kompatibilan sa svim vrstama lakiranih površina.`,
+        slug: 'product-143'
+    },
+    {
+        id: 144,
+        name: 'PRO Heavy cut Sunđer za Poliranje – “Cutting” Faza | Intenzivna Korekcija Laka Royal Pads 130mm',
+        price: '3500 RSD',
+        image: proheavycut,
+        description: `Profesionalni vrlo tvrdi sunđer za poliranje razvijen za prvu fazu korekcije auto laka – grubo poliranje (cutting). Izrađen od zatvorenih ćelija pene sa izuzetno visokim abrazivnim svojstvima, idealan je za brzo i efikasno uklanjanje dubokih ogrebotina, oksidacije i ozbiljnijih oštećenja laka. Kompatibilan sa svim vrstama lakiranih površina.`,
+        slug: 'product-144'
+    },
+    {
+        id: 145,
+        name: 'PRO Heavy cut Sunđer za Poliranje – “Cutting” Faza | Intenzivna Korekcija Laka Royal Pads 150mm',
+        price: '1300 RSD',
+        image: proheavycut,
+        description: `Profesionalni vrlo tvrdi sunđer za poliranje razvijen za prvu fazu korekcije auto laka – grubo poliranje (cutting). Izrađen od zatvorenih ćelija pene sa izuzetno visokim abrazivnim svojstvima, idealan je za brzo i efikasno uklanjanje dubokih ogrebotina, oksidacije i ozbiljnijih oštećenja laka. Kompatibilan sa svim vrstama lakiranih površina.`,
+        slug: 'product-145'
+    },
+    {
+        id: 146,
+        name: 'Scan Inspection Spray – Sredstvo za inspekciju laka 1L',
+        price: '1950 RSD',
+        image: scaninspection,
+        description: ``,
+        slug: 'product-146'
+    },
+    {
+        id: 147,
+        name: 'Scan Inspection Spray – Sredstvo za inspekciju laka 5L',
+        price: '4300 RSD',
+        image: scaninspection,
+        description: ``,
+        slug: 'product-147'
+    },
+    {
+        id: 148,
+        name: 'PRO Soft Sunđer za Završno Poliranje – “Finish” Faza | Royal Pads 80mm',
+        price: '800 RSD',
+        image: softsundjer,
+        description: `Mekani sunđer za poliranje je namenjen za poslednju fazu korekcije laka – “Finish”, gde je fokus na uklanjanju mikrodefekata i postizanju maksimalnog sjaja bez holograma. Izrađen od zatvorenoćelijske pene sa minimalnom abrazivnošću, idealan je za nanošenje finiš pasta, politura i anti-hologram jedinjenja.`,
+        slug: 'product-148'
+    },
+    {
+        id: 149,
+        name: 'PRO Soft Sunđer za Završno Poliranje – “Finish” Faza | Royal Pads 130mm',
+        price: '1000 RSD',
+        image: softsundjer,
+        description: `Mekani sunđer za poliranje je namenjen za poslednju fazu korekcije laka – “Finish”, gde je fokus na uklanjanju mikrodefekata i postizanju maksimalnog sjaja bez holograma. Izrađen od zatvorenoćelijske pene sa minimalnom abrazivnošću, idealan je za nanošenje finiš pasta, politura i anti-hologram jedinjenja.`,
+        slug: 'product-149'
+    },
+    {
+        id: 150,
+        name: 'PRO Soft Sunđer za Završno Poliranje – “Finish” Faza | Royal Pads 150mm',
+        price: '1300 RSD',
+        image: softsundjer,
+        description: `Mekani sunđer za poliranje je namenjen za poslednju fazu korekcije laka – “Finish”, gde je fokus na uklanjanju mikrodefekata i postizanju maksimalnog sjaja bez holograma. Izrađen od zatvorenoćelijske pene sa minimalnom abrazivnošću, idealan je za nanošenje finiš pasta, politura i anti-hologram jedinjenja.`,
+        slug: 'product-150'
+    },
+    {
+        id: 151,
+        name: 'PRO One Step Srednje Tvrdi Sunđer za Poliranje – “One Step” | Efikasna Jednostepena Korekcija Laka Royal Pads 80mm',
+        price: '800 RSD',
+        image: proonestep,
+        description: `Srednje tvrdi sunđer za poliranje namenjen je za jednoprocesno poliranje ("One Step"), koje kombinuje korekciju i finiširanje laka u jednom koraku. Izrađen od zatvorenih ćelija pene, obezbeđuje idealan balans između abrazije i sjaja, čime štedi vreme bez kompromisa u kvalitetu završne obrade.
+
+Odličan je izbor za brzu korekciju srednjih defekata i postizanje visokog sjaja na svim vrstama lakiranih površina.`,
+        slug: 'product-151'
+    },
+    {
+        id: 152,
+        name: 'PRO One Step Srednje Tvrdi Sunđer za Poliranje – “One Step” | Efikasna Jednostepena Korekcija Laka Royal Pads 130mm',
+        price: '1000 RSD',
+        image: proonestep,
+        description: `Srednje tvrdi sunđer za poliranje namenjen je za jednoprocesno poliranje ("One Step"), koje kombinuje korekciju i finiširanje laka u jednom koraku. Izrađen od zatvorenih ćelija pene, obezbeđuje idealan balans između abrazije i sjaja, čime štedi vreme bez kompromisa u kvalitetu završne obrade.
+
+Odličan je izbor za brzu korekciju srednjih defekata i postizanje visokog sjaja na svim vrstama lakiranih površina.`,
+        slug: 'product-152'
+    },
+    {
+        id: 153,
+        name: 'PRO One Step Srednje Tvrdi Sunđer za Poliranje – “One Step” | Efikasna Jednostepena Korekcija Laka Royal Pads 150mm',
+        price: '1300 RSD',
+        image: proonestep,
+        description: `Srednje tvrdi sunđer za poliranje namenjen je za jednoprocesno poliranje ("One Step"), koje kombinuje korekciju i finiširanje laka u jednom koraku. Izrađen od zatvorenih ćelija pene, obezbeđuje idealan balans između abrazije i sjaja, čime štedi vreme bez kompromisa u kvalitetu završne obrade.
+
+Odličan je izbor za brzu korekciju srednjih defekata i postizanje visokog sjaja na svim vrstama lakiranih površina.`,
+        slug: 'product-153'
+    },
+    {
+        id: 154,
+        name: 'PRO Medium Srednje Tvrdi Sunđer za Poliranje – “Polish” Faza | Korekcija + Sjaj u Drugom Koraku Royal Pads 80mm',
+        price: '800 RSD',
+        image: promedium,
+        description: `Srednje tvrdi sunđer za poliranje posebno je razvijen za drugu fazu korekcije auto laka – “Polish”, kada je cilj uklanjanje preostalih manjih defekata i postizanje visokog sjaja. Napravljen od zatvorenoćelijske pene, nudi idealnu kombinaciju umerene abrazivnosti i efikasnog poliranja, bez pregrevanja površine.
+
+Kompatibilan je sa blago abrazivnim pastama, kao i “One Step” i AIO (All-in-One) proizvodima.`,
+        slug: 'product-154'
+    },
+    {
+        id: 155,
+        name: 'PRO Medium Srednje Tvrdi Sunđer za Poliranje – “Polish” Faza | Korekcija + Sjaj u Drugom Koraku Royal Pads 130mm',
+        price: '1000 RSD',
+        image: promedium,
+        description: `Srednje tvrdi sunđer za poliranje posebno je razvijen za drugu fazu korekcije auto laka – “Polish”, kada je cilj uklanjanje preostalih manjih defekata i postizanje visokog sjaja. Napravljen od zatvorenoćelijske pene, nudi idealnu kombinaciju umerene abrazivnosti i efikasnog poliranja, bez pregrevanja površine.
+
+Kompatibilan je sa blago abrazivnim pastama, kao i “One Step” i AIO (All-in-One) proizvodima.`,
+        slug: 'product-155'
+    },
+    {
+        id: 156,
+        name: 'PRO Medium Srednje Tvrdi Sunđer za Poliranje – “Polish” Faza | Korekcija + Sjaj u Drugom Koraku Royal Pads 150mm',
+        price: '1300 RSD',
+        image: promedium,
+        description: `Srednje tvrdi sunđer za poliranje posebno je razvijen za drugu fazu korekcije auto laka – “Polish”, kada je cilj uklanjanje preostalih manjih defekata i postizanje visokog sjaja. Napravljen od zatvorenoćelijske pene, nudi idealnu kombinaciju umerene abrazivnosti i efikasnog poliranja, bez pregrevanja površine.
+
+Kompatibilan je sa blago abrazivnim pastama, kao i “One Step” i AIO (All-in-One) proizvodima.`,
+        slug: 'product-156'
+    },
+    {
+        id: 157,
+        name: 'SAPPHIRE Ceramic Spray – Keramička Zaštita i Wet Look Efekat 400ml',
+        price: '1400 RSD',
+        image: sapphire,
+        description: `SAPPHIRE Ceramic Spray Coat je revolucionarno rešenje koje kombinuje:
+✔ Nano keramičku zaštitu - do 6 meseci trajanja
+✔ Premium wet look efekat - dubina boje kao u salonu
+✔ Brzu i jednostavnu aplikaciju - vidljivi rezultati za 30 minuta`,
+        slug: 'product-157'
+    },
+    {
+        id: 158,
+        name: 'SAPPHIRE Ceramic Spray – Keramička Zaštita i Wet Look Efekat 750ml',
+        price: '2400 RSD',
+        image: sapphire,
+        description: `SAPPHIRE Ceramic Spray Coat je revolucionarno rešenje koje kombinuje:
+✔ Nano keramičku zaštitu - do 6 meseci trajanja
+✔ Premium wet look efekat - dubina boje kao u salonu
+✔ Brzu i jednostavnu aplikaciju - vidljivi rezultati za 30 minuta`,
+        slug: 'product-158'
+    },
+    {
+        id: 159,
+        name: 'SAPPHIRE Ceramic Spray – Keramička Zaštita i Wet Look Efekat 5L',
+        price: '7500 RSD',
+        image: sapphire,
+        description: `SAPPHIRE Ceramic Spray Coat je revolucionarno rešenje koje kombinuje:
+✔ Nano keramičku zaštitu - do 6 meseci trajanja
+✔ Premium wet look efekat - dubina boje kao u salonu
+✔ Brzu i jednostavnu aplikaciju - vidljivi rezultati za 30 minuta`,
+        slug: 'product-159'
     }
-
-
 ];

@@ -90,7 +90,7 @@ import prewashconcetrate from './assets/shop/Pre Wash Concentrate.webp';
 import prewashconcetrate5l from './assets/shop/Pre Wash Concentrate5l.webp';
 import profinish from './assets/shop/PRO Finish Crown.webp';
 import prohard from './assets/shop/PRO Hard.webp';
-import proheavycut from './assets/shop/PRO Heavy Cut.webp';
+import proheavycut from './assets/shop/PRO Heavy cut.webp';
 import scaninspection from './assets/shop/Scan Inspection.webp';
 import softsundjer from './assets/shop/PRO Soft Sunđer.webp';
 import proonestep from './assets/shop/PRO One Step.webp';

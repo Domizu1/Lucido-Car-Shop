@@ -157,6 +157,11 @@ const CheckoutForm = () => {
                     <button className="form-close-btn" onClick={handleClose}>✕</button>
                 </div>
 
+                <div className="shipping-note" aria-live="polite">
+                    <p className="shipping-note-title">Cena postarine: 500 RSD</p>
+                    <p className="shipping-note-text">Postarina besplatna za porudzbine preko 10.000 RSD</p>
+                </div>
+
                 <form onSubmit={handleSubmit} className="checkout-form">
                     <div className="form-group">
                         <label htmlFor="name">Full Name *</label>
@@ -167,7 +172,7 @@ const CheckoutForm = () => {
                             value={formData.name}
                             onChange={handleChange}
                             required
-                            placeholder="John Doe"
+                            placeholder="Jovan Jovanovic"
                         />
                     </div>
 
@@ -206,7 +211,7 @@ const CheckoutForm = () => {
                             value={formData.address}
                             onChange={handleChange}
                             required
-                            placeholder="123 Main Street"
+                            placeholder="Bulevar Kralja Aleksandra ##"
                         />
                     </div>
 
@@ -220,7 +225,7 @@ const CheckoutForm = () => {
                                 value={formData.city}
                                 onChange={handleChange}
                                 required
-                                placeholder="Belgrade"
+                                placeholder="Niš"
                             />
                         </div>
 
@@ -233,7 +238,7 @@ const CheckoutForm = () => {
                                 value={formData.postalCode}
                                 onChange={handleChange}
                                 required
-                                placeholder="11000"
+                                placeholder="18000"
                             />
                         </div>
                     </div>
@@ -245,7 +250,7 @@ const CheckoutForm = () => {
                     )}
 
                     <button type="submit" className="form-submit-btn" disabled={isSubmitting}>
-                        {isSubmitting ? 'Processing...' : 'Complete Order'}
+                        {isSubmitting ? 'Obrada...' : 'Poruči sada'}
                     </button>
                 </form>
             </div>

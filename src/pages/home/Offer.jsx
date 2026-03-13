@@ -27,9 +27,21 @@ const offerData = [
     },
     {
         id: 4,
-        title: "SPOLJAŠNJE PRANJE.",
+        title: "SPOLJAŠNJE PRANJE SA DEMONTAŽOM FELNI.",
         desc: "Temeljno peremo spoljašnjost vozila kako bismo osigurali savršenu čistoću spolja.",
         img: img4,
+    },
+    {
+        id: 5,
+        title: "POLIRANJE CELOKUPNOG EKSTERIJERA",
+        desc: "Poliramo ceo eksterijer vašeg vozila kako bismo postigli savršen sjaj i uklonili sve nesavršenosti.",
+        img: img1,
+    },
+    {
+        id: 6,
+        title: "KERAMIČKA ZAŠTITA EKSTERIJERA.",
+        desc: "Pružamo vrhunsku keramičku zaštitu za eksterijer vašeg vozila, osiguravajući dugotrajni sjaj i zaštitu od spoljašnjih uticaja.",
+        img: img2,
     }
 ];
 

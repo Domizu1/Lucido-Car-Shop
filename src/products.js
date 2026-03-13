@@ -125,6 +125,19 @@ export const products = [
         slug: 'product-1'
     },
     {
+        id: 17,
+        name: 'ALABASTER Leather Protect – Zaštita i Nega za Kožna Sedišta 750ml',
+        price: '2450 RSD',
+        image: alabasterleatherprotect,
+        description: `✨ ALABASTER Leather Protect – Elitna Nega za Vašu Kožnu Presvlaku! 🚗💎
+
+ALABASTER Leather Protect je luksuzni tretman koji vašoj koži daje:
+✔ Dubinsku hidrataciju kao u profesionalnim kožarnicama
+✔ Premium zaštitu od habanja i UV zraka
+✔ Restauratorski efekat - vraća boju i elastičnost`,
+        slug: 'product-17'
+    },
+    {
         id: 2,
         name: 'AIR Hard Profesionalni Polishing Pad za Agresivno Rezanje Royal Pads 130mm',
         price: '1000 RSD',
@@ -307,19 +320,7 @@ ALABASTER Leather Protect je luksuzni tretman koji vašoj koži daje:
 ✔ Restauratorski efekat - vraća boju i elastičnost`,
         slug: 'product-16'
     },
-    {
-        id: 17,
-        name: 'ALABASTER Leather Protect – Zaštita i Nega za Kožna Sedišta 750ml',
-        price: '2450 RSD',
-        image: alabasterleatherprotect,
-        description: `✨ ALABASTER Leather Protect – Elitna Nega za Vašu Kožnu Presvlaku! 🚗💎
 
-ALABASTER Leather Protect je luksuzni tretman koji vašoj koži daje:
-✔ Dubinsku hidrataciju kao u profesionalnim kožarnicama
-✔ Premium zaštitu od habanja i UV zraka
-✔ Restauratorski efekat - vraća boju i elastičnost`,
-        slug: 'product-17'
-    },
     {
         id: 18,
         name: 'ALABASTER Leather Protect – Zaštita i Nega za Kožna Sedišta 5L',

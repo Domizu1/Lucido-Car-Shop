@@ -119,7 +119,7 @@ const CheckoutForm = () => {
                 to_email: formData.email
             });
 
-            const ownerEmail = import.meta.env.VITE_OWNER_EMAIL || 'savadumancic2@gmail.com';
+            const ownerEmail = import.meta.env.VITE_OWNER_EMAIL || 'lucidoo2024@gmail.com';
             await emailjs.send(serviceId, ownerTemplateId, {
                 ...templateData,
                 to_email: ownerEmail

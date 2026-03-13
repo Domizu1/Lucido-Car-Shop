@@ -112,18 +112,7 @@ import thinonestep from './assets/shop/THIN One Step.webp';
 
 
 export const products = [
-    {
-        id: 1,
-        name: 'AIR Hard Profesionalni Polishing Pad za Agresivno Rezanje Royal Pads 80mm',
-        price: '800 RSD',
-        image: arihard80mm,
-        description: `ULTRA CUT Pro je tvrdi, visokoabrazivni polishing pad dizajniran za brzo i efikasno uklanjanje:\n
-                    ✔ Dubokih ogrebotina\n
-                    ✔ Tragova od šmirgla(P800 - P2000)\n
-                    ✔ Oksidacije i drugih teških oštećenja\n
-                    \nIdealno rešenje za auto detaljere i lakirne radione koje traže maksimalne rezultate bez kompromisa.`,
-        slug: 'product-1'
-    },
+
     {
         id: 17,
         name: 'ALABASTER Leather Protect – Zaštita i Nega za Kožna Sedišta 750ml',
@@ -137,176 +126,8 @@ ALABASTER Leather Protect je luksuzni tretman koji vašoj koži daje:
 ✔ Restauratorski efekat - vraća boju i elastičnost`,
         slug: 'product-17'
     },
-    {
-        id: 2,
-        name: 'AIR Hard Profesionalni Polishing Pad za Agresivno Rezanje Royal Pads 130mm',
-        price: '1000 RSD',
-        image: arihard80mm,
-        description: `ULTRA CUT Pro je tvrdi, visokoabrazivni polishing pad dizajniran za brzo i efikasno uklanjanje:\n
-                    ✔ Dubokih ogrebotina\n
-                    ✔ Tragova od šmirgla(P800 - P2000)\n
-                    ✔ Oksidacije i drugih teških oštećenja\n
-                    \nIdealno rešenje za auto detaljere i lakirne radione koje traže maksimalne rezultate bez kompromisa.`,
-        slug: 'product-2'
-    },
-    {
-        id: 3,
-        name: 'AIR Hard Profesionalni Polishing Pad za Agresivno Rezanje Royal Pads 150mm',
-        price: '1300 RSD',
-        image: arihard80mm,
-        description: `ULTRA CUT Pro je tvrdi, visokoabrazivni polishing pad dizajniran za brzo i efikasno uklanjanje:\n
-                    ✔ Dubokih ogrebotina\n
-                    ✔ Tragova od šmirgla(P800 - P2000)\n
-                    ✔ Oksidacije i drugih teških oštećenja\n
-                    \nIdealno rešenje za auto detaljere i lakirne radione koje traže maksimalne rezultate bez kompromisa.`,
-        slug: 'product-3'
-    },
-    {
-        id: 4,
-        name: 'AIR Heavy Cut – Najtvrđi pad za Agresivni Cut Royal Pads 80mm',
-        price: '800 RSD',
-        image: arihardheavycut,
-        description: `Profesionalno rešenje za prvu fazu korekcije laka
-                        ULTRA CUT Pro je ultra-tvrdi pad za poliranje specijalno dizajniran za:
-                        ✔ Agresivno uklanjanje oštećenja u prvoj fazi poliranja
-                        ✔ Rad na svim vrstama lakova (standardni, keramički, hibridni)
-                        ✔ Maksimalnu efikasnost uz visoku kontrolu`,
-        slug: 'product-4'
-    },
-    {
-        id: 5,
-        name: 'AIR Heavy Cut – Najtvrđi pad za Agresivni Cut Royal Pads 130mm',
-        price: '1000 RSD',
-        image: arihardheavycut,
-        description: `Profesionalno rešenje za prvu fazu korekcije laka
-                        ULTRA CUT Pro je ultra-tvrdi pad za poliranje specijalno dizajniran za:
-                        ✔ Agresivno uklanjanje oštećenja u prvoj fazi poliranja
-                        ✔ Rad na svim vrstama lakova (standardni, keramički, hibridni)
-                        ✔ Maksimalnu efikasnost uz visoku kontrolu`,
-        slug: 'product-5'
-    },
-    {
-        id: 6,
-        name: 'AIR Heavy Cut – Najtvrđi pad za Agresivni Cut Royal Pads 150mm',
-        price: '1300 RSD',
-        image: arihardheavycut,
-        description: `Profesionalno rešenje za prvu fazu korekcije laka
-                        ULTRA CUT Pro je ultra-tvrdi pad za poliranje specijalno dizajniran za:
-                        ✔ Agresivno uklanjanje oštećenja u prvoj fazi poliranja
-                        ✔ Rad na svim vrstama lakova (standardni, keramički, hibridni)
-                        ✔ Maksimalnu efikasnost uz visoku kontrolu`,
-        slug: 'product-6'
-    },
-    {
-        id: 7,
-        name: 'AIR Medium – Profesionalni Polishing Pad za Savršen Finiš Royal Pads 80mm',
-        price: '800 RSD',
-        image: arihardmedium,
-        description: `Idealno Rešenje za Drugu Fazu Korekcije – Besprekorna Završna Obrada
-                        PERFECT FINISH Pro je srednje tvrd polishing pad optimizovan za:
-                        ✔ Precizno uklanjanje tragova nakon rezanja (hologrami, mikro-ogrebotine)
-                        ✔ Postizanje savršenog finiša pripremljenog za nanošenje zaštite
-                        ✔ Rad na svim vrstama lakova (uključujući moderne keramičke premaze)`,
-        slug: 'product-7'
-    },
-    {
-        id: 8,
-        name: 'AIR Medium – Profesionalni Polishing Pad za Savršen Finiš Royal Pads 130mm',
-        price: '1000 RSD',
-        image: arihardmedium,
-        description: `Idealno Rešenje za Drugu Fazu Korekcije – Besprekorna Završna Obrada
-                        PERFECT FINISH Pro je srednje tvrd polishing pad optimizovan za:
-                        ✔ Precizno uklanjanje tragova nakon rezanja (hologrami, mikro-ogrebotine)
-                        ✔ Postizanje savršenog finiša pripremljenog za nanošenje zaštite
-                        ✔ Rad na svim vrstama lakova (uključujući moderne keramičke premaze)`,
-        slug: 'product-8'
-    },
-    {
-        id: 9,
-        name: 'AIR Medium – Profesionalni Polishing Pad za Savršen Finiš Royal Pads 150mm',
-        price: '1300 RSD',
-        image: arihardmedium,
-        description: `Idealno Rešenje za Drugu Fazu Korekcije – Besprekorna Završna Obrada
-                        PERFECT FINISH Pro je srednje tvrd polishing pad optimizovan za:
-                        ✔ Precizno uklanjanje tragova nakon rezanja (hologrami, mikro-ogrebotine)
-                        ✔ Postizanje savršenog finiša pripremljenog za nanošenje zaštite
-                        ✔ Rad na svim vrstama lakova (uključujući moderne keramičke premaze)`,
-        slug: 'product-9'
-    },
-    {
-        id: 10,
-        name: 'AIR One Step – Optimalno Rešenje za Brzu Korekciju i Finiš u Jednom Koraku Royal Pads 80mm',
-        price: '800 RSD',
-        image: aironestep,
-        description: `Royal Pads - Savršen Balans Između Rezne Moći i Kvaliteta Završne Obrade
-                        ONE-STEP PRO Pad je srednje tvrd polishing pad specijalno dizajniran za:
-                        ✔ "One Step" poliranje - uklanjanje lakših oštećenja i finiš u jednom prolazu
-                        ✔ Rad na svim vrstama lakova (uključujući osetljive i keramičke premaze)
-                        ✔ Efikasnu distribuciju AIO (All-In-One) pasta
-                        Idealno rešenje za brze intervencije, pripremu vozila za prodaju ili redovno održavanje.`,
-        slug: 'product-10'
-    },
-    {
-        id: 11,
-        name: 'AIR One Step – Optimalno Rešenje za Brzu Korekciju i Finiš u Jednom Koraku Royal Pads 130mm',
-        price: '1000 RSD',
-        image: aironestep,
-        description: `Royal Pads - Savršen Balans Između Rezne Moći i Kvaliteta Završne Obrade
-                        ONE-STEP PRO Pad je srednje tvrd polishing pad specijalno dizajniran za:
-                        ✔ "One Step" poliranje - uklanjanje lakših oštećenja i finiš u jednom prolazu
-                        ✔ Rad na svim vrstama lakova (uključujući osetljive i keramičke premaze)
-                        ✔ Efikasnu distribuciju AIO (All-In-One) pasta
-                        Idealno rešenje za brze intervencije, pripremu vozila za prodaju ili redovno održavanje.`, slug: 'product-11'
-    },
-    {
-        id: 12,
-        name: 'AIR One Step – Optimalno Rešenje za Brzu Korekciju i Finiš u Jednom Koraku Royal Pads 150mm',
-        price: '1300 RSD',
-        image: aironestep,
-        description: `Royal Pads - Savršen Balans Između Rezne Moći i Kvaliteta Završne Obrade
-                        ONE-STEP PRO Pad je srednje tvrd polishing pad specijalno dizajniran za:
-                        ✔ "One Step" poliranje - uklanjanje lakših oštećenja i finiš u jednom prolazu
-                        ✔ Rad na svim vrstama lakova (uključujući osetljive i keramičke premaze)
-                        ✔ Efikasnu distribuciju AIO (All-In-One) pasta
-                        Idealno rešenje za brze intervencije, pripremu vozila za prodaju ili redovno održavanje.`,
-        slug: 'product-12'
-    },
-    {
-        id: 13,
-        name: 'AIR Soft – Premium Finishing Pad za Savršen Sjaj Royal Pads 80mm',
-        price: '800 RSD',
-        image: airsoftpremium,
-        description: `Krunski Korak u Korekciji Laka – Besprekorna Završna Obrada
-ULTRA FINISH Pro je meki polishing pad visoke gustine specijalno razvijen za:
-✔ Ultimativnu završnu obradu nakon faza rezanja i poliranja
-✔ Kompletno uklanjanje mikro-ogrebotina i holograma
-✔ Pripremu površine za nanošenje keramičkih zaštita i voskova`,
-        slug: 'product-13'
-    },
-    {
-        id: 14,
-        name: 'AIR Soft – Premium Finishing Pad za Savršen Sjaj Royal Pads 130mm',
-        price: '1000 RSD',
-        image: airsoftpremium,
-        description: `Krunski Korak u Korekciji Laka – Besprekorna Završna Obrada
-ULTRA FINISH Pro je meki polishing pad visoke gustine specijalno razvijen za:
-✔ Ultimativnu završnu obradu nakon faza rezanja i poliranja
-✔ Kompletno uklanjanje mikro-ogrebotina i holograma
-✔ Pripremu površine za nanošenje keramičkih zaštita i voskova`,
-        slug: 'product-14'
-    },
-    {
-        id: 15,
-        name: 'AIR Soft – Premium Finishing Pad za Savršen Sjaj Royal Pads 150mm',
-        price: '1300 RSD',
-        image: airsoftpremium,
-        description: `Krunski Korak u Korekciji Laka – Besprekorna Završna Obrada
-ULTRA FINISH Pro je meki polishing pad visoke gustine specijalno razvijen za:
-✔ Ultimativnu završnu obradu nakon faza rezanja i poliranja
-✔ Kompletno uklanjanje mikro-ogrebotina i holograma
-✔ Pripremu površine za nanošenje keramičkih zaštita i voskova`,
-        slug: 'product-15'
-    },
+
+
     {
         id: 16,
         name: 'ALABASTER Leather Protect – Zaštita i Nega za Kožna Sedišta 400ml',
@@ -482,15 +303,7 @@ Problem sa prljavim felnama? Brzo rešenje je ovde! 🚗💦 AMETHYST Rim Cleane
 `,
         slug: 'product-29'
     },
-    {
-        id: 30,
-        name: 'Allrounder Mikrofiber Krpa 250GSM – 40x40 cm | Royal Pads',
-        price: '300 RSD',
-        image: mikrofiber,
-        description: `Royal Pads Allrounder mikrofiber krpa od 250GSM, dimenzija 40x40 cm, izrađena je od nežnih, kratkih i mekih vlakana koja ne ostavljaju tragove ili vlakna na laku. Savršena je za rad sa proizvodima za zaštitu laka, kao što su sealanti, spray voskovi i keramički premazivači.
-                        Takođe je pogodna za lako spoljašnje čišćenje ili uklanjanje prašine i prljavštine iz unutrašnjosti vozila, bez rizika od grebanja površine.`,
-        slug: 'product-30'
-    },
+
     {
         id: 31,
         name: 'Aplikator za Gume Bi-Color – Shiny Garage | Auto kozmetika Srbija',
@@ -500,14 +313,30 @@ Problem sa prljavim felnama? Brzo rešenje je ovde! 🚗💦 AMETHYST Rim Cleane
         slug: 'product-31'
     },
     {
-        id: 32,
-        name: 'Aplikator za gume i plastike FlashDetail',
-        price: '800 RSD',
-        image: aplikatorzagume2,
-        description: `Premium Tire Dressing Applicator – Najbolji Aplikator za Negu Guma u Srbiji! 🚗✨
-                        Tražite profesionalni aplikator za preparate za gume koji pruža savršen sjaj i zaštitu? Naš premium aplikator za gume omogućava preciznu i ravnomernu primenu bez mrlja, čuvajući vaše gume kao nove!`,
-        slug: 'product-32'
+        id: 87,
+        name: 'Lazurite – Water Spot Remover 💦✨ | Auto Graph 400ml',
+        price: '1500 RSD',
+        image: lazurite,
+        description: `Otkrijte revolucionarno rešenje za brzo i besprekorno sušenje vašeg vozila! Naša Giant Flash Towel sa premium 1600 GSM mikrofiberom i duplom twisted-loop strukturom omogućava instant sušenje bez mrlja, čak i za velika vozila.`,
+        slug: 'product-87'
     },
+    {
+        id: 88,
+        name: 'Lazurite – Water Spot Remover 💦✨ | Auto Graph 750ml',
+        price: '2450 RSD',
+        image: lazurite,
+        description: `Otkrijte revolucionarno rešenje za brzo i besprekorno sušenje vašeg vozila! Naša Giant Flash Towel sa premium 1600 GSM mikrofiberom i duplom twisted-loop strukturom omogućava instant sušenje bez mrlja, čak i za velika vozila.`,
+        slug: 'product-88'
+    },
+    {
+        id: 89,
+        name: 'Lazurite – Water Spot Remover 💦✨ | Auto Graph 5L',
+        price: '6000 RSD',
+        image: lazurite,
+        description: `Otkrijte revolucionarno rešenje za brzo i besprekorno sušenje vašeg vozila! Naša Giant Flash Towel sa premium 1600 GSM mikrofiberom i duplom twisted-loop strukturom omogućava instant sušenje bez mrlja, čak i za velika vozila.`,
+        slug: 'product-89'
+    },
+
     {
         id: 33,
         name: 'Applicator Pads 10 kom – Precizni aplikatori za keramičke premaze',
@@ -720,14 +549,7 @@ Problem sa prljavim felnama? Brzo rešenje je ovde! 🚗💦 AMETHYST Rim Cleane
 ✔ Smolu i druge teške naslage`,
         slug: 'product-54'
     },
-    {
-        id: 55,
-        name: 'Double Scrub Pad – Skruber Royal Pads',
-        price: '1100 RSD',
-        image: doublescrub,
-        description: `Otkrij novu dimenziju čistoće uz Double_Scrub Pad, specijalno razvijen za temeljno i bezbedno čišćenje enterijera automobila. Ovaj praktičan i izdržljiv pad kombinuje visoku efikasnost čišćenja sa potpunom bezbednošću za osetljive površine, zbog čega je idealan za uklanjanje tvrdokorne prljavštine sa plastike, vinila, kože i tekstila.`,
-        slug: 'product-55'
-    },
+
     {
         id: 56,
         name: 'Double Sour Sampon&Aktivna pena 2u1 1lit Shiny Garage',
@@ -736,14 +558,7 @@ Problem sa prljavim felnama? Brzo rešenje je ovde! 🚗💦 AMETHYST Rim Cleane
         description: `Prvi na tržištu sa duplom funkcijom! DOUBLE SOUR kombinuje kiseli šampon i aktivnu penu u jednom proizvodu – savršen za keramički zaštićene lakove i redovnu negu.`,
         slug: 'product-56'
     },
-    {
-        id: 57,
-        name: 'DRILL BRUSH - Set od 3 četke za sve površine FlashDetail',
-        price: '1500 RSD',
-        image: drillbrush,
-        description: `Transformišite običnu bušilicu u moćan alat za dubinsko čišćenje! Ovaj revolucionarni set omogućava brzo i efikasno uklanjanje tvrdokorne prljavštine, uljnih naslaga i mrlja sa svih površina vašeg vozila.`,
-        slug: 'product-57'
-    },
+
     {
         id: 58,
         name: 'EMERALD Čistač Stakla – Hidrofobna Zaštita i Nevidljivi Brisač 400ml',
@@ -805,6 +620,18 @@ Zahvaljujući specijalnoj vafel površini, krpa omogućava dublje i efikasnije �
         image: gentlebuff,
         description: ` Gentle Buff Mikrofiber – Profesionalno Rešenje za Besprekorno Čišćenje!`,
         slug: 'product-64'
+    },
+    {
+        id: 1,
+        name: 'AIR Hard Profesionalni Polishing Pad za Agresivno Rezanje Royal Pads 80mm',
+        price: '800 RSD',
+        image: arihard80mm,
+        description: `ULTRA CUT Pro je tvrdi, visokoabrazivni polishing pad dizajniran za brzo i efikasno uklanjanje:\n
+                    ✔ Dubokih ogrebotina\n
+                    ✔ Tragova od šmirgla(P800 - P2000)\n
+                    ✔ Oksidacije i drugih teških oštećenja\n
+                    \nIdealno rešenje za auto detaljere i lakirne radione koje traže maksimalne rezultate bez kompromisa.`,
+        slug: 'product-1'
     },
     {
         id: 65,
@@ -1008,6 +835,164 @@ Zahvaljujući specijalnoj vafel površini, krpa omogućava dublje i efikasnije �
         slug: 'product-83'
     },
     {
+        id: 2,
+        name: 'AIR Hard Profesionalni Polishing Pad za Agresivno Rezanje Royal Pads 130mm',
+        price: '1000 RSD',
+        image: arihard80mm,
+        description: `ULTRA CUT Pro je tvrdi, visokoabrazivni polishing pad dizajniran za brzo i efikasno uklanjanje:\n
+                    ✔ Dubokih ogrebotina\n
+                    ✔ Tragova od šmirgla(P800 - P2000)\n
+                    ✔ Oksidacije i drugih teških oštećenja\n
+                    \nIdealno rešenje za auto detaljere i lakirne radione koje traže maksimalne rezultate bez kompromisa.`,
+        slug: 'product-2'
+    },
+    {
+        id: 3,
+        name: 'AIR Hard Profesionalni Polishing Pad za Agresivno Rezanje Royal Pads 150mm',
+        price: '1300 RSD',
+        image: arihard80mm,
+        description: `ULTRA CUT Pro je tvrdi, visokoabrazivni polishing pad dizajniran za brzo i efikasno uklanjanje:\n
+                    ✔ Dubokih ogrebotina\n
+                    ✔ Tragova od šmirgla(P800 - P2000)\n
+                    ✔ Oksidacije i drugih teških oštećenja\n
+                    \nIdealno rešenje za auto detaljere i lakirne radione koje traže maksimalne rezultate bez kompromisa.`,
+        slug: 'product-3'
+    },
+    {
+        id: 4,
+        name: 'AIR Heavy Cut – Najtvrđi pad za Agresivni Cut Royal Pads 80mm',
+        price: '800 RSD',
+        image: arihardheavycut,
+        description: `Profesionalno rešenje za prvu fazu korekcije laka
+                        ULTRA CUT Pro je ultra-tvrdi pad za poliranje specijalno dizajniran za:
+                        ✔ Agresivno uklanjanje oštećenja u prvoj fazi poliranja
+                        ✔ Rad na svim vrstama lakova (standardni, keramički, hibridni)
+                        ✔ Maksimalnu efikasnost uz visoku kontrolu`,
+        slug: 'product-4'
+    },
+    {
+        id: 5,
+        name: 'AIR Heavy Cut – Najtvrđi pad za Agresivni Cut Royal Pads 130mm',
+        price: '1000 RSD',
+        image: arihardheavycut,
+        description: `Profesionalno rešenje za prvu fazu korekcije laka
+                        ULTRA CUT Pro je ultra-tvrdi pad za poliranje specijalno dizajniran za:
+                        ✔ Agresivno uklanjanje oštećenja u prvoj fazi poliranja
+                        ✔ Rad na svim vrstama lakova (standardni, keramički, hibridni)
+                        ✔ Maksimalnu efikasnost uz visoku kontrolu`,
+        slug: 'product-5'
+    },
+    {
+        id: 6,
+        name: 'AIR Heavy Cut – Najtvrđi pad za Agresivni Cut Royal Pads 150mm',
+        price: '1300 RSD',
+        image: arihardheavycut,
+        description: `Profesionalno rešenje za prvu fazu korekcije laka
+                        ULTRA CUT Pro je ultra-tvrdi pad za poliranje specijalno dizajniran za:
+                        ✔ Agresivno uklanjanje oštećenja u prvoj fazi poliranja
+                        ✔ Rad na svim vrstama lakova (standardni, keramički, hibridni)
+                        ✔ Maksimalnu efikasnost uz visoku kontrolu`,
+        slug: 'product-6'
+    },
+    {
+        id: 7,
+        name: 'AIR Medium – Profesionalni Polishing Pad za Savršen Finiš Royal Pads 80mm',
+        price: '800 RSD',
+        image: arihardmedium,
+        description: `Idealno Rešenje za Drugu Fazu Korekcije – Besprekorna Završna Obrada
+                        PERFECT FINISH Pro je srednje tvrd polishing pad optimizovan za:
+                        ✔ Precizno uklanjanje tragova nakon rezanja (hologrami, mikro-ogrebotine)
+                        ✔ Postizanje savršenog finiša pripremljenog za nanošenje zaštite
+                        ✔ Rad na svim vrstama lakova (uključujući moderne keramičke premaze)`,
+        slug: 'product-7'
+    },
+    {
+        id: 8,
+        name: 'AIR Medium – Profesionalni Polishing Pad za Savršen Finiš Royal Pads 130mm',
+        price: '1000 RSD',
+        image: arihardmedium,
+        description: `Idealno Rešenje za Drugu Fazu Korekcije – Besprekorna Završna Obrada
+                        PERFECT FINISH Pro je srednje tvrd polishing pad optimizovan za:
+                        ✔ Precizno uklanjanje tragova nakon rezanja (hologrami, mikro-ogrebotine)
+                        ✔ Postizanje savršenog finiša pripremljenog za nanošenje zaštite
+                        ✔ Rad na svim vrstama lakova (uključujući moderne keramičke premaze)`,
+        slug: 'product-8'
+    },
+    {
+        id: 9,
+        name: 'AIR Medium – Profesionalni Polishing Pad za Savršen Finiš Royal Pads 150mm',
+        price: '1300 RSD',
+        image: arihardmedium,
+        description: `Idealno Rešenje za Drugu Fazu Korekcije – Besprekorna Završna Obrada
+                        PERFECT FINISH Pro je srednje tvrd polishing pad optimizovan za:
+                        ✔ Precizno uklanjanje tragova nakon rezanja (hologrami, mikro-ogrebotine)
+                        ✔ Postizanje savršenog finiša pripremljenog za nanošenje zaštite
+                        ✔ Rad na svim vrstama lakova (uključujući moderne keramičke premaze)`,
+        slug: 'product-9'
+    },
+    {
+        id: 10,
+        name: 'AIR One Step – Optimalno Rešenje za Brzu Korekciju i Finiš u Jednom Koraku Royal Pads 80mm',
+        price: '800 RSD',
+        image: aironestep,
+        description: `Royal Pads - Savršen Balans Između Rezne Moći i Kvaliteta Završne Obrade
+                        ONE-STEP PRO Pad je srednje tvrd polishing pad specijalno dizajniran za:
+                        ✔ "One Step" poliranje - uklanjanje lakših oštećenja i finiš u jednom prolazu
+                        ✔ Rad na svim vrstama lakova (uključujući osetljive i keramičke premaze)
+                        ✔ Efikasnu distribuciju AIO (All-In-One) pasta
+                        Idealno rešenje za brze intervencije, pripremu vozila za prodaju ili redovno održavanje.`,
+        slug: 'product-10'
+    },
+    {
+        id: 11,
+        name: 'AIR One Step – Optimalno Rešenje za Brzu Korekciju i Finiš u Jednom Koraku Royal Pads 130mm',
+        price: '1000 RSD',
+        image: aironestep,
+        description: `Royal Pads - Savršen Balans Između Rezne Moći i Kvaliteta Završne Obrade
+                        ONE-STEP PRO Pad je srednje tvrd polishing pad specijalno dizajniran za:
+                        ✔ "One Step" poliranje - uklanjanje lakših oštećenja i finiš u jednom prolazu
+                        ✔ Rad na svim vrstama lakova (uključujući osetljive i keramičke premaze)
+                        ✔ Efikasnu distribuciju AIO (All-In-One) pasta
+                        Idealno rešenje za brze intervencije, pripremu vozila za prodaju ili redovno održavanje.`, slug: 'product-11'
+    },
+    {
+        id: 12,
+        name: 'AIR One Step – Optimalno Rešenje za Brzu Korekciju i Finiš u Jednom Koraku Royal Pads 150mm',
+        price: '1300 RSD',
+        image: aironestep,
+        description: `Royal Pads - Savršen Balans Između Rezne Moći i Kvaliteta Završne Obrade
+                        ONE-STEP PRO Pad je srednje tvrd polishing pad specijalno dizajniran za:
+                        ✔ "One Step" poliranje - uklanjanje lakših oštećenja i finiš u jednom prolazu
+                        ✔ Rad na svim vrstama lakova (uključujući osetljive i keramičke premaze)
+                        ✔ Efikasnu distribuciju AIO (All-In-One) pasta
+                        Idealno rešenje za brze intervencije, pripremu vozila za prodaju ili redovno održavanje.`,
+        slug: 'product-12'
+    },
+    {
+        id: 13,
+        name: 'AIR Soft – Premium Finishing Pad za Savršen Sjaj Royal Pads 80mm',
+        price: '800 RSD',
+        image: airsoftpremium,
+        description: `Krunski Korak u Korekciji Laka – Besprekorna Završna Obrada
+ULTRA FINISH Pro je meki polishing pad visoke gustine specijalno razvijen za:
+✔ Ultimativnu završnu obradu nakon faza rezanja i poliranja
+✔ Kompletno uklanjanje mikro-ogrebotina i holograma
+✔ Pripremu površine za nanošenje keramičkih zaštita i voskova`,
+        slug: 'product-13'
+    },
+    {
+        id: 14,
+        name: 'AIR Soft – Premium Finishing Pad za Savršen Sjaj Royal Pads 130mm',
+        price: '1000 RSD',
+        image: airsoftpremium,
+        description: `Krunski Korak u Korekciji Laka – Besprekorna Završna Obrada
+ULTRA FINISH Pro je meki polishing pad visoke gustine specijalno razvijen za:
+✔ Ultimativnu završnu obradu nakon faza rezanja i poliranja
+✔ Kompletno uklanjanje mikro-ogrebotina i holograma
+✔ Pripremu površine za nanošenje keramičkih zaštita i voskova`,
+        slug: 'product-14'
+    },
+    {
         id: 84,
         name: 'Leather Cleaner Professional – Profesionalni preparat za čišćenje kože 1L',
         price: '2100 RSD',
@@ -1041,30 +1026,7 @@ Zahvaljujući specijalnoj vafel površini, krpa omogućava dublje i efikasnije �
 ✔ Zaštitu od UV zraka i habanja`,
         slug: 'product-86'
     },
-    {
-        id: 87,
-        name: 'Lazurite – Water Spot Remover 💦✨ | Auto Graph 400ml',
-        price: '1500 RSD',
-        image: lazurite,
-        description: `Otkrijte revolucionarno rešenje za brzo i besprekorno sušenje vašeg vozila! Naša Giant Flash Towel sa premium 1600 GSM mikrofiberom i duplom twisted-loop strukturom omogućava instant sušenje bez mrlja, čak i za velika vozila.`,
-        slug: 'product-87'
-    },
-    {
-        id: 88,
-        name: 'Lazurite – Water Spot Remover 💦✨ | Auto Graph 750ml',
-        price: '2450 RSD',
-        image: lazurite,
-        description: `Otkrijte revolucionarno rešenje za brzo i besprekorno sušenje vašeg vozila! Naša Giant Flash Towel sa premium 1600 GSM mikrofiberom i duplom twisted-loop strukturom omogućava instant sušenje bez mrlja, čak i za velika vozila.`,
-        slug: 'product-88'
-    },
-    {
-        id: 89,
-        name: 'Lazurite – Water Spot Remover 💦✨ | Auto Graph 5L',
-        price: '6000 RSD',
-        image: lazurite,
-        description: `Otkrijte revolucionarno rešenje za brzo i besprekorno sušenje vašeg vozila! Naša Giant Flash Towel sa premium 1600 GSM mikrofiberom i duplom twisted-loop strukturom omogućava instant sušenje bez mrlja, čak i za velika vozila.`,
-        slug: 'product-89'
-    },
+
     {
         id: 90,
         name: 'Hydro HD – Najtrajnija SiO2 zaštita za auto do 12 meseci 30ml',
@@ -1306,6 +1268,15 @@ Zahvaljujući specijalnoj vafel površini, krpa omogućava dublje i efikasnije �
         slug: 'product-110'
     },
     {
+        id: 32,
+        name: 'Aplikator za gume i plastike FlashDetail',
+        price: '800 RSD',
+        image: aplikatorzagume2,
+        description: `Premium Tire Dressing Applicator – Najbolji Aplikator za Negu Guma u Srbiji! 🚗✨
+                        Tražite profesionalni aplikator za preparate za gume koji pruža savršen sjaj i zaštitu? Naš premium aplikator za gume omogućava preciznu i ravnomernu primenu bez mrlja, čuvajući vaše gume kao nove!`,
+        slug: 'product-32'
+    },
+    {
         id: 111,
         name: 'NEPHELINE Leather Cleaner – Sigurno i Dubinsko Čišćenje Kože 50L',
         price: '5500 RSD',
@@ -1339,6 +1310,27 @@ Zahvaljujući specijalnoj vafel površini, krpa omogućava dublje i efikasnije �
         image: offinish,
         description: `Open Flow Finishing pad dizajniran je da laku vozila pruži maksimalnu dubinu boje i efekat ogledala. Izrađen od pene sa otvorenom ćelijskom strukturom, obezbeđuje odličnu cirkulaciju vazduha, smanjuje rizik od pregrevanja površine i garantuje stabilan rad čak i tokom dugih poliranja. 🔥💨`,
         slug: 'product-114'
+    },
+    {
+        id: 30,
+        name: 'Allrounder Mikrofiber Krpa 250GSM – 40x40 cm | Royal Pads',
+        price: '300 RSD',
+        image: mikrofiber,
+        description: `Royal Pads Allrounder mikrofiber krpa od 250GSM, dimenzija 40x40 cm, izrađena je od nežnih, kratkih i mekih vlakana koja ne ostavljaju tragove ili vlakna na laku. Savršena je za rad sa proizvodima za zaštitu laka, kao što su sealanti, spray voskovi i keramički premazivači.
+                        Takođe je pogodna za lako spoljašnje čišćenje ili uklanjanje prašine i prljavštine iz unutrašnjosti vozila, bez rizika od grebanja površine.`,
+        slug: 'product-30'
+    },
+    {
+        id: 15,
+        name: 'AIR Soft – Premium Finishing Pad za Savršen Sjaj Royal Pads 150mm',
+        price: '1300 RSD',
+        image: airsoftpremium,
+        description: `Krunski Korak u Korekciji Laka – Besprekorna Završna Obrada
+ULTRA FINISH Pro je meki polishing pad visoke gustine specijalno razvijen za:
+✔ Ultimativnu završnu obradu nakon faza rezanja i poliranja
+✔ Kompletno uklanjanje mikro-ogrebotina i holograma
+✔ Pripremu površine za nanošenje keramičkih zaštita i voskova`,
+        slug: 'product-15'
     },
     {
         id: 115,
@@ -1435,6 +1427,14 @@ Zahvaljujući specijalnoj vafel površini, krpa omogućava dublje i efikasnije �
         slug: 'product-124'
     },
     {
+        id: 57,
+        name: 'DRILL BRUSH - Set od 3 četke za sve površine FlashDetail',
+        price: '1500 RSD',
+        image: drillbrush,
+        description: `Transformišite običnu bušilicu u moćan alat za dubinsko čišćenje! Ovaj revolucionarni set omogućava brzo i efikasno uklanjanje tvrdokorne prljavštine, uljnih naslaga i mrlja sa svih površina vašeg vozila.`,
+        slug: 'product-57'
+    },
+    {
         id: 125,
         name: 'One-Touch Wool – Revolucionarni Polishing Wool za Jednofaznu Korekciju Laka 130mm',
         price: '1500 RSD',
@@ -1492,6 +1492,14 @@ Zahvaljujući specijalnoj vafel površini, krpa omogućava dublje i efikasnije �
 ✔️ Nepobedivu zaštitu od UV zračenja
 ✔️ Hidrofobni efekat koji traje nedeljama`,
         slug: 'product-129'
+    },
+    {
+        id: 55,
+        name: 'Double Scrub Pad – Skruber Royal Pads',
+        price: '1100 RSD',
+        image: doublescrub,
+        description: `Otkrij novu dimenziju čistoće uz Double_Scrub Pad, specijalno razvijen za temeljno i bezbedno čišćenje enterijera automobila. Ovaj praktičan i izdržljiv pad kombinuje visoku efikasnost čišćenja sa potpunom bezbednošću za osetljive površine, zbog čega je idealan za uklanjanje tvrdokorne prljavštine sa plastike, vinila, kože i tekstila.`,
+        slug: 'product-55'
     },
     {
         id: 130,
@@ -1655,6 +1663,7 @@ Izrađen je od otvorenoćelijske pene bez abrazivnih svojstava, i kompatibilan j
         description: `Profesionalni vrlo tvrdi sunđer za poliranje razvijen za prvu fazu korekcije auto laka – grubo poliranje (cutting). Izrađen od zatvorenih ćelija pene sa izuzetno visokim abrazivnim svojstvima, idealan je za brzo i efikasno uklanjanje dubokih ogrebotina, oksidacije i ozbiljnijih oštećenja laka. Kompatibilan sa svim vrstama lakiranih površina.`,
         slug: 'product-145'
     },
+
     {
         id: 146,
         name: 'Scan Inspection Spray – Sredstvo za inspekciju laka 1L',

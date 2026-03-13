@@ -236,16 +236,26 @@ $font-sans: 'Montserrat', sans-serif;
 
 // --- RESPONSIVE ---
 @media (max-width: 1024px) {
-    .wash-section .wash-info-grid {
-        grid-template-columns: 1fr;
+    .wash-section {
+        .wash-info-grid {
+            grid-template-columns: 1fr;
+            min-height: auto;
 
-        .text-block {
-            order: 1;
+            .text-block {
+                order: 1;
+                padding: 60px 6%;
+            }
+
+            .image-block {
+                order: 2;
+                height: 400px;
+            }
         }
 
-        .image-block {
-            order: 2;
-            height: 400px;
+        .wash-features {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 18px;
+            padding: 80px 6%;
         }
     }
 }
@@ -259,26 +269,86 @@ $font-sans: 'Montserrat', sans-serif;
             padding: 0 5%;
         }
 
-        .btn-primary {
-            width: 100%;
-            max-width: 300px;
+        .wash-hero {
+            height: 80dvh;
+
+            .wash-hero-overlay .content {
+                max-width: 520px;
+
+                .btn-primary {
+                    width: 100%;
+                    max-width: 300px;
+                }
+            }
         }
 
         .wash-features {
             padding: 60px 5%;
             gap: 25px;
+            grid-template-columns: 1fr;
+
+            .wash-title-container {
+                margin-bottom: 30px;
+            }
+
+            .feature-item {
+                padding: 30px 20px;
+            }
         }
     }
 }
 
 @media (max-width: 480px) {
     .wash-section {
+        .wash-hero {
+            height: 85dvh;
+
+            .wash-hero-overlay {
+                padding: 0 6%;
+
+                .content {
+                    h1 {
+                        font-size: 2rem;
+                        margin-bottom: 14px;
+                    }
+
+                    p {
+                        font-size: 0.95rem;
+                        margin-bottom: 26px;
+                    }
+
+                    .btn-primary {
+                        min-width: 0;
+                        padding: 14px 26px;
+                        letter-spacing: 1.2px;
+                    }
+                }
+            }
+        }
+
         .wash-info-grid .image-block {
             height: 300px;
         }
 
-        .wash-hero {
-            height: 85dvh;
+        .wash-info-grid .text-block {
+            padding: 45px 6%;
+
+            p {
+                font-size: 0.95rem;
+                line-height: 1.65;
+            }
+        }
+
+        .wash-features {
+            padding: 50px 6%;
+
+            .feature-item h3 {
+                font-size: 1.15rem;
+            }
+
+            .feature-item p {
+                font-size: 0.9rem;
+            }
         }
     }
 }

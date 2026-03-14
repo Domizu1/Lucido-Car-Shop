@@ -7,6 +7,7 @@ import './shop.scss';
 import { useSelector, useDispatch } from 'react-redux';
 import CartTab from '../shop/CartTab';
 import { toggleStatusTab } from '../../store/cart';
+import Seo from '../../components/Seo';
 
 function Shop() {
     const PRODUCTS_PER_PAGE = 32;
@@ -57,6 +58,11 @@ function Shop() {
 
     return (
         <div className="shop-page">
+            <Seo
+                title="Shop Auto Kozmetike | Lucido Detailing"
+                description="Kupite proverene proizvode za negu vozila. Pretrazite Lucido shop i narucite detailing opremu i auto kozmetiku."
+                keywords="shop auto kozmetike, detailing proizvodi, Lucido shop"
+            />
             <header className="shop-header">
                 <Link to="/" className="home-btn">Home</Link>
 

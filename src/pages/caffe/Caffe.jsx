@@ -1,6 +1,7 @@
 import './caffe.scss';
 import coffeeHot from '../../assets/images/coffee.webp';
 import coffeeCold from '../../assets/images/coffee.webp';
+import Seo from '../../components/Seo';
 
 const menuData = {
     hot: [
@@ -23,6 +24,11 @@ const menuData = {
 function Caffe() {
     return (
         <section className="caffe-page">
+            <Seo
+                title="Lucido Caffe | Kafa i Pauza uz Detailing"
+                description="Pogledajte ponudu toplih i hladnih kafa u Lucido Caffe zoni dok cekate detailing ili pranje vozila."
+                keywords="caffe, kafa, Lucido caffe, tople kafe, hladne kafe"
+            />
             <div className="caffe-container">
                 <header className="caffe-header">
                     <h1>LUCIDO <span>CAFFE</span></h1>

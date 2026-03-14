@@ -5,6 +5,7 @@ import './details.scss';
 import { useDispatch } from 'react-redux';
 import { addToCart } from '../../store/cart';
 import { FaArrowLeft } from 'react-icons/fa';
+import Seo from '../../components/Seo';
 
 const normalizeDescriptionLines = (description) => {
     if (!description) return [];
@@ -78,6 +79,12 @@ function Details() {
 
     return (
         <div className="details-container">
+            <Seo
+                title={`${detail.name} | Lucido Shop`}
+                description={(detail.description || '').replace(/\s+/g, ' ').trim().slice(0, 155) || 'Detalji proizvoda iz Lucido shop ponude.'}
+                keywords={`auto kozmetika, detailing, ${detail.name}`}
+                type="product"
+            />
             {/* NOVO DUGME ZA POVRATAK */}
             <button className="back-to-shop" onClick={() => navigate('/shop')}>
                 <FaArrowLeft />

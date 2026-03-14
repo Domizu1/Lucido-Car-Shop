@@ -3,6 +3,7 @@ import { useState } from 'react';
 import washHero from '../../assets/images/wash1.webp';
 import washDetail from '../../assets/images/wash2.webp';
 import { FaWater, FaCar, FaSprayCan, FaShieldAlt } from 'react-icons/fa';
+import Seo from '../../components/Seo';
 
 function Wash() {
     const [buttonText, setButtonText] = useState('ZAKAŽI TERMIN');
@@ -19,6 +20,11 @@ function Wash() {
 
     return (
         <section className="wash-section">
+            <Seo
+                title="Premium Pranje Vozila | Lucido Detailing"
+                description="Profesionalno i bezbedno pranje vozila uz pH neutralnu hemiju, dekontaminaciju i premium detailing pristup."
+                keywords="premium pranje vozila, detailing pranje, dekontaminacija, Lucido"
+            />
 
             <div
                 className="wash-hero"

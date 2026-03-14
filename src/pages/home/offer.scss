@@ -159,6 +159,8 @@ $font-main: 'Montserrat', sans-serif;
         .offer-block {
             flex-direction: column !important;
             min-height: auto;
+            opacity: 1;
+            animation: none;
 
             .offer-text-side .content-wrapper,
             &.reverse .offer-text-side .content-wrapper {
@@ -167,6 +169,8 @@ $font-main: 'Montserrat', sans-serif;
                 border: none;
                 padding: 40px 20px;
                 max-width: 100%;
+                backdrop-filter: none;
+                background-color: rgba(20, 20, 20, 0.95);
             }
 
             .offer-image-side,

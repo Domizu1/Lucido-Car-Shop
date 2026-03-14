@@ -6,7 +6,9 @@ function Navbar() {
     const handleScroll = (id) => {
         const element = document.getElementById(id);
         if (element) {
-            element.scrollIntoView({ behavior: 'smooth' });
+            const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            const isMobile = window.matchMedia('(max-width: 768px)').matches;
+            element.scrollIntoView({ behavior: prefersReducedMotion || isMobile ? 'auto' : 'smooth', block: 'start' });
         }
     };
 
@@ -14,7 +16,7 @@ function Navbar() {
         <nav className="navbar-container">
             <div className="navbar">
                 <div className="navbar-logo">
-                    <Link to="/" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+                    <Link to="/" onClick={() => window.scrollTo({ top: 0, behavior: 'auto' })}>
                         <img src={logo} alt="Lucido Detailing Logo" className="logo-image" />
                     </Link>
                 </div>

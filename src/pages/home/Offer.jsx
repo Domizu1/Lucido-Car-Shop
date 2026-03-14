@@ -56,7 +56,7 @@ function Offer() {
             {offerData.map((item, index) => (
                 <div key={item.id} className={`offer-block ${index % 2 !== 0 ? 'reverse' : ''}`}>
                     <div className="offer-image-side">
-                        <img src={item.img} alt={item.title} loading="eager" decoding="async" />
+                        <img src={item.img} alt={item.title} loading={index === 0 ? 'eager' : 'lazy'} decoding="async" />
                     </div>
 
                     <div className="offer-text-side">

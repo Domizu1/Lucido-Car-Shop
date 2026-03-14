@@ -1,7 +1,6 @@
 import './caffe.scss';
 import coffeeHot from '../../assets/images/coffee.webp';
 import coffeeCold from '../../assets/images/coffee.webp';
-import { useEffect } from 'react';
 
 const menuData = {
     hot: [
@@ -22,20 +21,6 @@ const menuData = {
 };
 
 function Caffe() {
-
-    useEffect(() => {
-        window.scrollTo(0, 0);
-        const timeout = setTimeout(() => {
-            window.scrollTo({
-                top: 0,
-                left: 0,
-                behavior: 'instant'
-            });
-        }, 10);
-        return () => clearTimeout(timeout);
-    }, []);
-
-
     return (
         <section className="caffe-page">
             <div className="caffe-container">

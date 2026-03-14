@@ -1,5 +1,5 @@
 import './wash.scss';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import washHero from '../../assets/images/wash1.webp';
 import washDetail from '../../assets/images/wash2.webp';
 import { FaWater, FaCar, FaSprayCan, FaShieldAlt } from 'react-icons/fa';
@@ -7,18 +7,6 @@ import { FaWater, FaCar, FaSprayCan, FaShieldAlt } from 'react-icons/fa';
 function Wash() {
     const [buttonText, setButtonText] = useState('ZAKAŽI TERMIN');
     const phoneNumber = "+381 65 8828422";
-
-    useEffect(() => {
-        window.scrollTo(0, 0);
-        const timeout = setTimeout(() => {
-            window.scrollTo({
-                top: 0,
-                left: 0,
-                behavior: 'instant'
-            });
-        }, 10);
-        return () => clearTimeout(timeout);
-    }, []);
 
     const handleCopy = () => {
         navigator.clipboard.writeText(phoneNumber);

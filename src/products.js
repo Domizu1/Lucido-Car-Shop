@@ -111,7 +111,7 @@ import thinmedium from './assets/shop/THIN Medium.webp';
 import thinonestep from './assets/shop/THIN One Step.webp';
 import heavycut from './assets/shop/Ultracoat Heavy Cut.webp';
 import mediumcut from './assets/shop/UltraCoat Medium.webp';
-import finecut from './assets/shop/Ultracoat Fine Cut.webp';
+import finecut from './assets/shop/UltraCoat Fine Cut.webp';
 
 
 export const products = [

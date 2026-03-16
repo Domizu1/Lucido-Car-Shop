@@ -187,6 +187,10 @@ $accent-color: #8359b1;
                     &:active {
                         transform: scale(0.97);
                     }
+
+                    &.is-added {
+                        background-color: #22c55e;
+                    }
                 }
             }
         }

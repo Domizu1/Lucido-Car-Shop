@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './productcard.scss';
 import cart from '../assets/shop/cart.svg';
@@ -8,16 +8,35 @@ import { addToCart } from '../store/cart';
 const ProductCard = (props) => {
 
     const carts = useSelector(store => store.cart.items);
-    console.log(carts);
+    void carts;
     const { name, image, slug, price } = props.data;
+    const [isAdded, setIsAdded] = useState(false);
+    const resetTimerRef = useRef(null);
 
     const dispatch = useDispatch();
+
+    useEffect(() => {
+        return () => {
+            if (resetTimerRef.current) {
+                clearTimeout(resetTimerRef.current);
+            }
+        };
+    }, []);
+
     const handleAddtoCart = () => {
         dispatch(addToCart({
             productId: props.data.id,
             quantity: 1
-        }))
-    }
+        }));
+
+        setIsAdded(true);
+        if (resetTimerRef.current) {
+            clearTimeout(resetTimerRef.current);
+        }
+        resetTimerRef.current = setTimeout(() => {
+            setIsAdded(false);
+        }, 1500);
+    };
 
     return (
         <div className="product-card">
@@ -33,9 +52,13 @@ const ProductCard = (props) => {
                 <p>
                     <span className='product-price'>{price}</span>
                 </p>
-                <button className='product-btn' onClick={handleAddtoCart}>
+                <button
+                    className={`product-btn ${isAdded ? 'is-added' : ''}`}
+                    onClick={handleAddtoCart}
+                    aria-label={isAdded ? 'Proizvod je dodat u korpu' : 'Dodaj proizvod u korpu'}
+                >
                     <img src={cart} alt="Cart" className='btn-img' />
-                    Dodaj U Korpu
+                    {isAdded ? 'Dodato u korpu' : 'Dodaj U Korpu'}
                 </button>
             </div>
         </div>

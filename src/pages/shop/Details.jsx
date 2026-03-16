@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { products } from '../../products';
 import './details.scss';
@@ -46,6 +46,8 @@ function Details() {
     const { slug } = useParams();
     const [detail, setDetail] = useState(null);
     const [quantity, setQuantity] = useState(1);
+    const [isAdded, setIsAdded] = useState(false);
+    const resetTimerRef = useRef(null);
     const navigate = useNavigate();
     const dispatch = useDispatch();
 
@@ -57,6 +59,14 @@ function Details() {
             navigate('/shop');
         }
     }, [slug, navigate]);
+
+    useEffect(() => {
+        return () => {
+            if (resetTimerRef.current) {
+                clearTimeout(resetTimerRef.current);
+            }
+        };
+    }, []);
 
     if (!detail) return null;
 
@@ -75,6 +85,14 @@ function Details() {
             productId: detail.id,
             quantity: quantity
         }));
+
+        setIsAdded(true);
+        if (resetTimerRef.current) {
+            clearTimeout(resetTimerRef.current);
+        }
+        resetTimerRef.current = setTimeout(() => {
+            setIsAdded(false);
+        }, 1500);
     };
 
     return (
@@ -125,8 +143,12 @@ function Details() {
                             <span>{quantity}</span>
                             <button onClick={handlePlusQuantity} className='btn-plus'>+</button>
                         </div>
-                        <button className="add-to-cart-btn" onClick={handleAddToCart}>
-                            DODAJ U KORPU
+                        <button
+                            className={`add-to-cart-btn ${isAdded ? 'is-added' : ''}`}
+                            onClick={handleAddToCart}
+                            aria-label={isAdded ? 'Proizvod je dodat u korpu' : 'Dodaj proizvod u korpu'}
+                        >
+                            {isAdded ? 'DODATO U KORPU' : 'DODAJ U KORPU'}
                         </button>
                     </div>
                 </div>

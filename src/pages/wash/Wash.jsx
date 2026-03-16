@@ -66,7 +66,7 @@ function Wash() {
                 </div>
             </div>
 
-            {/* FEATURES SEKCIJA */}
+            FEATURES SEKCIJA
             <div className="wash-features">
                 <div className="wash-title-container">
                     <span className="subtitle">DETALJAN PRISTUP</span>

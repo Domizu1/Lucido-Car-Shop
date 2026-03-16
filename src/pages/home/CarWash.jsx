@@ -33,14 +33,14 @@ function CarWash() {
                 </div>
             </div>
 
-            <div className="brand-bar">
+            {/* <div className="brand-bar">
                 <div className="brand-pill">
                     <div className="brand-item">✨ SJAJ</div>
                     <div className="brand-item">🛡️ ZAŠTITA</div>
                     <div className="brand-item">🎯 PRECIZNOST</div>
                     <div className="brand-item">💎 PREMIJUM</div>
                 </div>
-            </div>
+            </div> */}
         </section>
     );
 }

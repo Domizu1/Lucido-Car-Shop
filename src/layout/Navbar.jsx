@@ -24,7 +24,7 @@ function Navbar() {
                     <li onClick={() => handleScroll('detailing')}>Detailing</li>
                     <li onClick={() => handleScroll('perionica')}>Perionica</li>
                     <li onClick={() => handleScroll('caffe')}>Caffe Bar</li>
-                    <li onClick={() => handleScroll('lokacija')}>Lokacija</li>
+                    {/* <li onClick={() => handleScroll('lokacija')}>Lokacija</li> */}
                 </ul>
                 <div className="navbar-cta">
                     <Link to="/shop">

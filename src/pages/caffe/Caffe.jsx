@@ -1,23 +1,28 @@
 import './caffe.scss';
 import coffeeHot from '../../assets/images/coffee.webp';
-import coffeeCold from '../../assets/images/coffee.webp';
+import coffeeCold from '../../assets/images/drink.webp';
 import Seo from '../../components/Seo';
 
 const menuData = {
     hot: [
-        { name: "Kafa1", price: "240" },
-        { name: "Kafa2", price: "260" },
-        { name: "Kafa3", price: "220" },
-        { name: "Kafa4", price: "280" },
-        { name: "Kafa5", price: "180" },
-        { name: "Kafa6", price: "150" }
+        { name: "Espresso", price: "190" },
+        { name: "Espresso sa Mlekom", price: "200" },
+        { name: "Cappucino", price: "230" },
+        { name: "Caffe Latte", price: "230" },
+        { name: "Espresso Doppio", price: "270" },
+        { name: "Ness", price: "220" }
     ],
     cold: [
-        { name: "Kafa1", price: "290" },
-        { name: "Kafa2", price: "350" },
-        { name: "Kafa3", price: "320" },
-        { name: "Kafa4", price: "310" },
-        { name: "Kafa5", price: "330" }
+        { name: "Čaj", price: "190" },
+        { name: "Heba Mineralna", price: "350" },
+        { name: "Rosa Negazirana", price: "320" },
+        { name: "Fanta", price: "240" },
+        { name: "Coca Cola", price: "240" },
+        { name: "Coca Cola Zero", price: "240" },
+        { name: "Sokovi", price: "250" },
+        { name: "Limunada Gazirana", price: "240" },
+        { name: "Gin-Tonic", price: "240" },
+        { name: "Heineken", price: "270" }
     ]
 };
 
@@ -37,7 +42,7 @@ function Caffe() {
                 <div className="menu-section hot">
                     <div className="menu-text">
                         <div className="section-title">
-                            <h2>Tople Kafe</h2>
+                            <h2>KAFE</h2>
                             <div className="line"></div>
                         </div>
                         <ul className="menu-list">
@@ -60,7 +65,7 @@ function Caffe() {
                     </div>
                     <div className="menu-text">
                         <div className="section-title">
-                            <h2>Hladen Kafe</h2>
+                            <h2>OSTALI NAPICI</h2>
                             <div className="line"></div>
                         </div>
                         <ul className="menu-list">

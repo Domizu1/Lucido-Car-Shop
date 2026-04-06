@@ -1540,7 +1540,7 @@ ULTRA FINISH Pro je meki polishing pad visoke gustine specijalno razvijen za:
         id: 127,
         name: 'ONYX Tire Dressing – Dugotrajna zaštita i sjaj za gume 400ml',
         price: '1450 RSD',
-        image: giantflash,
+        image: onyx,
         description: `ONYX Tire Dressing – Revolucionarna formula sa SiO2 koja vašim gumama daje:
 ✔️ Dubok crni satenski sjaj
 ✔️ Nepobedivu zaštitu od UV zračenja
@@ -1551,7 +1551,7 @@ ULTRA FINISH Pro je meki polishing pad visoke gustine specijalno razvijen za:
         id: 128,
         name: 'ONYX Tire Dressing – Dugotrajna zaštita i sjaj za gume 750ml',
         price: '2450 RSD',
-        image: giantflash,
+        image: onyx,
         description: `ONYX Tire Dressing – Revolucionarna formula sa SiO2 koja vašim gumama daje:
 ✔️ Dubok crni satenski sjaj
 ✔️ Nepobedivu zaštitu od UV zračenja

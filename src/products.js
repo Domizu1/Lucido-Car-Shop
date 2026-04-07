@@ -112,6 +112,13 @@ import thinonestep from './assets/shop/THIN One Step.webp';
 import heavycut from './assets/shop/Ultracoat Heavy Cut.webp';
 import mediumcut from './assets/shop/UltraCoat Medium.webp';
 import finecut from './assets/shop/UltraCoat Fine Cut.webp';
+import enzyme from './assets/shop/enzyme.webp'
+import sunstone from './assets/shop/SUNSTONE.webp'
+import quartz500 from './assets/shop/quartz500.webp'
+import quartz5 from './assets/shop/quartz5.webp'
+import apple from './assets/shop/apple.webp'
+import ceramic from './assets/shop/Ceramic.webp'
+import tapacire from './assets/shop/tapacire.webp'
 
 
 export const products = [
@@ -2093,5 +2100,190 @@ Pogodan za sve vrste premaza – uključujući i tvrde OEM premaze, meke lakove 
 
 Pogodan za sve vrste premaza – uključujući i tvrde OEM premaze, meke lakove i moderne keramičke premaze.`,
         slug: 'product-180'
+    },
+    {
+        id: 187,
+        name: 'Sredstvo za pranje mikrofibera | Omega Detailing',
+        price: '1200 RSD',
+        image: enzyme,
+        description: ` OMEGA Detailing Enzyme je profesionalno enzimatsko sredstvo namenjeno dubinskom čišćenju mikrofiber krpa, aplikatora i detailing opreme. Zahvaljujući snažnoj formuli sa aktivnim enzimima, efikasno razgrađuje ostatke voska, sealanta, quick detailera, unutrašnjih i spoljašnjih čistača – bez oštećivanja vlakana.`,
+        slug: 'product-187'
+    },
+    {
+        id: 188,
+        name: 'SUNSTONE Fabric Cleaner - Suvi cistac za tapacire Auto Graph 400ml',
+        price: '850 RSD',
+        image: sunstone,
+        description: `SUNSTONE Fabric Cleaner je spreman za upotrebu i namenjen za čišćenje i održavanje tekstilnih površina u enterijeru vozila. Odlično se pokazao za lokalno uklanjanje fleka, bonetovanje (povrsinsko ciscenje) i redovno osvežavanje tapacirunga.
+
+Napredna formula prodire duboko u vlakna i efikasno razgrađuje masne, organske i tvrdokorne nečistoće, bez potrebe za ispiranjem. Ne ostavlja tragove i nakon čišćenja ostavlja prijatan, svež miris u kabini. 🚗✨`,
+        slug: 'product-188'
+    },
+    {
+        id: 189,
+        name: 'SUNSTONE Fabric Cleaner - Suvi cistac za tapacire Auto Graph 750ml',
+        price: '1200 RSD',
+        image: sunstone,
+        description: `SUNSTONE Fabric Cleaner je spreman za upotrebu i namenjen za čišćenje i održavanje tekstilnih površina u enterijeru vozila. Odlično se pokazao za lokalno uklanjanje fleka, bonetovanje (povrsinsko ciscenje) i redovno osvežavanje tapacirunga.
+
+Napredna formula prodire duboko u vlakna i efikasno razgrađuje masne, organske i tvrdokorne nečistoće, bez potrebe za ispiranjem. Ne ostavlja tragove i nakon čišćenja ostavlja prijatan, svež miris u kabini. 🚗✨`,
+        slug: 'product-189'
+    },
+    {
+        id: 190,
+        name: 'SUNSTONE Fabric Cleaner - Suvi cistac za tapacire Auto Graph 5L',
+        price: '4200 RSD',
+        image: sunstone,
+        description: `SUNSTONE Fabric Cleaner je spreman za upotrebu i namenjen za čišćenje i održavanje tekstilnih površina u enterijeru vozila. Odlično se pokazao za lokalno uklanjanje fleka, bonetovanje (povrsinsko ciscenje) i redovno osvežavanje tapacirunga.
+
+Napredna formula prodire duboko u vlakna i efikasno razgrađuje masne, organske i tvrdokorne nečistoće, bez potrebe za ispiranjem. Ne ostavlja tragove i nakon čišćenja ostavlja prijatan, svež miris u kabini. 🚗✨`,
+        slug: 'product-190'
+    },
+    {
+        id: 191,
+        name: 'UltraCoat Quartz Tire Dressing – Hidrofobna zaštita i sjaj za gume i plastiku 500ml',
+        price: '2100 RSD',
+        image: quartz500,
+        description: `UltraCoat Quartz Tire Dressing – Premium Zaštita za Gume i Plastiku
+🔹 Zašto Izabrati Quartz Tire Dressing?
+✔ Silikon-bazirana formula – Dubinska hidrofobna zaštita koja traje do 12 nedelja
+✔ Dva finiša po izboru ✨ – Saten (mat) ili Sjaj (gloss) – zavisi od količine nanošenja
+✔ Prijatan miris borovnice  – Bez oštrih hemijskih mirisa
+✔ Prevencija starenja – Štiti od UV zračenja, soli i prljavštine
+✔ Laka aplikacija – Ugrađeni raspršivač za preciznu kontrolu`,
+        slug: 'product-191'
+    },
+    {
+        id: 192,
+        name: 'UltraCoat Quartz Tire Dressing – Hidrofobna zaštita i sjaj za gume i plastiku 1L',
+        price: '3200 RSD',
+        image: quartz500,
+        description: `UltraCoat Quartz Tire Dressing – Premium Zaštita za Gume i Plastiku
+🔹 Zašto Izabrati Quartz Tire Dressing?
+✔ Silikon-bazirana formula – Dubinska hidrofobna zaštita koja traje do 12 nedelja
+✔ Dva finiša po izboru ✨ – Saten (mat) ili Sjaj (gloss) – zavisi od količine nanošenja
+✔ Prijatan miris borovnice  – Bez oštrih hemijskih mirisa
+✔ Prevencija starenja – Štiti od UV zračenja, soli i prljavštine
+✔ Laka aplikacija – Ugrađeni raspršivač za preciznu kontrolu`,
+        slug: 'product-192'
+    },
+    {
+        id: 193,
+        name: 'UltraCoat Quartz Tire Dressing – Hidrofobna zaštita i sjaj za gume i plastiku 5L',
+        price: '9500 RSD',
+        image: quartz5,
+        description: `UltraCoat Quartz Tire Dressing – Premium Zaštita za Gume i Plastiku
+🔹 Zašto Izabrati Quartz Tire Dressing?
+✔ Silikon-bazirana formula – Dubinska hidrofobna zaštita koja traje do 12 nedelja
+✔ Dva finiša po izboru ✨ – Saten (mat) ili Sjaj (gloss) – zavisi od količine nanošenja
+✔ Prijatan miris borovnice  – Bez oštrih hemijskih mirisa
+✔ Prevencija starenja – Štiti od UV zračenja, soli i prljavštine
+✔ Laka aplikacija – Ugrađeni raspršivač za preciznu kontrolu`,
+        slug: 'product-193'
+    },
+    {
+        id: 194,
+        name: 'Premaz za plastike sa mirisom jabuke | Omega Detailing',
+        price: '1300 RSD',
+        image: apple,
+        description: `🌟 Sredstvo za unutrašnju negu – prirodni završni efekat
+Unesite svežinu i čistoću u enterijer svog automobila uz Omega Detailing Interior Apple Dressing! 🚗✨
+Formulisan za profesionalnu i kućnu upotrebu, ovaj preparat pruža prirodan završni izgled, bez masnog traga i klizavih površina. 🍃`,
+        slug: 'product-194'
+    },
+    {
+        id: 195,
+        name: 'UltraCoat Ceramic Q-Detailer – SiO₂ sprej za sjaj i zaštitu 500ml',
+        price: '1900 RSD',
+        image: ceramic,
+        description: `UltraCoat Ceramic Q-Detailer – Instant sjaj & dugotrajna hidrofobna zaštita
+UltraCoat Ceramic Q-Detailer je revolucionarni SiO₂ sprej za brzo održavanje laka, keramičkih premaza, stakala i plastičnih površina. Sa visokim sadržajem aktivnog silicijuma, ovaj proizvod obnavlja hidrofobnost, povećava sjaj i štiti površinu – sve u samo nekoliko minuta!`,
+        slug: 'product-195'
+    },
+    {
+        id: 196,
+        name: 'UltraCoat Ceramic Q-Detailer – SiO₂ sprej za sjaj i zaštitu 1L',
+        price: '2650 RSD',
+        image: ceramic,
+        description: `UltraCoat Ceramic Q-Detailer – Instant sjaj & dugotrajna hidrofobna zaštita
+UltraCoat Ceramic Q-Detailer je revolucionarni SiO₂ sprej za brzo održavanje laka, keramičkih premaza, stakala i plastičnih površina. Sa visokim sadržajem aktivnog silicijuma, ovaj proizvod obnavlja hidrofobnost, povećava sjaj i štiti površinu – sve u samo nekoliko minuta!`,
+        slug: 'product-196'
+    },
+    {
+        id: 197,
+        name: 'UltraCoat Ceramic Q-Detailer – SiO₂ sprej za sjaj i zaštitu 5L',
+        price: '9500 RSD',
+        image: ceramic,
+        description: `UltraCoat Ceramic Q-Detailer – Instant sjaj & dugotrajna hidrofobna zaštita
+UltraCoat Ceramic Q-Detailer je revolucionarni SiO₂ sprej za brzo održavanje laka, keramičkih premaza, stakala i plastičnih površina. Sa visokim sadržajem aktivnog silicijuma, ovaj proizvod obnavlja hidrofobnost, povećava sjaj i štiti površinu – sve u samo nekoliko minuta!`,
+        slug: 'product-197'
+    },
+    {
+        id: 198,
+        name: 'Suvi cistac za tapacire i nebo | Omega Detailing',
+        price: '1200 RSD',
+        image: tapacire,
+        description: `OMEGA Detailing – Extra Dry Concentrate 500ml
+🔥 Suvi šampon za dubinsko čišćenje tapacirunga bez prekomernog kvašenja
+Očistite tapacirane površine u vozilu brzo, efikasno i bez dugog sušenja! 🚘✨
+OMEGA Detailing Extra Dry Concentrate je profesionalni suvi šampon koji uklanja mrlje, prljavštinu i neprijatne mirise sa sedišta, patosnica, naslona i ostalih tekstilnih površina — bez rizika od natapanja i pojave fleka. 👌`,
+        slug: 'product-198'
     }
+    // {
+    //     id: 180,
+    //     name: 'THIN One Step Niskoprofilni Polir Sunđer za Jednostepenu Korekciju Laka – One Step Royal Pads 150mm',
+    //     price: '1300 RSD',
+    //     image: thinonestep,
+    //     description: ``,
+    //     slug: 'product-180'
+    // },
+    // {
+    //     id: 180,
+    //     name: 'THIN One Step Niskoprofilni Polir Sunđer za Jednostepenu Korekciju Laka – One Step Royal Pads 150mm',
+    //     price: '1300 RSD',
+    //     image: thinonestep,
+    //     description: ``,
+    //     slug: 'product-180'
+    // },
+    // {
+    //     id: 180,
+    //     name: 'THIN One Step Niskoprofilni Polir Sunđer za Jednostepenu Korekciju Laka – One Step Royal Pads 150mm',
+    //     price: '1300 RSD',
+    //     image: thinonestep,
+    //     description: ``,
+    //     slug: 'product-180'
+    // },
+    // {
+    //     id: 180,
+    //     name: 'THIN One Step Niskoprofilni Polir Sunđer za Jednostepenu Korekciju Laka – One Step Royal Pads 150mm',
+    //     price: '1300 RSD',
+    //     image: thinonestep,
+    //     description: ``,
+    //     slug: 'product-180'
+    // },
+    // {
+    //     id: 180,
+    //     name: 'THIN One Step Niskoprofilni Polir Sunđer za Jednostepenu Korekciju Laka – One Step Royal Pads 150mm',
+    //     price: '1300 RSD',
+    //     image: thinonestep,
+    //     description: ``,
+    //     slug: 'product-180'
+    // },
+    // {
+    //     id: 180,
+    //     name: 'THIN One Step Niskoprofilni Polir Sunđer za Jednostepenu Korekciju Laka – One Step Royal Pads 150mm',
+    //     price: '1300 RSD',
+    //     image: thinonestep,
+    //     description: ``,
+    //     slug: 'product-180'
+    // },
+    // {
+    //     id: 180,
+    //     name: 'THIN One Step Niskoprofilni Polir Sunđer za Jednostepenu Korekciju Laka – One Step Royal Pads 150mm',
+    //     price: '1300 RSD',
+    //     image: thinonestep,
+    //     description: ``,
+    //     slug: 'product-180'
+    // }
+
 ];

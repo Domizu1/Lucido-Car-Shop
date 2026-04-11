@@ -119,6 +119,13 @@ import quartz5 from './assets/shop/quartz5.webp'
 import apple from './assets/shop/apple.webp'
 import ceramic from './assets/shop/Ceramic.webp'
 import tapacire from './assets/shop/tapacire.webp'
+import topaz from './assets/shop/TOPAZ.webp'
+import tourmaline from './assets/shop/TOURMALINE.webp'
+import tourmaline5l from './assets/shop/TOURMALINE5l.webp'
+import carbon from './assets/shop/CARBON.webp'
+import premaz from './assets/shop/Premaz.webp'
+import olivine from './assets/shop/OLIVINE.webp';
+import olivine5l from './assets/shop/OLIVINE5L.webp';
 
 
 export const products = [
@@ -2228,6 +2235,151 @@ UltraCoat Ceramic Q-Detailer je revolucionarni SiO₂ sprej za brzo održavanje 
 Očistite tapacirane površine u vozilu brzo, efikasno i bez dugog sušenja! 🚘✨
 OMEGA Detailing Extra Dry Concentrate je profesionalni suvi šampon koji uklanja mrlje, prljavštinu i neprijatne mirise sa sedišta, patosnica, naslona i ostalih tekstilnih površina — bez rizika od natapanja i pojave fleka. 👌`,
         slug: 'product-198'
+    },
+    {
+        id: 199,
+        name: 'TOPAZ Bug Remover – Uklanjanje Insekata sa Auta Bez Oštećenja 400ml',
+        price: '800 RSD',
+        image: topaz,
+        description: `✨ TOPAZ Bug Remover – Najefikasnije Rešenje Protiv Insekata! 🚗🐞
+
+TOPAZ Bug Remover je revolucionarni preparat koji:
+✔ Brzo razlaže najtvrdokornije tragove insekata
+✔ Štiti lak od korozivnih proteina
+✔ Olakšava održavanje - sprečava nakupljanje naslaga
+
+`,
+        slug: 'product-199'
+    },
+    {
+        id: 200,
+        name: 'TOPAZ Bug Remover – Uklanjanje Insekata sa Auta Bez Oštećenja 750ml',
+        price: '1300 RSD',
+        image: topaz,
+        description: `✨ TOPAZ Bug Remover – Najefikasnije Rešenje Protiv Insekata! 🚗🐞
+
+TOPAZ Bug Remover je revolucionarni preparat koji:
+✔ Brzo razlaže najtvrdokornije tragove insekata
+✔ Štiti lak od korozivnih proteina
+✔ Olakšava održavanje - sprečava nakupljanje naslaga`,
+        slug: 'product-200'
+    },
+    {
+        id: 201,
+        name: 'TOPAZ Bug Remover – Uklanjanje Insekata sa Auta Bez Oštećenja 5L',
+        price: '6300 RSD',
+        image: topaz,
+        description: `✨ TOPAZ Bug Remover – Najefikasnije Rešenje Protiv Insekata! 🚗🐞
+
+TOPAZ Bug Remover je revolucionarni preparat koji:
+✔ Brzo razlaže najtvrdokornije tragove insekata
+✔ Štiti lak od korozivnih proteina
+✔ Olakšava održavanje - sprečava nakupljanje naslaga`,
+        slug: 'product-201'
+    },
+    {
+        id: 202,
+        name: 'TOURMALINE neutralni šampon za auto – Sigurno i blistavo pranje! 400ml',
+        price: '700 RSD',
+        image: tourmaline,
+        description: `✨ TOURMALINE Neutral Foam Shampoo – Savršen Balans Čistoće i Nježnosti! 🚗💎
+
+TOURMALINE Neutral Foam Shampoo je idealno rešenje za one koji traže:
+✔ Sigurno pranje bez rizika - pH 7 formula
+✔ Ekonomičnu efikasnost - do 50% manje potrošnje
+✔ Luksuzni sjaj - dubina boje kao nakon detaljingu`,
+        slug: 'product-202'
+    },
+    {
+        id: 203,
+        name: 'TOURMALINE neutralni šampon za auto – Sigurno i blistavo pranje! 750ml',
+        price: '1000 RSD',
+        image: tourmaline,
+        description: `✨ TOURMALINE Neutral Foam Shampoo – Savršen Balans Čistoće i Nježnosti! 🚗💎
+
+TOURMALINE Neutral Foam Shampoo je idealno rešenje za one koji traže:
+✔ Sigurno pranje bez rizika - pH 7 formula
+✔ Ekonomičnu efikasnost - do 50% manje potrošnje
+✔ Luksuzni sjaj - dubina boje kao nakon detaljingu`,
+        slug: 'product-203'
+    },
+    {
+        id: 204,
+        name: 'TOURMALINE neutralni šampon za auto – Sigurno i blistavo pranje! 5L',
+        price: '3000 RSD',
+        image: tourmaline5l,
+        description: `✨ TOURMALINE Neutral Foam Shampoo – Savršen Balans Čistoće i Nježnosti! 🚗💎
+
+TOURMALINE Neutral Foam Shampoo je idealno rešenje za one koji traže:
+✔ Sigurno pranje bez rizika - pH 7 formula
+✔ Ekonomičnu efikasnost - do 50% manje potrošnje
+✔ Luksuzni sjaj - dubina boje kao nakon detaljingu`,
+        slug: 'product-204'
+    },
+    {
+        id: 205,
+        name: 'UltraCoat Carbon – 12 meseci neprobojne zaštite sa spektakularnim sjajem 15ml',
+        price: '2900 RSD',
+        image: carbon,
+        description: `UltraCoat Carbon – 12 meseci neprobojne zaštite sa spektakularnim sjajem
+UltraCoat Carbon je revolucionarni keramički premaz nove generacije, koji kombinira najsavremeniju SiO₂ tehnologiju sa ugljovodoničnom formulom za najdugotrajniju zaštitu i vrhunski sjaj. Ova jedinstvena formula pruža godišnju zaštitu vašeg laka od svih spoljnih uticaja, dok istovremeno transformiše izgled vozila u savršenstvo.`,
+        slug: 'product-205'
+    },
+    {
+        id: 206,
+        name: 'UltraCoat Carbon – 12 meseci neprobojne zaštite sa spektakularnim sjajem 30ml',
+        price: '4500 RSD',
+        image: carbon,
+        description: `UltraCoat Carbon – 12 meseci neprobojne zaštite sa spektakularnim sjajem
+UltraCoat Carbon je revolucionarni keramički premaz nove generacije, koji kombinira najsavremeniju SiO₂ tehnologiju sa ugljovodoničnom formulom za najdugotrajniju zaštitu i vrhunski sjaj. Ova jedinstvena formula pruža godišnju zaštitu vašeg laka od svih spoljnih uticaja, dok istovremeno transformiše izgled vozila u savršenstvo.`,
+        slug: 'product-206'
+    },
+    {
+        id: 207,
+        name: 'Premaz i zastita za gume B2B | Omega Detailing',
+        price: '1900 RSD',
+        image: premaz,
+        description: `Back2Black Tyre Cream – Premium premaz za gume sa SiO₂ tehnologijom (500 ml)
+Vratite svojim gumama duboku, intenzivnu crnu boju i dugotrajan sjaj! ✨
+
+✅ Zašto je Back2Black Tyre Cream pravi izbor?
+🔹 Obogaćen SiO₂ (silicijum-dioksid) tehnologijom
+🔹 Dugotrajna zaštita od bleđenja i UV zračenja ☀️
+🔹 Odbija prljavštinu, prašinu i vlagu
+🔹 Ne isušuje gumu – produžava njen vek trajanja
+🔹 Kremasta formula – lako nanošenje bez curenja
+🔹 Profesionalni finiš za izgled novih guma`,
+        slug: 'product-207'
+    },
+    {
+        id: 208,
+        name: 'OLIVINE Tire & Wheel Cleaner Auto Graph 400ml',
+        price: '900 RSD',
+        image: olivine,
+        description: `OLIVINE Tire & Wheel Cleaner 
+
+Tražiš proizvod koji efikasno čisti i felne i gume, a pritom je bezbedan za površine? Izaberi OLIVINE Tire & Wheel Cleaner – alkalni čistač namenjen uklanjanju tvrdokorne prljavštine sa puta, starih dressinga i masnih naslaga. Idealan je kako za redovno održavanje, tako i za detaljno pranje, pripremajući gumu za nanošenje dressinga, a felne za zaštitu. 🚗🧼`,
+        slug: 'product-208'
+    },
+    {
+        id: 209,
+        name: 'OLIVINE Tire & Wheel Cleaner Auto Graph 750ml',
+        price: '1250 RSD',
+        image: olivine,
+        description: `OLIVINE Tire & Wheel Cleaner 
+
+Tražiš proizvod koji efikasno čisti i felne i gume, a pritom je bezbedan za površine? Izaberi OLIVINE Tire & Wheel Cleaner – alkalni čistač namenjen uklanjanju tvrdokorne prljavštine sa puta, starih dressinga i masnih naslaga. Idealan je kako za redovno održavanje, tako i za detaljno pranje, pripremajući gumu za nanošenje dressinga, a felne za zaštitu. 🚗🧼`,
+        slug: 'product-209'
+    },
+    {
+        id: 210,
+        name: 'OLIVINE Tire & Wheel Cleaner Auto Graph 5L',
+        price: '4200 RSD',
+        image: olivine5l,
+        description: `OLIVINE Tire & Wheel Cleaner 
+
+Tražiš proizvod koji efikasno čisti i felne i gume, a pritom je bezbedan za površine? Izaberi OLIVINE Tire & Wheel Cleaner – alkalni čistač namenjen uklanjanju tvrdokorne prljavštine sa puta, starih dressinga i masnih naslaga. Idealan je kako za redovno održavanje, tako i za detaljno pranje, pripremajući gumu za nanošenje dressinga, a felne za zaštitu. 🚗🧼`,
+        slug: 'product-210'
     }
     // {
     //     id: 180,
@@ -2244,16 +2396,7 @@ OMEGA Detailing Extra Dry Concentrate je profesionalni suvi šampon koji uklanja
     //     image: thinonestep,
     //     description: ``,
     //     slug: 'product-180'
-    // },
-    // {
-    //     id: 180,
-    //     name: 'THIN One Step Niskoprofilni Polir Sunđer za Jednostepenu Korekciju Laka – One Step Royal Pads 150mm',
-    //     price: '1300 RSD',
-    //     image: thinonestep,
-    //     description: ``,
-    //     slug: 'product-180'
-    // },
-    // {
+    // },{
     //     id: 180,
     //     name: 'THIN One Step Niskoprofilni Polir Sunđer za Jednostepenu Korekciju Laka – One Step Royal Pads 150mm',
     //     price: '1300 RSD',

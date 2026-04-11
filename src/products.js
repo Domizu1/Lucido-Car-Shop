@@ -122,7 +122,7 @@ import tapacire from './assets/shop/tapacire.webp'
 import topaz from './assets/shop/TOPAZ.webp'
 import tourmaline from './assets/shop/TOURMALINE.webp'
 import tourmaline5l from './assets/shop/TOURMALINE5L.webp'
-import carbon from './assets/shop/CARBON.webp'
+import carbon from './assets/shop/Carbon.webp'
 import premaz from './assets/shop/Premaz.webp'
 import olivine from './assets/shop/OLIVINE.webp';
 import olivine5l from './assets/shop/OLIVINE5L.webp';

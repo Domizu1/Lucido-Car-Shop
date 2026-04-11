@@ -121,7 +121,7 @@ import ceramic from './assets/shop/Ceramic.webp'
 import tapacire from './assets/shop/tapacire.webp'
 import topaz from './assets/shop/TOPAZ.webp'
 import tourmaline from './assets/shop/TOURMALINE.webp'
-import tourmaline5l from './assets/shop/TOURMALINE5l.webp'
+import tourmaline5l from './assets/shop/TOURMALINE5L.webp'
 import carbon from './assets/shop/CARBON.webp'
 import premaz from './assets/shop/Premaz.webp'
 import olivine from './assets/shop/OLIVINE.webp';

@@ -1,0 +1,124 @@
+$orb-blue: #3978a8;
+$orb-blue-light: #4a8cc0;
+$orb-purple: #5a3285;
+$orb-accent: #8359b1;
+$orb-violet: #8b5ec1;
+$orb-lilac: #9b6dd2;
+$orb-warm: #8b5a3c;
+
+.depth-orbs {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.depth-orb {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(68px);
+    opacity: 0.62;
+    will-change: transform;
+
+    &--sm {
+        width: clamp(140px, 22vw, 260px);
+        height: clamp(140px, 22vw, 260px);
+    }
+
+    &--md {
+        width: clamp(200px, 32vw, 380px);
+        height: clamp(200px, 32vw, 380px);
+    }
+
+    &--lg {
+        width: clamp(260px, 42vw, 520px);
+        height: clamp(260px, 42vw, 520px);
+    }
+
+    &--blue {
+        background: radial-gradient(
+            circle,
+            rgba($orb-blue-light, 0.95) 0%,
+            rgba($orb-blue, 0.62) 38%,
+            rgba($orb-blue, 0) 72%
+        );
+    }
+
+    &--blue-light {
+        background: radial-gradient(
+            circle,
+            rgba($orb-blue-light, 0.9) 0%,
+            rgba($orb-blue, 0.5) 42%,
+            rgba($orb-blue, 0) 70%
+        );
+    }
+
+    &--purple {
+        background: radial-gradient(
+            circle,
+            rgba($orb-accent, 0.92) 0%,
+            rgba($orb-purple, 0.58) 40%,
+            rgba($orb-purple, 0) 72%
+        );
+    }
+
+    &--violet {
+        background: radial-gradient(
+            circle,
+            rgba($orb-lilac, 0.9) 0%,
+            rgba($orb-violet, 0.55) 38%,
+            rgba($orb-violet, 0) 70%
+        );
+    }
+
+    &--accent {
+        background: radial-gradient(
+            circle,
+            rgba($orb-violet, 0.88) 0%,
+            rgba($orb-accent, 0.56) 40%,
+            rgba($orb-purple, 0) 72%
+        );
+    }
+
+    &--warm {
+        background: radial-gradient(
+            circle,
+            rgba($orb-warm, 0.82) 0%,
+            rgba($orb-purple, 0.38) 45%,
+            rgba($orb-purple, 0) 70%
+        );
+    }
+}
+
+@media (max-width: 768px) {
+    .depth-orb {
+        filter: blur(52px);
+        opacity: 0.48;
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .depth-orb {
+        animation: depth-orb-float 14s ease-in-out infinite alternate;
+    }
+
+    @for $i from 1 through 8 {
+        .depth-orb:nth-child(#{$i}) {
+            animation-delay: #{$i * -1.7}s;
+            animation-duration: #{12 + $i}s;
+        }
+    }
+}
+
+@keyframes depth-orb-float {
+    from {
+        transform: translate(0, 0) scale(1);
+    }
+
+    to {
+        transform: translate(12px, -18px) scale(1.06);
+    }
+}

@@ -1,4 +1,3 @@
-@use "sass:color";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
 
 $btn-color: #3978a8;
@@ -8,7 +7,7 @@ $border-glass: rgba(255, 255, 255, 0.1);
 $font-main: 'Montserrat', sans-serif;
 
 .navbar-container {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -18,6 +17,23 @@ $font-main: 'Montserrat', sans-serif;
     padding: 20px 0;
     font-family: $font-main;
     pointer-events: none;
+    transform: translateY(0);
+    opacity: 1;
+    transition: transform 0.35s ease, opacity 0.35s ease;
+
+    &--hidden {
+        transform: translateY(calc(-100% - 20px));
+        opacity: 0;
+    }
+
+    &--visible {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        transition: none;
+    }
 }
 
 .navbar {
@@ -66,6 +82,11 @@ $font-main: 'Montserrat', sans-serif;
             position: relative;
             padding: 4px 0;
 
+            a {
+                color: inherit;
+                text-decoration: none;
+            }
+
             &::after {
                 content: '';
                 position: absolute;
@@ -90,34 +111,37 @@ $font-main: 'Montserrat', sans-serif;
     }
 
     .navbar-cta {
-        .btn-get-started {
-            background-color: $btn-color;
-            color: #ffffff;
-            border: none;
-            padding: 12px 28px;
-            border-radius: 40px;
-            font-weight: 700;
-            font-size: 0.85rem;
-            font-family: $font-main;
-            text-transform: uppercase;
-            cursor: pointer;
-            transition: all 0.2s ease;
+        display: flex;
+        align-items: center;
+
+        .navbar-cart-link {
+            display: flex;
             align-items: center;
             justify-content: center;
+            padding: 6px;
+            margin-right: 8px;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+        }
 
-            span {
-                margin-right: 8px;
-                text-decoration: none;
-            }
+        .navbar-cart-icon {
+            width: 28px;
+            height: 28px;
+            opacity: 0.92;
+            filter: brightness(0) invert(1) drop-shadow(0 0 8px rgba(255, 255, 255, 0.35));
+            transition: opacity 0.2s ease, transform 0.2s ease, filter 0.2s ease;
+        }
 
-            &:hover {
-                background-color: color.adjust($btn-color, $lightness: 5%);
-                transform: scale(1.05);
-            }
+        .navbar-cart-link:hover .navbar-cart-icon {
+            opacity: 1;
+            transform: scale(1.12);
+            filter: brightness(0) invert(1) drop-shadow(0 0 12px rgba(57, 120, 168, 0.9));
+        }
 
-            &:active {
-                transform: scale(0.98);
-            }
+        .navbar-cart-link:active .navbar-cart-icon {
+            transform: scale(1.02);
         }
     }
 }
@@ -132,21 +156,6 @@ $font-main: 'Montserrat', sans-serif;
 
         .navbar-links {
             display: none;
-        }
-
-        .navbar-cta {
-            .btn-get-started {
-                width: 48px;
-                height: 48px;
-                padding: 0;
-                border-radius: 50%;
-                font-size: 1.2rem;
-
-                span {
-                    display: none;
-
-                }
-            }
         }
     }
 }

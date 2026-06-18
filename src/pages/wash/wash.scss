@@ -8,7 +8,9 @@ $font-sans: 'Montserrat', sans-serif;
 
 .wash-section {
     width: 100%;
-    background-color: $bg-black;
+    background:
+        radial-gradient(ellipse 70% 45% at 50% 0%, rgba(90, 50, 133, 0.1), transparent 58%),
+        transparent;
     font-family: $font-sans;
     overflow-x: hidden;
 

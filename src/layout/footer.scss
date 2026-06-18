@@ -11,7 +11,7 @@ $font-sans: 'Montserrat', sans-serif;
 
 .footer-section {
     width: 100%;
-    background-color: $bg-black; // Tamna pozadina kao na slici
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.35));
     padding: 80px 20px 40px; // Dosta prostora gore i dole
     font-family: $font-sans;
     border-top: 1px solid rgba($text-white, 0.05); // Suptilna gornja ivica

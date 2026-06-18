@@ -10,7 +10,9 @@ $font-sans: 'Montserrat', sans-serif;
 .caffe-page {
     width: 100%;
     min-height: 100vh;
-    background-color: $bg-black;
+    background:
+        radial-gradient(ellipse 65% 50% at 80% 20%, rgba(90, 50, 133, 0.12), transparent 55%),
+        transparent;
     color: $text-white;
     font-family: $font-sans;
     padding: clamp(60px, 10dvh, 100px) 0;

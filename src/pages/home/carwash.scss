@@ -8,7 +8,9 @@ $bg-dark: #0a0a0a;
 $font-main: 'Montserrat', sans-serif;
 
 .carwash-page {
-    background-color: $bg-dark;
+    background:
+        radial-gradient(ellipse 75% 42% at 50% 0%, rgba(90, 50, 133, 0.09), transparent 58%),
+        transparent;
     color: $text-white;
     font-family: $font-main;
     padding: 100px 8%;

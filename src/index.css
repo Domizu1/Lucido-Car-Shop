@@ -4,11 +4,25 @@
     box-sizing: border-box;
 }
 
-body,
 html {
     width: 100%;
     min-height: 100%;
+}
+
+body {
+    width: 100%;
+    min-height: 100%;
     overflow-x: hidden;
-    background: radial-gradient(circle at top right, rgba(57, 120, 168, 0.18), transparent 50%),
-        linear-gradient(180deg, #10151d 0%, #0a0a0a 100%);
+    background: linear-gradient(180deg, #101822 0%, #0a0d14 45%, #080a0f 100%);
+}
+
+#root {
+    position: relative;
+    min-height: 100vh;
+    isolation: isolate;
+}
+
+.app-shell {
+    position: relative;
+    min-height: 100vh;
 }

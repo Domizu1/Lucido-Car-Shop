@@ -129,80 +129,7 @@ import olivine5l from './assets/shop/OLIVINE5L.webp';
 
 
 export const products = [
-    {
-        id: 181,
-        name: 'Ultracoat Heavy Cut – Snažna polir pasta za duboke ogrebotine i obnavljanje laka 200ml',
-        price: '2400 RSD',
-        image: heavycut,
-        description: `🔧 UltraCoat Heavy Cut – Profesionalna Abrazivna Pasta za Teška Oštećenja Laka
-🔹 Zašto Heavy Cut?
-✔ Industrijska rezna moć ⚡ – Uklanja P1200-P1500 matiranje i duboke ogrebotine
-✔ Water-based formula 💧 – Bez prašine + lako čišćenje ostataka
-✔ Cherry miris 🍒 – Prijatno iskustvo poliranja
-✔ Keramika-safe 🛡️ – Bez silikona/vosková (idealno za pripremu pre nanošenja keramike)
-✔ Univerzalna kompatibilnost 🔌 – Radi sa rotacionim/DA mašinama, mikrofilerskim i krznenim jastučićima`,
-        slug: 'product-181'
-    },
-    {
-        id: 182,
-        name: 'Ultracoat Heavy Cut – Snažna polir pasta za duboke ogrebotine i obnavljanje laka 1L',
-        price: '6400 RSD',
-        image: heavycut,
-        description: `🔧 UltraCoat Heavy Cut – Profesionalna Abrazivna Pasta za Teška Oštećenja Laka
-🔹 Zašto Heavy Cut?
-✔ Industrijska rezna moć ⚡ – Uklanja P1200-P1500 matiranje i duboke ogrebotine
-✔ Water-based formula 💧 – Bez prašine + lako čišćenje ostataka
-✔ Cherry miris 🍒 – Prijatno iskustvo poliranja
-✔ Keramika-safe 🛡️ – Bez silikona/vosková (idealno za pripremu pre nanošenja keramike)
-✔ Univerzalna kompatibilnost 🔌 – Radi sa rotacionim/DA mašinama, mikrofilerskim i krznenim jastučićima`,
-        slug: 'product-182'
-    },
-    {
-        id: 183,
-        name: 'UltraCoat Medium Cut – Polir pasta sa umerenom reznom moći za besprekoran sjaj 200ml',
-        price: '2400 RSD',
-        image: mediumcut,
-        description: `✨ UltraCoat Medium Cut – Profesionalna Polir Pasta za Savršen Sjaj
-🔹 Zašto Izabrati Medium Cut?
-✔ Umerena rezna moć 🏆 – Idealna za P2000-P2500 matiranje i srednje oštećenja
-✔ Bezprašna formula 💨 – Vodena baza za čist radni prostor
-✔ 1-step finishing ✨ – Uklanja ogrebotine + daje završni sjaj u jednom prolazu
-✔ Universalna kompatibilnost 🔌 – Radi sa DA polirkama, rotacionim i srednje-tvrdim jastučićima
-✔ Premium abrazivi 💎 – Aluminijum oksid za kontrolisanu abraziju`,
-        slug: 'product-183'
-    },
-    {
-        id: 184,
-        name: 'UltraCoat Medium Cut – Polir pasta sa umerenom reznom moći za besprekoran sjaj 1L',
-        price: '6400 RSD',
-        image: mediumcut,
-        description: `✨ UltraCoat Medium Cut – Profesionalna Polir Pasta za Savršen Sjaj
-🔹 Zašto Izabrati Medium Cut?
-✔ Umerena rezna moć 🏆 – Idealna za P2000-P2500 matiranje i srednje oštećenja
-✔ Bezprašna formula 💨 – Vodena baza za čist radni prostor
-✔ 1-step finishing ✨ – Uklanja ogrebotine + daje završni sjaj u jednom prolazu
-✔ Universalna kompatibilnost 🔌 – Radi sa DA polirkama, rotacionim i srednje-tvrdim jastučićima
-✔ Premium abrazivi 💎 – Aluminijum oksid za kontrolisanu abraziju`,
-        slug: 'product-184'
-    },
-    {
-        id: 185,
-        name: 'UltraCoat Fine Cut pasta – Sjaj i korekcija bez ogrebotina 200ml',
-        price: '2400 RSD',
-        image: finecut,
-        description: `UltraCoat Fine Cut – Besprekoran sjaj bez ogrebotina
-UltraCoat Fine Cut je najnaprednija polirna pasta dizajnirana za završnu korekciju laka, uklanjanje sitnih ogrebotina, holograma i matiranja. Idealna je za pripremu lakiranih površina pre nanošenja zaštitnih premaza, a zahvaljujući formuli na bazi vode, omogućava bezprašnu primenu i lako čišćenje.`,
-        slug: 'product-185'
-    },
-    {
-        id: 186,
-        name: 'UltraCoat Fine Cut pasta – Sjaj i korekcija bez ogrebotina 1L',
-        price: '6400 RSD',
-        image: finecut,
-        description: `UltraCoat Fine Cut – Besprekoran sjaj bez ogrebotina
-UltraCoat Fine Cut je najnaprednija polirna pasta dizajnirana za završnu korekciju laka, uklanjanje sitnih ogrebotina, holograma i matiranja. Idealna je za pripremu lakiranih površina pre nanošenja zaštitnih premaza, a zahvaljujući formuli na bazi vode, omogućava bezprašnu primenu i lako čišćenje.`,
-        slug: 'product-186'
-    },
+    
     {
         id: 17,
         name: 'ALABASTER Leather Protect – Zaštita i Nega za Kožna Sedišta 750ml',
@@ -746,6 +673,80 @@ Zahvaljujući specijalnoj vafel površini, krpa omogućava dublje i efikasnije �
         image: peskirv2,
         description: `Otkrijte ultimativno rešenje za brzo i besprekorno sušenje vašeg vozila! Flash Detail Towel V2 sa premium 850 GSM twisted-loop mikrofiberom nudi najbolju apsorpciju i nežnost na tržištu, čineći sušenje vašeg auta lakšim nego ikada.`,
         slug: 'product-67'
+    },
+    {
+        id: 181,
+        name: 'Ultracoat Heavy Cut – Snažna polir pasta za duboke ogrebotine i obnavljanje laka 200ml',
+        price: '2400 RSD',
+        image: heavycut,
+        description: `🔧 UltraCoat Heavy Cut – Profesionalna Abrazivna Pasta za Teška Oštećenja Laka
+🔹 Zašto Heavy Cut?
+✔ Industrijska rezna moć ⚡ – Uklanja P1200-P1500 matiranje i duboke ogrebotine
+✔ Water-based formula 💧 – Bez prašine + lako čišćenje ostataka
+✔ Cherry miris 🍒 – Prijatno iskustvo poliranja
+✔ Keramika-safe 🛡️ – Bez silikona/vosková (idealno za pripremu pre nanošenja keramike)
+✔ Univerzalna kompatibilnost 🔌 – Radi sa rotacionim/DA mašinama, mikrofilerskim i krznenim jastučićima`,
+        slug: 'product-181'
+    },
+    {
+        id: 182,
+        name: 'Ultracoat Heavy Cut – Snažna polir pasta za duboke ogrebotine i obnavljanje laka 1L',
+        price: '6400 RSD',
+        image: heavycut,
+        description: `🔧 UltraCoat Heavy Cut – Profesionalna Abrazivna Pasta za Teška Oštećenja Laka
+🔹 Zašto Heavy Cut?
+✔ Industrijska rezna moć ⚡ – Uklanja P1200-P1500 matiranje i duboke ogrebotine
+✔ Water-based formula 💧 – Bez prašine + lako čišćenje ostataka
+✔ Cherry miris 🍒 – Prijatno iskustvo poliranja
+✔ Keramika-safe 🛡️ – Bez silikona/vosková (idealno za pripremu pre nanošenja keramike)
+✔ Univerzalna kompatibilnost 🔌 – Radi sa rotacionim/DA mašinama, mikrofilerskim i krznenim jastučićima`,
+        slug: 'product-182'
+    },
+    {
+        id: 183,
+        name: 'UltraCoat Medium Cut – Polir pasta sa umerenom reznom moći za besprekoran sjaj 200ml',
+        price: '2400 RSD',
+        image: mediumcut,
+        description: `✨ UltraCoat Medium Cut – Profesionalna Polir Pasta za Savršen Sjaj
+🔹 Zašto Izabrati Medium Cut?
+✔ Umerena rezna moć 🏆 – Idealna za P2000-P2500 matiranje i srednje oštećenja
+✔ Bezprašna formula 💨 – Vodena baza za čist radni prostor
+✔ 1-step finishing ✨ – Uklanja ogrebotine + daje završni sjaj u jednom prolazu
+✔ Universalna kompatibilnost 🔌 – Radi sa DA polirkama, rotacionim i srednje-tvrdim jastučićima
+✔ Premium abrazivi 💎 – Aluminijum oksid za kontrolisanu abraziju`,
+        slug: 'product-183'
+    },
+    {
+        id: 184,
+        name: 'UltraCoat Medium Cut – Polir pasta sa umerenom reznom moći za besprekoran sjaj 1L',
+        price: '6400 RSD',
+        image: mediumcut,
+        description: `✨ UltraCoat Medium Cut – Profesionalna Polir Pasta za Savršen Sjaj
+🔹 Zašto Izabrati Medium Cut?
+✔ Umerena rezna moć 🏆 – Idealna za P2000-P2500 matiranje i srednje oštećenja
+✔ Bezprašna formula 💨 – Vodena baza za čist radni prostor
+✔ 1-step finishing ✨ – Uklanja ogrebotine + daje završni sjaj u jednom prolazu
+✔ Universalna kompatibilnost 🔌 – Radi sa DA polirkama, rotacionim i srednje-tvrdim jastučićima
+✔ Premium abrazivi 💎 – Aluminijum oksid za kontrolisanu abraziju`,
+        slug: 'product-184'
+    },
+    {
+        id: 185,
+        name: 'UltraCoat Fine Cut pasta – Sjaj i korekcija bez ogrebotina 200ml',
+        price: '2400 RSD',
+        image: finecut,
+        description: `UltraCoat Fine Cut – Besprekoran sjaj bez ogrebotina
+UltraCoat Fine Cut je najnaprednija polirna pasta dizajnirana za završnu korekciju laka, uklanjanje sitnih ogrebotina, holograma i matiranja. Idealna je za pripremu lakiranih površina pre nanošenja zaštitnih premaza, a zahvaljujući formuli na bazi vode, omogućava bezprašnu primenu i lako čišćenje.`,
+        slug: 'product-185'
+    },
+    {
+        id: 186,
+        name: 'UltraCoat Fine Cut pasta – Sjaj i korekcija bez ogrebotina 1L',
+        price: '6400 RSD',
+        image: finecut,
+        description: `UltraCoat Fine Cut – Besprekoran sjaj bez ogrebotina
+UltraCoat Fine Cut je najnaprednija polirna pasta dizajnirana za završnu korekciju laka, uklanjanje sitnih ogrebotina, holograma i matiranja. Idealna je za pripremu lakiranih površina pre nanošenja zaštitnih premaza, a zahvaljujući formuli na bazi vode, omogućava bezprašnu primenu i lako čišćenje.`,
+        slug: 'product-186'
     },
     {
         id: 68,
